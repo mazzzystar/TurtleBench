@@ -4,20 +4,14 @@
 
 Turtle Benchmark is a novel, uncheatable benchmark for evaluating Large Language Models (LLMs) based on the "Turtle Soup"(海龟汤) game, focusing on logical reasoning and contextual understanding.
 
-## Highlights?
+### Highlights
 
 - **Objective and Unbiased**: Eliminates the need for background knowledge, focusing purely on reasoning abilities.
 - **Quantifiable Results**: Clear, measurable outcomes (correct/incorrect/unknown) for easy comparison.
 - **Constantly Evolving**: Uses real user-generated questions, making it impossible to "game" the system.
 - **Language Understanding**: Tests the model's ability to comprehend context and make logical inferences.
 
-## Dataset
-
-- 32 unique "Turtle Soup" stories.
-- 1537 human-annotated labels from users' questions.
-- Our evaluation log.
-
-## Usage
+### Usage
 
 ```bash
 cd evaluation
@@ -32,7 +26,13 @@ python evaluate.py
 python evaluate.py --shot 0
 ```
 
-## Results
+### Data
+
+- 32 unique "Turtle Soup" stories.
+- 1537 human-annotated labels from users' questions.
+- Our evaluation log.
+
+### Results
 
 #### 1. Overall Accuracy
 
@@ -52,7 +52,7 @@ This scatter plot compares the overall accuracy (x-axis) with the average story 
 
 ![2-Shot Learning Performance](/evaluation/imgs/average_model_accuracy_over_stories_2-shot.png)
 
-## Interpretation
+### Interpretation
 
 Based on these results, we can clearly see the performance differences among the various models:
 
@@ -68,7 +68,7 @@ Based on these results, we can clearly see the performance differences among the
 
 It's important to note that this evaluation specifically targets the models' Chinese language understanding and reasoning capabilities. In the future, pending resources and funding, we plan to translate all stories and test questions into English and re-run the tests using English prompts. This will help eliminate any performance discrepancies that may be attributed to language differences.
 
-## Acknowledgments
+### Acknowledgments
 
 We would like to express our gratitude to:
 
