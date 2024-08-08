@@ -74,4 +74,4 @@ python evaluate.py --shot 0
 衷心感谢：
 
 - 五源资本 的**石允丰**（Steven Shi）为这项研究所需的 token 提供慷慨的财务支持。
-- 实习生**赵乾一**（Zhao Qianyi）和我一起手工标注了 26,000 条数据。
+- 实习生**赵乾之**（Jerry Zhao）和我一起手工标注了 26,000 条数据。

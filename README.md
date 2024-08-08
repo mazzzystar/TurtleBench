@@ -73,6 +73,6 @@ It's important to note that this evaluation specifically targets the models' Chi
 We would like to express our gratitude to:
 
 - **Steven Shi (石允丰)** from 5Y Capital for his generous financial support of the token usage required for this research.
-- **Zhao Qianyi (赵乾一)** for his invaluable assistance in annotating over 26,000 data points.
+- **Jerry Zhao (赵乾之)** for his invaluable assistance in annotating over 26,000 data points.
 
 Your contributions have been instrumental in making this benchmark possible.
