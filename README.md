@@ -30,8 +30,6 @@ cd chinese
 
 # zero-shot，评估更快更省钱，默认 2-shot
 python evaluate.py --shot 0
-
-python evaluate.py
 ```
 
 ### 结果
