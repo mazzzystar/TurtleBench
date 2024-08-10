@@ -14,17 +14,15 @@ Turtle Benchmark is a novel, uncheatable benchmark for evaluating Large Language
 ### Usage
 
 ```bash
-
-# Evaluate Chinese or English.
-cd evaluation/english
+cd evaluation
 
 mv .env.example .env
 # add API key.
 
-# Default: 2-shot learning
-python evaluate.py
+# Evaluate Chinese or English.
+cd english
 
-# Zero-shot for faster evaluation
+# 0-shot for fast & cheap, default: 2-shot.
 python evaluate.py --shot 0
 ```
 

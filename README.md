@@ -20,17 +20,18 @@
 ### 使用方法
 
 ```bash
-# Evaluate Chinese or English.
-cd evaluation/chinese
+cd evaluation
 
 mv .env.example .env
 # 添加API密钥。
 
-# 默认：2-shot
-python evaluate.py
+# Evaluate Chinese or English.
+cd chinese
 
-# zero-shot，评估更快更省钱
+# zero-shot，评估更快更省钱，默认 2-shot
 python evaluate.py --shot 0
+
+python evaluate.py
 ```
 
 ### 结果
