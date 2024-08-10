@@ -1,78 +1,82 @@
-# Turtle Benchmark
+# 海龟基准测试
 
-[中文](./README_zh.md)
+[English](./README_en.md)
 
-Turtle Benchmark is a novel, uncheatable benchmark for evaluating Large Language Models (LLMs) based on the "Turtle Soup"(海龟汤) game, focusing on logical reasoning and contextual understanding.
+海龟基准测试是一个新颖的、无法作弊的基准测试，用于评估大型语言模型（LLMs）。它基于"海龟汤"游戏，专注于逻辑推理和上下文理解能力。
 
-### Highlights
+### 特点
 
-- **Objective and Unbiased**: Eliminates the need for background knowledge, focusing purely on reasoning abilities.
-- **Quantifiable Results**: Clear, measurable outcomes (correct/incorrect/unknown) for easy comparison.
-- **Constantly Evolving**: Uses real user-generated questions, making it impossible to "game" the system.
-- **Language Understanding**: Tests the model's ability to comprehend context and make logical inferences.
+- **无需背景知识**：不依赖背景知识和模型记忆能力，可以从 200 字以内的故事中获得作出判断所需的全部信息，让模型评测专注于推理能力。
+- **客观且无偏见**：衡量猜测的正确性，结果是客观的、和人的感受无关。
+- **可量化的结果**：明确、可测量的结果（正确/错误/未知），便于比较。
+- **无法作弊**：使用真实用户提出的问题，并且随着线上游戏的进行，新数据会动态产生，使得作弊变得不可能。
 
-### Usage
+### 数据集
+
+- 32 个独特的"海龟汤"故事。
+- 1537 个来自用户问题的人工标注标签。
+- 我们的评估日志。
+
+### 使用方法
 
 ```bash
-cd evaluation
+# Evaluate Chinese or English.
+cd evaluation/chinese
 
 mv .env.example .env
-# add API key.
+# 添加API密钥。
 
-# Default: 2-shot learning
+# 默认：2-shot
 python evaluate.py
 
-# Zero-shot for faster evaluation
+# zero-shot，评估更快更省钱
 python evaluate.py --shot 0
 ```
 
-### Data
+### 结果
 
-- 32 unique "Turtle Soup" stories.
-- 1537 human-annotated labels from users' questions.
-- Our evaluation log.
+#### 1. 总体准确率
 
-### Results
+每个模型在所有测试案例中的总体准确率。
 
-#### 1. Overall Accuracy
+![总体基准测试结果](/evaluation/chinese/imgs/Turtle-Benchmark-result.png)
 
-The overall accuracy of each model across all test cases.
+#### 2. 故事的平均准确率
 
-![Overall Benchmark Results](/evaluation/imgs/Turtle-Benchmark-result.png)
+为了减轻模型在某个具有大量测试样本的故事上表现不佳带来的偏差，我们分别计算了每个模型在所有 32 个故事中的准确率，并除以 32。
 
-#### 2. Average Accuracy Across Stories
+![32个故事的结果](/evaluation/chinese/imgs/Turtle-Benchmark-over-32stories.png)
 
-To mitigate potential bias from models performing poorly on specific stories with a large number of test samples, we calculated the average accuracy for each model across all 32 stories individually.
+#### 3. 性能图表
 
-![Results Across 32 Stories](/evaluation/imgs/Turtle-Benchmark-over-32stories.png)
+这个散点图比较了 2-shot 学习场景中每个模型的总体准确率（x 轴）和平均故事准确率（y 轴）。
 
-#### 3. Performance Chart
+![2-Shot学习性能](/evaluation/chinese/imgs/average_model_accuracy_over_stories_2-shot.png)
 
-This scatter plot compares the overall accuracy (x-axis) with the average story accuracy (y-axis) for each model in the 2-shot learning scenario.
+### 评测
 
-![2-Shot Learning Performance](/evaluation/imgs/average_model_accuracy_over_stories_2-shot.png)
+根据这些结果，我们可以清楚地看到各种模型之间的性能差异：
 
-### Interpretation
+1. **第一梯队**：Claude 3.5 Sonnet 作为无可争议的领导者脱颖而出，明显优于所有其他模型。
 
-Based on these results, we can clearly see the performance differences among the various models:
+2. **第二梯队**：GPT-4o、Qwen-2（通义千问）、Moonshot AI（月之暗面）、LLama3.1 405B 和 Minimax 构成第二梯队。虽然我们避免了进一步的细分，但在这个组内，按照所列顺序，性能明显下降。
 
-1. **First Tier**: Claude 3.5 Sonnet stands out as the undisputed leader, significantly outperforming all other models.
+3. **第三梯队**：豆包（Douban）、DeepSeek 和 LLama3.1 70B 构成第三梯队。
 
-2. **Second Tier**: GPT-4o, Qwen-2(通义千问), Moonshot AI(月之暗面), LLama3.1 405B, and Minimax form the second tier. While we've avoided further subdivisions, there's a noticeable decrease in performance within this group, following the order listed.
+4. **第四梯队**：GPT-4o-mini 独自位于第四梯队。
 
-3. **Third Tier**: Douban(豆包), DeepSeek, and LLama3.1 70B constitute the third tier.
+5. **过时**：GPT-3.5 的性能表明它在这个背景下不再具有竞争力。
 
-4. **Fourth Tier**: GPT-4o-mini stands alone in the fourth tier.
+需要注意的是，这项评估只针对**模型的中文语言理解和推理能力**。未来，视资源和资金情况，我们计划将所有故事和测试问题翻译成英文，并使用英文提示重新运行测试。这将有助于消除可能归因于语言差异的任何性能差异。
 
-5. **Obsolete**: GPT-3.5's performance suggests it's no longer competitive in this context.
+## TODO
 
-It's important to note that this evaluation specifically targets the models' Chinese language understanding and reasoning capabilities. In the future, pending resources and funding, we plan to translate all stories and test questions into English and re-run the tests using English prompts. This will help eliminate any performance discrepancies that may be attributed to language differences.
+- [ ] 将数据集和测试阳历翻译成英文
+- [ ] 使用英语 prompt，在英文模型上评测并给出结果。
 
-### Acknowledgments
+### 致谢
 
-We would like to express our gratitude to:
+衷心感谢：
 
-- **Steven Shi (石允丰)** from 5Y Capital for his generous financial support of the token usage required for this research.
-- **Jerry Zhao (赵乾之)** for his invaluable assistance in annotating over 26,000 data points.
-
-Your contributions have been instrumental in making this benchmark possible.
+- 五源资本 的**石允丰**（Steven Shi）为这项研究所需的 token 提供慷慨的财务支持。
+- 实习生**赵乾之**（Jerry Zhao）和我一起手工标注了 26,000 条数据。

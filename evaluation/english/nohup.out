@@ -1,0 +1,844 @@
+Python-dotenv could not parse statement starting at line 3
+Total 1537 test cases loaded
+  0%|          | 0/1537 [00:00<?, ?it/s]Error in call_api for model Doubao-4k: Connection error.
+Timeout or error for model Doubao-4k
+Error in call_api for model Claude-3.5-Sonnet: Connection error.
+Timeout or error for model Claude-3.5-Sonnet
+Error in call_api for model Claude-3-Haiku: Connection error.
+Timeout or error for model Claude-3-Haiku
+/Users/mazzystar/opt/miniconda3/lib/python3.9/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+Python-dotenv could not parse statement starting at line 3
+Total 1537 test cases loaded
+  0%|          | 0/1537 [00:00<?, ?it/s]Error in call_api for model Claude-3-Haiku: Connection error.
+Timeout or error for model Claude-3-Haiku
+Error in call_api for model Doubao-4k: Connection error.
+Timeout or error for model Doubao-4k
+Error in call_api for model Claude-3.5-Sonnet: Connection error.
+Timeout or error for model Claude-3.5-Sonnet
+Skipping test case 1 due to timeout or error
+  0%|          | 1/1537 [00:21<9:02:27, 21.19s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The person in the cabin died, Response: correct, GT: incorrect, Model Output: Correct
+  0%|          | 2/1537 [00:24<4:25:33, 10.38s/it]/Users/mazzystar/opt/miniconda3/lib/python3.9/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+Python-dotenv could not parse statement starting at line 3
+Total 1537 test cases loaded
+  0%|          | 0/1537 [00:00<?, ?it/s]Wrong Answer - Model: DEEPSEEK, Input: The elevator took me to a floor I didn't intend to go, Response: incorrect, GT: correct, Model Output: Incorrect
+  0%|          | 1/1537 [00:10<4:29:10, 10.51s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The person in the cabin died, Response: correct, GT: incorrect, Model Output: Correct
+  0%|          | 2/1537 [00:15<3:06:13,  7.28s/it]Wrong Answer - Model: GPT-4o, Input: The daughter received a lawyer's letter due to debt, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: The daughter received a lawyer's letter due to debt, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The daughter received a lawyer's letter due to debt, Response: correct, GT: incorrect, Model Output: Correct
+  0%|          | 3/1537 [00:18<2:20:37,  5.50s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The trouble I encountered is that I will never return, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The trouble I encountered is that I will never return, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: The trouble I encountered is that I will never return, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The trouble I encountered is that I will never return, Response: correct, GT: incorrect, Model Output: Correct
+  0%|          | 4/1537 [00:21<1:48:25,  4.24s/it]Wrong Answer - Model: DEEPSEEK, Input: The wife discovered he was having an affair with her best friend, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: The wife discovered he was having an affair with her best friend, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: The wife discovered he was having an affair with her best friend, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The wife discovered he was having an affair with her best friend, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: The wife discovered he was having an affair with her best friend, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The wife discovered he was having an affair with her best friend, Response: incorrect, GT: correct, Model Output: Incorrect
+  0%|          | 5/1537 [00:25<1:47:59,  4.23s/it]Wrong Answer - Model: Yi-34B-Chat, Input: I was dismembered, Response: correct, GT: unknown, Model Output: Correct
+  0%|          | 6/1537 [00:28<1:38:46,  3.87s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The elevator broke down and I was trapped inside, Response: correct, GT: incorrect, Model Output: Correct
+  0%|          | 7/1537 [00:34<1:56:14,  4.56s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: I'm afraid of heights, Response: correct, GT: unknown, Model Output: Correct
+  1%|          | 8/1537 [00:39<1:56:25,  4.57s/it]Wrong Answer - Model: Yi-34B-Chat, Input: I went crazy, Response: correct, GT: incorrect, Model Output: Correct
+  1%|          | 9/1537 [00:49<2:42:07,  6.37s/it]Wrong Answer - Model: DEEPSEEK, Input: The boss was killed after I bought snacks, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Kimi-Chat, Input: The boss was killed after I bought snacks, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Llama-3.1-405b, Input: The boss was killed after I bought snacks, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: The boss was killed after I bought snacks, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The boss was killed after I bought snacks, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The boss was killed after I bought snacks, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: The boss was killed after I bought snacks, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The boss was killed after I bought snacks, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The boss was killed after I bought snacks, Response: correct, GT: unknown, Model Output: Correct
+
+Current rankings after 10 items:
+1. Kimi-Chat: 0.90 (9/10)
+2. GPT-4o: 0.90 (9/10)
+3. GPT-4o-mini: 0.90 (9/10)
+4. Llama-3.1-405b: 0.90 (9/10)
+5. Llama3.1-70b: 0.90 (9/10)
+6. Claude-3-Haiku: 0.90 (9/10)
+7. Qwen2-72B-Instruct: 0.80 (8/10)
+8. Claude-3.5-Sonnet: 0.80 (8/10)
+9. DEEPSEEK: 0.70 (7/10)
+10. Doubao-4k: 0.70 (7/10)
+11. MiniMax-ABAB6.5s: 0.70 (7/10)
+12. Yi-34B-Chat: 0.60 (6/10)
+13. GPT-3.5-Turbo: 0.50 (5/10)
+  1%|          | 10/1537 [00:52<2:15:24,  5.32s/it]Wrong Answer - Model: DEEPSEEK, Input: Thomas knows the best friend, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-3.5-Turbo, Input: Thomas knows the best friend, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: Thomas knows the best friend, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Llama-3.1-405b, Input: Thomas knows the best friend, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: Thomas knows the best friend, Response: unknown, GT: correct, Model Output: Unknown
+  1%|          | 11/1537 [00:55<1:55:46,  4.55s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: I was forced to say 1237, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Kimi-Chat, Input: I was forced to say 1237, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-4o, Input: I was forced to say 1237, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: I was forced to say 1237, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: I was forced to say 1237, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3-Haiku, Input: I was forced to say 1237, Response: correct, GT: incorrect, Model Output: Correct
+  1%|          | 12/1537 [01:00<1:57:50,  4.64s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The man doesn't know the soup is poisonous, Response: correct, GT: unknown, Model Output: Correct
+  1%|          | 13/1537 [01:03<1:46:46,  4.20s/it]  1%|          | 14/1537 [01:08<1:58:01,  4.65s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The blind dwarf was fired from the circus, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The blind dwarf was fired from the circus, Response: correct, GT: incorrect, Model Output: Correct
+  1%|          | 15/1537 [01:12<1:51:11,  4.38s/it]Wrong Answer - Model: DEEPSEEK, Input: There's a stranger in my house, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Kimi-Chat, Input: There's a stranger in my house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o, Input: There's a stranger in my house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: There's a stranger in my house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: There's a stranger in my house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Doubao-4k, Input: There's a stranger in my house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: There's a stranger in my house, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: There's a stranger in my house, Response: unknown, GT: correct, Model Output: Unknown
+  1%|          | 16/1537 [01:19<2:08:04,  5.05s/it]  1%|          | 17/1537 [01:23<1:58:24,  4.67s/it]Wrong Answer - Model: DEEPSEEK, Input: The daughter defamed someone, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Kimi-Chat, Input: The daughter defamed someone, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: The daughter defamed someone, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The daughter defamed someone, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Yi-34B-Chat, Input: The daughter defamed someone, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Doubao-4k, Input: The daughter defamed someone, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The daughter defamed someone, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: The daughter defamed someone, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The daughter defamed someone, Response: incorrect, GT: correct, Model Output: Incorrect
+  1%|          | 18/1537 [01:25<1:41:12,  4.00s/it]Wrong Answer - Model: Yi-34B-Chat, Input: The corpse is the neighbor, Response: correct, GT: incorrect, Model Output: Correct
+  1%|          | 19/1537 [01:28<1:33:00,  3.68s/it]Wrong Answer - Model: Claude-3-Haiku, Input: The boy really died, used as a dissection prop in the girls' school, Response: incorrect, GT: correct, Model Output: Incorrect
+
+Current rankings after 20 items:
+1. Llama-3.1-405b: 0.90 (18/20)
+2. Llama3.1-70b: 0.90 (18/20)
+3. GPT-4o: 0.85 (17/20)
+4. Kimi-Chat: 0.80 (16/20)
+5. GPT-4o-mini: 0.80 (16/20)
+6. Qwen2-72B-Instruct: 0.80 (16/20)
+7. Claude-3.5-Sonnet: 0.80 (16/20)
+8. Doubao-4k: 0.75 (15/20)
+9. Claude-3-Haiku: 0.75 (15/20)
+10. MiniMax-ABAB6.5s: 0.75 (15/20)
+11. DEEPSEEK: 0.70 (14/20)
+12. Yi-34B-Chat: 0.60 (12/20)
+13. GPT-3.5-Turbo: 0.55 (11/20)
+  1%|▏         | 20/1537 [01:30<1:22:01,  3.24s/it]Wrong Answer - Model: Yi-34B-Chat, Input: After his death, his corpse was placed on the road by someone else, Response: correct, GT: incorrect, Model Output: Correct
+  1%|▏         | 21/1537 [01:34<1:22:14,  3.25s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The fisherman lied, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The fisherman lied, Response: correct, GT: incorrect, Model Output: Correct
+  1%|▏         | 22/1537 [01:37<1:27:02,  3.45s/it]Wrong Answer - Model: Llama-3.1-405b, Input: The grandmother was born at midnight, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: The grandmother was born at midnight, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The grandmother was born at midnight, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The grandmother was born at midnight, Response: correct, GT: unknown, Model Output: Correct
+  1%|▏         | 23/1537 [01:42<1:36:06,  3.81s/it]Wrong Answer - Model: DEEPSEEK, Input: The reason for the wife's divorce from Thomas is related to the best friend, Response: incorrect, GT: correct, Model Output: Incorrect
+  2%|▏         | 24/1537 [01:47<1:45:15,  4.17s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: Someone wants to frame the scavenger, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-4o, Input: Someone wants to frame the scavenger, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: Someone wants to frame the scavenger, Response: correct, GT: incorrect, Model Output: Correct
+Invalid Response - Model: Yi-34B-Chat, Input: Someone wants to frame the scavenger, Response: the scavenger, GT: incorrect, Model Output: Invalid
+  2%|▏         | 25/1537 [01:53<1:56:42,  4.63s/it]Wrong Answer - Model: DEEPSEEK, Input: Thomas knows where the best friend lives, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-3.5-Turbo, Input: Thomas knows where the best friend lives, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Kimi-Chat, Input: Thomas knows where the best friend lives, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o, Input: Thomas knows where the best friend lives, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: Thomas knows where the best friend lives, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Doubao-4k, Input: Thomas knows where the best friend lives, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: Thomas knows where the best friend lives, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: Thomas knows where the best friend lives, Response: incorrect, GT: correct, Model Output: Incorrect
+  2%|▏         | 26/1537 [01:56<1:45:53,  4.20s/it]Wrong Answer - Model: DEEPSEEK, Input: The online friend is peeping at me, Response: incorrect, GT: correct, Model Output: Incorrect
+  2%|▏         | 27/1537 [01:59<1:35:24,  3.79s/it]Wrong Answer - Model: DEEPSEEK, Input: There are suspicious people outside the elevator, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-3.5-Turbo, Input: There are suspicious people outside the elevator, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Kimi-Chat, Input: There are suspicious people outside the elevator, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o, Input: There are suspicious people outside the elevator, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: There are suspicious people outside the elevator, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: There are suspicious people outside the elevator, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: There are suspicious people outside the elevator, Response: incorrect, GT: correct, Model Output: Incorrect
+  2%|▏         | 28/1537 [02:09<2:26:40,  5.83s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The red dress is a distress signal, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The red dress is a distress signal, Response: correct, GT: incorrect, Model Output: Correct
+  2%|▏         | 29/1537 [02:12<2:04:07,  4.94s/it]
+Current rankings after 30 items:
+1. Llama-3.1-405b: 0.90 (27/30)
+2. Llama3.1-70b: 0.87 (26/30)
+3. Qwen2-72B-Instruct: 0.87 (26/30)
+4. MiniMax-ABAB6.5s: 0.83 (25/30)
+5. Kimi-Chat: 0.80 (24/30)
+6. GPT-4o: 0.80 (24/30)
+7. GPT-4o-mini: 0.80 (24/30)
+8. Doubao-4k: 0.80 (24/30)
+9. Claude-3.5-Sonnet: 0.77 (23/30)
+10. Claude-3-Haiku: 0.77 (23/30)
+11. DEEPSEEK: 0.67 (20/30)
+12. Yi-34B-Chat: 0.59 (17/29)
+13. GPT-3.5-Turbo: 0.53 (16/30)
+  2%|▏         | 30/1537 [02:20<2:23:54,  5.73s/it]Wrong Answer - Model: Llama3.1-70b, Input: Thomas is really meeting the best friend for the first time, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: Thomas is really meeting the best friend for the first time, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: Thomas is really meeting the best friend for the first time, Response: correct, GT: incorrect, Model Output: Correct
+  2%|▏         | 31/1537 [02:27<2:36:26,  6.23s/it]  2%|▏         | 32/1537 [02:35<2:44:05,  6.54s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The elevator rises to the top floor, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Kimi-Chat, Input: The elevator rises to the top floor, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The elevator rises to the top floor, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3-Haiku, Input: The elevator rises to the top floor, Response: correct, GT: incorrect, Model Output: Correct
+  2%|▏         | 33/1537 [02:41<2:45:39,  6.61s/it]Wrong Answer - Model: GPT-4o-mini, Input: He saw in the news that the shop owner had died yesterday, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: He saw in the news that the shop owner had died yesterday, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: He saw in the news that the shop owner had died yesterday, Response: incorrect, GT: correct, Model Output: Incorrect
+  2%|▏         | 34/1537 [03:02<4:28:31, 10.72s/it]Wrong Answer - Model: DEEPSEEK, Input: Thomas revealed some kind of habit, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Kimi-Chat, Input: Thomas revealed some kind of habit, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o, Input: Thomas revealed some kind of habit, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: Thomas revealed some kind of habit, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Llama-3.1-405b, Input: Thomas revealed some kind of habit, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: Thomas revealed some kind of habit, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Doubao-4k, Input: Thomas revealed some kind of habit, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: Thomas revealed some kind of habit, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: Thomas revealed some kind of habit, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: Thomas revealed some kind of habit, Response: unknown, GT: correct, Model Output: Unknown
+  2%|▏         | 35/1537 [03:07<3:47:41,  9.10s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The boy is a ghost, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The boy is a ghost, Response: correct, GT: unknown, Model Output: Correct
+  2%|▏         | 36/1537 [03:10<3:04:27,  7.37s/it]Wrong Answer - Model: DEEPSEEK, Input: The one chatting with the daughter is not actually a friend nearby, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Kimi-Chat, Input: The one chatting with the daughter is not actually a friend nearby, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o, Input: The one chatting with the daughter is not actually a friend nearby, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The one chatting with the daughter is not actually a friend nearby, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Doubao-4k, Input: The one chatting with the daughter is not actually a friend nearby, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The one chatting with the daughter is not actually a friend nearby, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: The one chatting with the daughter is not actually a friend nearby, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The one chatting with the daughter is not actually a friend nearby, Response: unknown, GT: correct, Model Output: Unknown
+  2%|▏         | 37/1537 [03:15<2:42:36,  6.50s/it]Wrong Answer - Model: Yi-34B-Chat, Input: It was a wolf knocking on the door, Response: correct, GT: incorrect, Model Output: Correct
+  2%|▏         | 38/1537 [03:23<2:52:49,  6.92s/it]Wrong Answer - Model: DEEPSEEK, Input: The appearance of the person in the painting changed, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: The appearance of the person in the painting changed, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Kimi-Chat, Input: The appearance of the person in the painting changed, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o, Input: The appearance of the person in the painting changed, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: The appearance of the person in the painting changed, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Llama-3.1-405b, Input: The appearance of the person in the painting changed, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama3.1-70b, Input: The appearance of the person in the painting changed, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The appearance of the person in the painting changed, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Doubao-4k, Input: The appearance of the person in the painting changed, Response: incorrect., GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The appearance of the person in the painting changed, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3-Haiku, Input: The appearance of the person in the painting changed, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The appearance of the person in the painting changed, Response: incorrect, GT: correct, Model Output: Incorrect
+  3%|▎         | 39/1537 [03:26<2:24:00,  5.77s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The half matchstick was broken when the man fell, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The half matchstick was broken when the man fell, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3-Haiku, Input: The half matchstick was broken when the man fell, Response: correct, GT: incorrect, Model Output: Correct
+
+Current rankings after 40 items:
+1. Llama-3.1-405b: 0.88 (35/40)
+2. Llama3.1-70b: 0.85 (34/40)
+3. Qwen2-72B-Instruct: 0.82 (33/40)
+4. GPT-4o: 0.78 (31/40)
+5. GPT-4o-mini: 0.78 (31/40)
+6. Doubao-4k: 0.78 (31/40)
+7. Kimi-Chat: 0.75 (30/40)
+8. MiniMax-ABAB6.5s: 0.75 (30/40)
+9. Claude-3.5-Sonnet: 0.72 (29/40)
+10. Claude-3-Haiku: 0.70 (28/40)
+11. DEEPSEEK: 0.68 (27/40)
+12. Yi-34B-Chat: 0.56 (22/39)
+13. GPT-3.5-Turbo: 0.55 (22/40)
+  3%|▎         | 40/1537 [03:29<2:02:09,  4.90s/it]  3%|▎         | 41/1537 [03:39<2:45:54,  6.65s/it]Wrong Answer - Model: Yi-34B-Chat, Input: The painting moved, Response: correct, GT: incorrect, Model Output: Correct
+  3%|▎         | 42/1537 [03:49<3:05:41,  7.45s/it]Wrong Answer - Model: DEEPSEEK, Input: There is a second person, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Kimi-Chat, Input: There is a second person, Response: unknown, GT: correct, Model Output: Unknown
+  3%|▎         | 43/1537 [03:52<2:35:49,  6.26s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The elevator's ascent doesn't match the buttons, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama-3.1-405b, Input: The elevator's ascent doesn't match the buttons, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: The elevator's ascent doesn't match the buttons, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The elevator's ascent doesn't match the buttons, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The elevator's ascent doesn't match the buttons, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: The elevator's ascent doesn't match the buttons, Response: correct, GT: incorrect, Model Output: Correct
+  3%|▎         | 44/1537 [03:56<2:15:52,  5.46s/it]  3%|▎         | 45/1537 [04:04<2:39:59,  6.43s/it]Wrong Answer - Model: DEEPSEEK, Input: The man knows he will die in five minutes, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Kimi-Chat, Input: The man knows he will die in five minutes, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-4o, Input: The man knows he will die in five minutes, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-4o-mini, Input: The man knows he will die in five minutes, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama-3.1-405b, Input: The man knows he will die in five minutes, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: The man knows he will die in five minutes, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The man knows he will die in five minutes, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The man knows he will die in five minutes, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: The man knows he will die in five minutes, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The man knows he will die in five minutes, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3-Haiku, Input: The man knows he will die in five minutes, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The man knows he will die in five minutes, Response: correct, GT: incorrect, Model Output: Correct
+  3%|▎         | 46/1537 [04:09<2:26:14,  5.89s/it]Wrong Answer - Model: Llama3.1-70b, Input: The sawdust was caused by the blind dwarf, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The sawdust was caused by the blind dwarf, Response: correct, GT: incorrect, Model Output: Correct
+  3%|▎         | 47/1537 [04:18<2:47:43,  6.75s/it]Wrong Answer - Model: Yi-34B-Chat, Input: There's only me in the room, Response: correct, GT: unknown, Model Output: Correct
+  3%|▎         | 48/1537 [04:23<2:36:39,  6.31s/it]  3%|▎         | 49/1537 [04:26<2:14:43,  5.43s/it]Wrong Answer - Model: DEEPSEEK, Input: The grandmother died at 69 years old, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: The grandmother died at 69 years old, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Kimi-Chat, Input: The grandmother died at 69 years old, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: The grandmother died at 69 years old, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama-3.1-405b, Input: The grandmother died at 69 years old, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Yi-34B-Chat, Input: The grandmother died at 69 years old, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The grandmother died at 69 years old, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3-Haiku, Input: The grandmother died at 69 years old, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The grandmother died at 69 years old, Response: incorrect, GT: correct, Model Output: Incorrect
+
+Current rankings after 50 items:
+1. Llama-3.1-405b: 0.84 (42/50)
+2. Llama3.1-70b: 0.82 (41/50)
+3. Qwen2-72B-Instruct: 0.82 (41/50)
+4. GPT-4o: 0.80 (40/50)
+5. GPT-4o-mini: 0.78 (39/50)
+6. Doubao-4k: 0.78 (39/50)
+7. MiniMax-ABAB6.5s: 0.76 (38/50)
+8. Kimi-Chat: 0.74 (37/50)
+9. Claude-3.5-Sonnet: 0.74 (37/50)
+10. Claude-3-Haiku: 0.72 (36/50)
+11. DEEPSEEK: 0.68 (34/50)
+12. GPT-3.5-Turbo: 0.60 (30/50)
+13. Yi-34B-Chat: 0.53 (26/49)
+  3%|▎         | 50/1537 [04:29<1:53:38,  4.59s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: Only I can see that sentence, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: Only I can see that sentence, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: Only I can see that sentence, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: Only I can see that sentence, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3-Haiku, Input: Only I can see that sentence, Response: correct, GT: incorrect, Model Output: Correct
+  3%|▎         | 51/1537 [04:32<1:41:21,  4.09s/it]  3%|▎         | 52/1537 [04:35<1:29:34,  3.62s/it]  3%|▎         | 53/1537 [04:37<1:20:01,  3.24s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The cost of the wish is related to smell, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-4o-mini, Input: The cost of the wish is related to smell, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama-3.1-405b, Input: The cost of the wish is related to smell, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: The cost of the wish is related to smell, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The cost of the wish is related to smell, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The cost of the wish is related to smell, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: The cost of the wish is related to smell, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The cost of the wish is related to smell, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3-Haiku, Input: The cost of the wish is related to smell, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The cost of the wish is related to smell, Response: correct, GT: incorrect, Model Output: Correct
+  4%|▎         | 54/1537 [04:39<1:11:09,  2.88s/it]Wrong Answer - Model: Yi-34B-Chat, Input: He saw a monster, Response: correct, GT: incorrect, Model Output: Correct
+  4%|▎         | 55/1537 [04:44<1:25:28,  3.46s/it]  4%|▎         | 56/1537 [04:46<1:16:08,  3.08s/it]Wrong Answer - Model: DEEPSEEK, Input: The sawdust is in the house, Response: incorrect, GT: correct, Model Output: Incorrect
+Invalid Response - Model: Yi-34B-Chat, Input: The sawdust is in the house, Response: the sawdust, GT: correct, Model Output: Invalid
+  4%|▎         | 57/1537 [04:49<1:16:10,  3.09s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The high expenses are due to internet or electricity bills, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The high expenses are due to internet or electricity bills, Response: correct, GT: incorrect, Model Output: Correct
+  4%|▍         | 58/1537 [04:53<1:21:49,  3.32s/it]Wrong Answer - Model: Yi-34B-Chat, Input: The washing machine has an automatic start program, Response: correct, GT: incorrect, Model Output: Correct
+  4%|▍         | 59/1537 [04:55<1:12:57,  2.96s/it]Wrong Answer - Model: GPT-4o-mini, Input: The two people are counting the same thing, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama-3.1-405b, Input: The two people are counting the same thing, Response: incorrect, GT: correct, Model Output: Incorrect
+
+Current rankings after 60 items:
+1. GPT-4o: 0.83 (50/60)
+2. Llama-3.1-405b: 0.83 (50/60)
+3. Qwen2-72B-Instruct: 0.83 (50/60)
+4. Llama3.1-70b: 0.82 (49/60)
+5. Kimi-Chat: 0.78 (47/60)
+6. GPT-4o-mini: 0.78 (47/60)
+7. Doubao-4k: 0.78 (47/60)
+8. MiniMax-ABAB6.5s: 0.78 (47/60)
+9. Claude-3.5-Sonnet: 0.77 (46/60)
+10. Claude-3-Haiku: 0.73 (44/60)
+11. DEEPSEEK: 0.72 (43/60)
+12. GPT-3.5-Turbo: 0.62 (37/60)
+13. Yi-34B-Chat: 0.52 (30/58)
+  4%|▍         | 60/1537 [05:00<1:29:22,  3.63s/it]Wrong Answer - Model: DEEPSEEK, Input: There's someone in my house, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: There's someone in my house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: There's someone in my house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: There's someone in my house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: There's someone in my house, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: There's someone in my house, Response: unknown, GT: correct, Model Output: Unknown
+  4%|▍         | 61/1537 [05:14<2:45:18,  6.72s/it]Wrong Answer - Model: DEEPSEEK, Input: My partner died, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-3.5-Turbo, Input: My partner died, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Kimi-Chat, Input: My partner died, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o, Input: My partner died, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: My partner died, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: My partner died, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Doubao-4k, Input: My partner died, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: My partner died, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: My partner died, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: My partner died, Response: unknown, GT: correct, Model Output: Unknown
+  4%|▍         | 62/1537 [05:18<2:21:18,  5.75s/it]Wrong Answer - Model: DEEPSEEK, Input: Someone killed the man, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: Someone killed the man, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Kimi-Chat, Input: Someone killed the man, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o, Input: Someone killed the man, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: Someone killed the man, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama3.1-70b, Input: Someone killed the man, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: Someone killed the man, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Yi-34B-Chat, Input: Someone killed the man, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Doubao-4k, Input: Someone killed the man, Response: incorrect., GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: Someone killed the man, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3-Haiku, Input: Someone killed the man, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: Someone killed the man, Response: incorrect, GT: correct, Model Output: Incorrect
+  4%|▍         | 63/1537 [05:22<2:09:01,  5.25s/it]Wrong Answer - Model: Kimi-Chat, Input: The man died accidentally, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-4o-mini, Input: The man died accidentally, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The man died accidentally, Response: correct, GT: incorrect, Model Output: Correct
+  4%|▍         | 64/1537 [05:26<1:59:41,  4.88s/it]Wrong Answer - Model: DEEPSEEK, Input: The man killed the woman and then faked the woman's cause of death, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: The man killed the woman and then faked the woman's cause of death, Response: incorrect, GT: correct, Model Output: Incorrect
+Invalid Response - Model: Llama-3.1-405b, Input: The man killed the woman and then faked the woman's cause of death, Response: i cannot provide information, GT: correct, Model Output: Invalid
+Invalid Response - Model: Yi-34B-Chat, Input: The man killed the woman and then faked the woman's cause of death, Response: the man killed the, GT: correct, Model Output: Invalid
+Wrong Answer - Model: Doubao-4k, Input: The man killed the woman and then faked the woman's cause of death, Response: unknown., GT: correct, Model Output: Unknown
+  4%|▍         | 65/1537 [05:30<1:57:38,  4.79s/it]Wrong Answer - Model: DEEPSEEK, Input: His lighting the match is related to the hot air balloon, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: His lighting the match is related to the hot air balloon, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o, Input: His lighting the match is related to the hot air balloon, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: His lighting the match is related to the hot air balloon, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama-3.1-405b, Input: His lighting the match is related to the hot air balloon, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama3.1-70b, Input: His lighting the match is related to the hot air balloon, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3-Haiku, Input: His lighting the match is related to the hot air balloon, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: His lighting the match is related to the hot air balloon, Response: unknown, GT: correct, Model Output: Unknown
+  4%|▍         | 66/1537 [05:34<1:49:56,  4.48s/it]Wrong Answer - Model: Yi-34B-Chat, Input: The death row inmate wished for the air to stink, Response: correct, GT: incorrect, Model Output: Correct
+  4%|▍         | 67/1537 [05:39<1:55:43,  4.72s/it]Wrong Answer - Model: DEEPSEEK, Input: Someone else used the scavenger's washing machine, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Kimi-Chat, Input: Someone else used the scavenger's washing machine, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: Someone else used the scavenger's washing machine, Response: incorrect, GT: correct, Model Output: Incorrect
+  4%|▍         | 68/1537 [05:53<3:01:44,  7.42s/it]Wrong Answer - Model: Yi-34B-Chat, Input: I got on the wrong elevator, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: I got on the wrong elevator, Response: correct, GT: incorrect, Model Output: Correct
+  4%|▍         | 69/1537 [05:56<2:26:26,  5.99s/it]Wrong Answer - Model: Kimi-Chat, Input: The online friend is alive, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o, Input: The online friend is alive, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: The online friend is alive, Response: unknown, GT: correct, Model Output: Unknown
+
+Current rankings after 70 items:
+1. Llama-3.1-405b: 0.84 (58/69)
+2. Llama3.1-70b: 0.81 (57/70)
+3. Qwen2-72B-Instruct: 0.81 (57/70)
+4. GPT-4o: 0.80 (56/70)
+5. Doubao-4k: 0.77 (54/70)
+6. Claude-3.5-Sonnet: 0.77 (54/70)
+7. Kimi-Chat: 0.74 (52/70)
+8. MiniMax-ABAB6.5s: 0.73 (51/70)
+9. GPT-4o-mini: 0.71 (50/70)
+10. Claude-3-Haiku: 0.71 (50/70)
+11. DEEPSEEK: 0.67 (47/70)
+12. GPT-3.5-Turbo: 0.61 (43/70)
+13. Yi-34B-Chat: 0.52 (35/67)
+  5%|▍         | 70/1537 [05:59<2:04:52,  5.11s/it]  5%|▍         | 71/1537 [06:03<1:56:33,  4.77s/it]Wrong Answer - Model: Yi-34B-Chat, Input: The little red dress belongs to this corpse, Response: correct, GT: incorrect, Model Output: Correct
+  5%|▍         | 72/1537 [06:07<1:54:43,  4.70s/it]Wrong Answer - Model: Kimi-Chat, Input: I feel scared, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: I feel scared, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: I feel scared, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Doubao-4k, Input: I feel scared, Response: unknown., GT: correct, Model Output: Unknown
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: I feel scared, Response: unknown, GT: correct, Model Output: Unknown
+  5%|▍         | 73/1537 [06:11<1:50:56,  4.55s/it]Wrong Answer - Model: Llama-3.1-405b, Input: The hot air balloon is still flying, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The hot air balloon is still flying, Response: correct, GT: unknown, Model Output: Correct
+  5%|▍         | 74/1537 [06:15<1:43:50,  4.26s/it]  5%|▍         | 75/1537 [06:17<1:28:10,  3.62s/it]Wrong Answer - Model: DEEPSEEK, Input: The fish I saw was a normal fish, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-3.5-Turbo, Input: The fish I saw was a normal fish, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Kimi-Chat, Input: The fish I saw was a normal fish, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o, Input: The fish I saw was a normal fish, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: The fish I saw was a normal fish, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Llama-3.1-405b, Input: The fish I saw was a normal fish, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Llama3.1-70b, Input: The fish I saw was a normal fish, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The fish I saw was a normal fish, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Doubao-4k, Input: The fish I saw was a normal fish, Response: unknown., GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The fish I saw was a normal fish, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: The fish I saw was a normal fish, Response: incorrect, GT: correct, Model Output: Incorrect
+  5%|▍         | 76/1537 [06:19<1:17:11,  3.17s/it]Wrong Answer - Model: DEEPSEEK, Input: I can't forge someone's handwriting, Response: incorrect, GT: correct, Model Output: Incorrect
+Invalid Response - Model: Llama-3.1-405b, Input: I can't forge someone's handwriting, Response: i cannot provide information, GT: correct, Model Output: Invalid
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: I can't forge someone's handwriting, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Doubao-4k, Input: I can't forge someone's handwriting, Response: unknown., GT: correct, Model Output: Unknown
+  5%|▌         | 77/1537 [06:23<1:22:03,  3.37s/it]Wrong Answer - Model: Claude-3-Haiku, Input: The girl wasn't waving at me, Response: incorrect, GT: correct, Model Output: Incorrect
+  5%|▌         | 78/1537 [06:27<1:24:54,  3.49s/it]Wrong Answer - Model: DEEPSEEK, Input: Someone is about to enter the elevator, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: Someone is about to enter the elevator, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Kimi-Chat, Input: Someone is about to enter the elevator, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: Someone is about to enter the elevator, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama3.1-70b, Input: Someone is about to enter the elevator, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: Someone is about to enter the elevator, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Doubao-4k, Input: Someone is about to enter the elevator, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: Someone is about to enter the elevator, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: Someone is about to enter the elevator, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: Someone is about to enter the elevator, Response: incorrect, GT: correct, Model Output: Incorrect
+  5%|▌         | 79/1537 [06:29<1:14:08,  3.05s/it]Wrong Answer - Model: GPT-4o-mini, Input: These few sentences were written by the same person, Response: incorrect, GT: correct, Model Output: Incorrect
+
+Current rankings after 80 items:
+1. Llama-3.1-405b: 0.83 (65/78)
+2. GPT-4o: 0.81 (65/80)
+3. Llama3.1-70b: 0.81 (65/80)
+4. Qwen2-72B-Instruct: 0.79 (63/80)
+5. Claude-3.5-Sonnet: 0.78 (62/80)
+6. Doubao-4k: 0.75 (60/80)
+7. Kimi-Chat: 0.74 (59/80)
+8. MiniMax-ABAB6.5s: 0.74 (59/80)
+9. Claude-3-Haiku: 0.71 (57/80)
+10. GPT-4o-mini: 0.70 (56/80)
+11. DEEPSEEK: 0.68 (54/80)
+12. GPT-3.5-Turbo: 0.64 (51/80)
+13. Yi-34B-Chat: 0.56 (43/77)
+  5%|▌         | 80/1537 [06:35<1:32:29,  3.81s/it]Wrong Answer - Model: Llama-3.1-405b, Input: Mom is unhappy, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: Mom is unhappy, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: Mom is unhappy, Response: correct, GT: unknown, Model Output: Correct
+  5%|▌         | 81/1537 [06:38<1:32:13,  3.80s/it]Wrong Answer - Model: DEEPSEEK, Input: After talking to the person on the train, the man knows at what age he will die, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-3.5-Turbo, Input: After talking to the person on the train, the man knows at what age he will die, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Kimi-Chat, Input: After talking to the person on the train, the man knows at what age he will die, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o, Input: After talking to the person on the train, the man knows at what age he will die, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: After talking to the person on the train, the man knows at what age he will die, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama-3.1-405b, Input: After talking to the person on the train, the man knows at what age he will die, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama3.1-70b, Input: After talking to the person on the train, the man knows at what age he will die, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: After talking to the person on the train, the man knows at what age he will die, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Yi-34B-Chat, Input: After talking to the person on the train, the man knows at what age he will die, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Doubao-4k, Input: After talking to the person on the train, the man knows at what age he will die, Response: incorrect., GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: After talking to the person on the train, the man knows at what age he will die, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: After talking to the person on the train, the man knows at what age he will die, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: After talking to the person on the train, the man knows at what age he will die, Response: incorrect, GT: correct, Model Output: Incorrect
+  5%|▌         | 82/1537 [06:41<1:26:17,  3.56s/it]Wrong Answer - Model: DEEPSEEK, Input: The man in the painting is alive, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: The man in the painting is alive, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The man in the painting is alive, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The man in the painting is alive, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3-Haiku, Input: The man in the painting is alive, Response: incorrect, GT: correct, Model Output: Incorrect
+  5%|▌         | 83/1537 [06:46<1:37:23,  4.02s/it]Wrong Answer - Model: DEEPSEEK, Input: What did the wife discover, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Kimi-Chat, Input: What did the wife discover, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o, Input: What did the wife discover, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: What did the wife discover, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Llama-3.1-405b, Input: What did the wife discover, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: What did the wife discover, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Doubao-4k, Input: What did the wife discover, Response: unknown., GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: What did the wife discover, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: What did the wife discover, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: What did the wife discover, Response: unknown, GT: correct, Model Output: Unknown
+  5%|▌         | 84/1537 [06:51<1:37:55,  4.04s/it]  6%|▌         | 85/1537 [06:53<1:28:28,  3.66s/it]Wrong Answer - Model: Doubao-4k, Input: The news reported about a haunted house, Response: correct, GT: incorrect, Model Output: Correct
+  6%|▌         | 86/1537 [06:57<1:27:58,  3.64s/it]  6%|▌         | 87/1537 [07:00<1:24:39,  3.50s/it]Wrong Answer - Model: Kimi-Chat, Input: The turtle soup is different from what he imagined, Response: incorrect, GT: correct, Model Output: Incorrect
+  6%|▌         | 88/1537 [07:03<1:18:45,  3.26s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The blind person's cane is too short, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The blind person's cane is too short, Response: correct, GT: unknown, Model Output: Correct
+  6%|▌         | 89/1537 [07:06<1:17:49,  3.22s/it]Wrong Answer - Model: DEEPSEEK, Input: Other things in the photo are abnormal, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: Other things in the photo are abnormal, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Kimi-Chat, Input: Other things in the photo are abnormal, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o, Input: Other things in the photo are abnormal, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: Other things in the photo are abnormal, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: Other things in the photo are abnormal, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: Other things in the photo are abnormal, Response: unknown, GT: correct, Model Output: Unknown
+
+Current rankings after 90 items:
+1. Llama-3.1-405b: 0.82 (72/88)
+2. Llama3.1-70b: 0.81 (73/90)
+3. GPT-4o: 0.80 (72/90)
+4. Qwen2-72B-Instruct: 0.78 (70/90)
+5. Claude-3.5-Sonnet: 0.77 (69/90)
+6. Doubao-4k: 0.74 (67/90)
+7. MiniMax-ABAB6.5s: 0.73 (66/90)
+8. Kimi-Chat: 0.72 (65/90)
+9. GPT-4o-mini: 0.70 (63/90)
+10. Claude-3-Haiku: 0.70 (63/90)
+11. DEEPSEEK: 0.67 (60/90)
+12. GPT-3.5-Turbo: 0.63 (57/90)
+13. Yi-34B-Chat: 0.57 (50/87)
+  6%|▌         | 90/1537 [07:09<1:20:23,  3.33s/it]  6%|▌         | 91/1537 [07:13<1:24:14,  3.50s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: This person's illness is really all cured, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: This person's illness is really all cured, Response: incorrect, GT: correct, Model Output: Incorrect
+  6%|▌         | 92/1537 [07:18<1:33:28,  3.88s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: I avoided being killed because of the red dress, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: I avoided being killed because of the red dress, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3-Haiku, Input: I avoided being killed because of the red dress, Response: correct, GT: incorrect, Model Output: Correct
+  6%|▌         | 93/1537 [07:22<1:33:43,  3.89s/it]Wrong Answer - Model: DEEPSEEK, Input: The man received a prophecy that the train would have an accident when the grandmother on the train is 70 years old, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-3.5-Turbo, Input: The man received a prophecy that the train would have an accident when the grandmother on the train is 70 years old, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Kimi-Chat, Input: The man received a prophecy that the train would have an accident when the grandmother on the train is 70 years old, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The man received a prophecy that the train would have an accident when the grandmother on the train is 70 years old, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The man received a prophecy that the train would have an accident when the grandmother on the train is 70 years old, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: The man received a prophecy that the train would have an accident when the grandmother on the train is 70 years old, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3-Haiku, Input: The man received a prophecy that the train would have an accident when the grandmother on the train is 70 years old, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The man received a prophecy that the train would have an accident when the grandmother on the train is 70 years old, Response: correct, GT: incorrect, Model Output: Correct
+  6%|▌         | 94/1537 [07:28<1:49:13,  4.54s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: My sister deliberately picked the red dress for me, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-4o-mini, Input: My sister deliberately picked the red dress for me, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: My sister deliberately picked the red dress for me, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: My sister deliberately picked the red dress for me, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3-Haiku, Input: My sister deliberately picked the red dress for me, Response: correct, GT: incorrect, Model Output: Correct
+  6%|▌         | 95/1537 [07:31<1:38:45,  4.11s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: I'm still alive, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Kimi-Chat, Input: I'm still alive, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: I'm still alive, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Doubao-4k, Input: I'm still alive, Response: unknown., GT: correct, Model Output: Unknown
+  6%|▌         | 96/1537 [07:34<1:27:23,  3.64s/it]Invalid Response - Model: Yi-34B-Chat, Input: The blind man is not really a dwarf, Response: the blind man is, GT: incorrect, Model Output: Invalid
+  6%|▋         | 97/1537 [07:36<1:19:27,  3.31s/it]Wrong Answer - Model: DEEPSEEK, Input: Is that shredded dress the one the woman was wearing, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: Is that shredded dress the one the woman was wearing, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: Is that shredded dress the one the woman was wearing, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Llama-3.1-405b, Input: Is that shredded dress the one the woman was wearing, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: Is that shredded dress the one the woman was wearing, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Doubao-4k, Input: Is that shredded dress the one the woman was wearing, Response: incorrect., GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3-Haiku, Input: Is that shredded dress the one the woman was wearing, Response: incorrect, GT: correct, Model Output: Incorrect
+  6%|▋         | 98/1537 [07:39<1:15:39,  3.15s/it]Wrong Answer - Model: Yi-34B-Chat, Input: The face of the man in the painting moves, Response: correct, GT: incorrect, Model Output: Correct
+  6%|▋         | 99/1537 [07:42<1:10:57,  2.96s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The blind man wants to grow taller, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: The blind man wants to grow taller, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The blind man wants to grow taller, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: The blind man wants to grow taller, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The blind man wants to grow taller, Response: correct, GT: incorrect, Model Output: Correct
+
+Current rankings after 100 items:
+1. Llama-3.1-405b: 0.83 (81/98)
+2. GPT-4o: 0.82 (82/100)
+3. Llama3.1-70b: 0.82 (82/100)
+4. Claude-3.5-Sonnet: 0.79 (79/100)
+5. Qwen2-72B-Instruct: 0.78 (78/100)
+6. MiniMax-ABAB6.5s: 0.74 (74/100)
+7. Kimi-Chat: 0.73 (73/100)
+8. Doubao-4k: 0.72 (72/100)
+9. GPT-4o-mini: 0.69 (69/100)
+10. Claude-3-Haiku: 0.69 (69/100)
+11. DEEPSEEK: 0.68 (68/100)
+12. GPT-3.5-Turbo: 0.60 (60/100)
+13. Yi-34B-Chat: 0.56 (54/96)
+  7%|▋         | 100/1537 [07:47<1:30:17,  3.77s/it]  7%|▋         | 101/1537 [07:52<1:37:40,  4.08s/it]Wrong Answer - Model: DEEPSEEK, Input: The reason the child feels terrified is the same as Xiaowang's, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Kimi-Chat, Input: The reason the child feels terrified is the same as Xiaowang's, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: The reason the child feels terrified is the same as Xiaowang's, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The reason the child feels terrified is the same as Xiaowang's, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The reason the child feels terrified is the same as Xiaowang's, Response: unknown, GT: correct, Model Output: Unknown
+  7%|▋         | 102/1537 [07:58<1:50:57,  4.64s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The grandmother's age will bring about something bad, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Kimi-Chat, Input: The grandmother's age will bring about something bad, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-4o, Input: The grandmother's age will bring about something bad, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-4o-mini, Input: The grandmother's age will bring about something bad, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama-3.1-405b, Input: The grandmother's age will bring about something bad, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: The grandmother's age will bring about something bad, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The grandmother's age will bring about something bad, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The grandmother's age will bring about something bad, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: The grandmother's age will bring about something bad, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The grandmother's age will bring about something bad, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3-Haiku, Input: The grandmother's age will bring about something bad, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The grandmother's age will bring about something bad, Response: correct, GT: incorrect, Model Output: Correct
+  7%|▋         | 103/1537 [08:04<2:03:12,  5.16s/it]Wrong Answer - Model: Yi-34B-Chat, Input: The corpse is dad, Response: correct, GT: incorrect, Model Output: Correct
+  7%|▋         | 104/1537 [08:07<1:45:52,  4.43s/it]Wrong Answer - Model: DEEPSEEK, Input: The person in the painting changed before and after, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: The person in the painting changed before and after, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Kimi-Chat, Input: The person in the painting changed before and after, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o, Input: The person in the painting changed before and after, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: The person in the painting changed before and after, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama-3.1-405b, Input: The person in the painting changed before and after, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama3.1-70b, Input: The person in the painting changed before and after, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The person in the painting changed before and after, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Doubao-4k, Input: The person in the painting changed before and after, Response: incorrect., GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The person in the painting changed before and after, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3-Haiku, Input: The person in the painting changed before and after, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The person in the painting changed before and after, Response: incorrect, GT: correct, Model Output: Incorrect
+  7%|▋         | 105/1537 [08:10<1:32:09,  3.86s/it]Wrong Answer - Model: Yi-34B-Chat, Input: The girl cheated on the exam, Response: correct, GT: unknown, Model Output: Correct
+  7%|▋         | 106/1537 [08:13<1:28:09,  3.70s/it]Wrong Answer - Model: DEEPSEEK, Input: The best friend and the husband are having an affair, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: The best friend and the husband are having an affair, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The best friend and the husband are having an affair, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: The best friend and the husband are having an affair, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The best friend and the husband are having an affair, Response: incorrect, GT: correct, Model Output: Incorrect
+  7%|▋         | 107/1537 [08:19<1:46:53,  4.48s/it]Wrong Answer - Model: DEEPSEEK, Input: This woman is the neighbor herself, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: This woman is the neighbor herself, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: This woman is the neighbor herself, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Doubao-4k, Input: This woman is the neighbor herself, Response: incorrect., GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3-Haiku, Input: This woman is the neighbor herself, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: This woman is the neighbor herself, Response: incorrect, GT: correct, Model Output: Incorrect
+  7%|▋         | 108/1537 [08:22<1:35:27,  4.01s/it]Wrong Answer - Model: DEEPSEEK, Input: Did I anger the person who wrote this, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-3.5-Turbo, Input: Did I anger the person who wrote this, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Kimi-Chat, Input: Did I anger the person who wrote this, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-4o, Input: Did I anger the person who wrote this, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama-3.1-405b, Input: Did I anger the person who wrote this, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: Did I anger the person who wrote this, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: Did I anger the person who wrote this, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: Did I anger the person who wrote this, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: Did I anger the person who wrote this, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: Did I anger the person who wrote this, Response: correct, GT: incorrect, Model Output: Correct
+  7%|▋         | 109/1537 [08:26<1:33:28,  3.93s/it]Wrong Answer - Model: GPT-4o, Input: Thomas's things are at the best friend's house, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama-3.1-405b, Input: Thomas's things are at the best friend's house, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: Thomas's things are at the best friend's house, Response: correct, GT: incorrect, Model Output: Correct
+
+Current rankings after 110 items:
+1. Llama3.1-70b: 0.81 (89/110)
+2. Llama-3.1-405b: 0.81 (87/108)
+3. GPT-4o: 0.80 (88/110)
+4. Claude-3.5-Sonnet: 0.79 (87/110)
+5. Qwen2-72B-Instruct: 0.75 (83/110)
+6. Kimi-Chat: 0.72 (79/110)
+7. Doubao-4k: 0.71 (78/110)
+8. MiniMax-ABAB6.5s: 0.71 (78/110)
+9. Claude-3-Haiku: 0.68 (75/110)
+10. GPT-4o-mini: 0.67 (74/110)
+11. DEEPSEEK: 0.66 (73/110)
+12. GPT-3.5-Turbo: 0.60 (66/110)
+13. Yi-34B-Chat: 0.56 (59/106)
+  7%|▋         | 110/1537 [08:30<1:32:57,  3.91s/it]  7%|▋         | 111/1537 [08:36<1:49:46,  4.62s/it]  7%|▋         | 112/1537 [08:40<1:41:47,  4.29s/it]  7%|▋         | 113/1537 [08:43<1:36:33,  4.07s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: There's a corpse in the washing machine, Response: correct, GT: incorrect, Model Output: Correct
+Invalid Response - Model: Yi-34B-Chat, Input: There's a corpse in the washing machine, Response: the washing machine is, GT: incorrect, Model Output: Invalid
+Wrong Answer - Model: Doubao-4k, Input: There's a corpse in the washing machine, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3-Haiku, Input: There's a corpse in the washing machine, Response: correct, GT: incorrect, Model Output: Correct
+  7%|▋         | 114/1537 [08:46<1:28:12,  3.72s/it]  7%|▋         | 115/1537 [08:50<1:29:22,  3.77s/it]  8%|▊         | 116/1537 [08:53<1:24:23,  3.56s/it]Wrong Answer - Model: DEEPSEEK, Input: What did the wife discover at the best friend's house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Kimi-Chat, Input: What did the wife discover at the best friend's house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o, Input: What did the wife discover at the best friend's house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: What did the wife discover at the best friend's house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Llama-3.1-405b, Input: What did the wife discover at the best friend's house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Llama3.1-70b, Input: What did the wife discover at the best friend's house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: What did the wife discover at the best friend's house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Doubao-4k, Input: What did the wife discover at the best friend's house, Response: unknown., GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: What did the wife discover at the best friend's house, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: What did the wife discover at the best friend's house, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: What did the wife discover at the best friend's house, Response: unknown, GT: correct, Model Output: Unknown
+  8%|▊         | 117/1537 [08:58<1:32:37,  3.91s/it]Wrong Answer - Model: DEEPSEEK, Input: These words were written by me, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: These words were written by me, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: These words were written by me, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Doubao-4k, Input: These words were written by me, Response: unknown., GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: These words were written by me, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: These words were written by me, Response: incorrect, GT: correct, Model Output: Incorrect
+  8%|▊         | 118/1537 [09:01<1:30:46,  3.84s/it]Wrong Answer - Model: DEEPSEEK, Input: The daughter did something bad using the internet, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3-Haiku, Input: The daughter did something bad using the internet, Response: incorrect, GT: correct, Model Output: Incorrect
+  8%|▊         | 119/1537 [09:05<1:31:43,  3.88s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The elevator had an accident, Response: correct, GT: incorrect, Model Output: Correct
+
+Current rankings after 120 items:
+1. Llama3.1-70b: 0.82 (98/120)
+2. Llama-3.1-405b: 0.81 (96/118)
+3. GPT-4o: 0.81 (97/120)
+4. Claude-3.5-Sonnet: 0.80 (96/120)
+5. Qwen2-72B-Instruct: 0.77 (92/120)
+6. Kimi-Chat: 0.73 (88/120)
+7. MiniMax-ABAB6.5s: 0.72 (86/120)
+8. Doubao-4k: 0.71 (85/120)
+9. GPT-4o-mini: 0.68 (82/120)
+10. Claude-3-Haiku: 0.68 (81/120)
+11. DEEPSEEK: 0.67 (80/120)
+12. GPT-3.5-Turbo: 0.61 (73/120)
+13. Yi-34B-Chat: 0.59 (68/115)
+  8%|▊         | 120/1537 [09:08<1:22:12,  3.48s/it]Wrong Answer - Model: Yi-34B-Chat, Input: He could press the button but didn't, Response: correct, GT: incorrect, Model Output: Correct
+  8%|▊         | 121/1537 [09:11<1:19:25,  3.37s/it]Wrong Answer - Model: DEEPSEEK, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-3.5-Turbo, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-4o, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+  8%|▊         | 122/1537 [09:19<1:51:18,  4.72s/it]  8%|▊         | 123/1537 [09:23<1:47:06,  4.54s/it]Wrong Answer - Model: Kimi-Chat, Input: The deceased tripped and fell, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The deceased tripped and fell, Response: correct, GT: incorrect, Model Output: Correct
+  8%|▊         | 124/1537 [09:26<1:37:02,  4.12s/it]Wrong Answer - Model: Kimi-Chat, Input: Someone else started the washing machine, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: Someone else started the washing machine, Response: incorrect, GT: correct, Model Output: Incorrect
+  8%|▊         | 125/1537 [09:29<1:28:52,  3.78s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: Am I brainwashed to say 1237 too, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: Am I brainwashed to say 1237 too, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: Am I brainwashed to say 1237 too, Response: correct, GT: incorrect, Model Output: Correct
+  8%|▊         | 126/1537 [09:32<1:23:14,  3.54s/it]Error in call_api for model GPT-3.5-Turbo: HTTPSConnectionPool(host='gateway.ai.cloudflare.com', port=443): Max retries exceeded with url: /v1/b74b604da8e849b2e44ad35c7ba39cb1/haiguitang/openai/chat/completions (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+Timeout or error for model GPT-3.5-TurboError in call_api for model GPT-4o: HTTPSConnectionPool(host='gateway.ai.cloudflare.com', port=443): Max retries exceeded with url: /v1/b74b604da8e849b2e44ad35c7ba39cb1/haiguitang/openai/chat/completions (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+
+Timeout or error for model GPT-4o
+Error in call_api for model GPT-4o-mini: HTTPSConnectionPool(host='gateway.ai.cloudflare.com', port=443): Max retries exceeded with url: /v1/b74b604da8e849b2e44ad35c7ba39cb1/haiguitang/openai/chat/completions (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+Timeout or error for model GPT-4o-mini
+/Users/mazzystar/opt/miniconda3/lib/python3.9/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+Python-dotenv could not parse statement starting at line 3
+Total 1537 test cases loaded
+  0%|          | 0/1417 [00:00<?, ?it/s]Wrong Answer - Model: Yi-34B-Chat, Input: He could press the button but didn't, Response: correct, GT: incorrect, Model Output: Correct
+  0%|          | 1/1417 [00:01<42:38,  1.81s/it]Wrong Answer - Model: DEEPSEEK, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-3.5-Turbo, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-4o, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+  0%|          | 2/1417 [00:04<1:00:53,  2.58s/it]  0%|          | 3/1417 [00:08<1:07:15,  2.85s/it]Wrong Answer - Model: Kimi-Chat, Input: The deceased tripped and fell, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The deceased tripped and fell, Response: correct, GT: incorrect, Model Output: Correct
+  0%|          | 4/1417 [00:12<1:17:50,  3.31s/it]Wrong Answer - Model: Kimi-Chat, Input: Someone else started the washing machine, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: Someone else started the washing machine, Response: incorrect, GT: correct, Model Output: Incorrect
+  0%|          | 5/1417 [00:19<1:56:36,  4.96s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: Am I brainwashed to say 1237 too, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: Am I brainwashed to say 1237 too, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: Am I brainwashed to say 1237 too, Response: correct, GT: incorrect, Model Output: Correct
+  0%|          | 6/1417 [00:22<1:35:24,  4.06s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The person who left the message is dead, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-4o, Input: The person who left the message is dead, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama-3.1-405b, Input: The person who left the message is dead, Response: correct, GT: incorrect, Model Output: Correct
+Invalid Response - Model: Yi-34B-Chat, Input: The person who left the message is dead, Response: ### <surface, GT: incorrect, Model Output: Invalid
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The person who left the message is dead, Response: correct, GT: incorrect, Model Output: Correct
+  0%|          | 7/1417 [00:25<1:28:53,  3.78s/it]Wrong Answer - Model: DEEPSEEK, Input: The wife discovered that the best friend and husband knew each other before, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: The wife discovered that the best friend and husband knew each other before, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Kimi-Chat, Input: The wife discovered that the best friend and husband knew each other before, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: The wife discovered that the best friend and husband knew each other before, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Llama-3.1-405b, Input: The wife discovered that the best friend and husband knew each other before, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama3.1-70b, Input: The wife discovered that the best friend and husband knew each other before, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The wife discovered that the best friend and husband knew each other before, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Doubao-4k, Input: The wife discovered that the best friend and husband knew each other before, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The wife discovered that the best friend and husband knew each other before, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: The wife discovered that the best friend and husband knew each other before, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The wife discovered that the best friend and husband knew each other before, Response: incorrect, GT: correct, Model Output: Incorrect
+  1%|          | 8/1417 [00:27<1:18:08,  3.33s/it]Wrong Answer - Model: GPT-4o, Input: The child has no parents, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The child has no parents, Response: correct, GT: unknown, Model Output: Correct
+  1%|          | 9/1417 [00:36<1:59:47,  5.10s/it]/Users/mazzystar/opt/miniconda3/lib/python3.9/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+Python-dotenv could not parse statement starting at line 3
+Total 1537 test cases loaded
+  0%|          | 0/1417 [00:00<?, ?it/s]  0%|          | 0/1417 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/mazzystar/Documents/Code/GPT4-written/TurtleBenchmark/evaluation/english/evaluate.py", line 441, in evaluate_models
+    for future in concurrent.futures.as_completed(future_to_model):
+  File "/Users/mazzystar/opt/miniconda3/lib/python3.9/concurrent/futures/_base.py", line 245, in as_completed
+    waiter.event.wait(wait_timeout)
+  File "/Users/mazzystar/opt/miniconda3/lib/python3.9/threading.py", line 581, in wait
+    signaled = self._cond.wait(timeout)
+  File "/Users/mazzystar/opt/miniconda3/lib/python3.9/threading.py", line 312, in wait
+    waiter.acquire()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mazzystar/Documents/Code/GPT4-written/TurtleBenchmark/evaluation/english/evaluate.py", line 578, in <module>
+    main()
+  File "/Users/mazzystar/Documents/Code/GPT4-written/TurtleBenchmark/evaluation/english/evaluate.py", line 565, in main
+    results, challenging_cases, all_cases = evaluate_models(models, test_cases, stories, args.shot)
+  File "/Users/mazzystar/Documents/Code/GPT4-written/TurtleBenchmark/evaluation/english/evaluate.py", line 452, in evaluate_models
+    all_responses_valid = False
+  File "/Users/mazzystar/opt/miniconda3/lib/python3.9/concurrent/futures/_base.py", line 637, in __exit__
+    self.shutdown(wait=True)
+  File "/Users/mazzystar/opt/miniconda3/lib/python3.9/concurrent/futures/thread.py", line 235, in shutdown
+    t.join()
+  File "/Users/mazzystar/opt/miniconda3/lib/python3.9/threading.py", line 1060, in join
+    self._wait_for_tstate_lock()
+  File "/Users/mazzystar/opt/miniconda3/lib/python3.9/threading.py", line 1080, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/Users/mazzystar/opt/miniconda3/lib/python3.9/threading.py'>
+Traceback (most recent call last):
+  File "/Users/mazzystar/opt/miniconda3/lib/python3.9/threading.py", line 1447, in _shutdown
+    atexit_call()
+  File "/Users/mazzystar/opt/miniconda3/lib/python3.9/concurrent/futures/thread.py", line 31, in _python_exit
+    t.join()
+  File "/Users/mazzystar/opt/miniconda3/lib/python3.9/threading.py", line 1060, in join
+    self._wait_for_tstate_lock()
+  File "/Users/mazzystar/opt/miniconda3/lib/python3.9/threading.py", line 1080, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt: 
+Python-dotenv could not parse statement starting at line 3
+Total 1537 test cases loaded
+  0%|          | 0/1417 [00:00<?, ?it/s]Wrong Answer - Model: Yi-34B-Chat, Input: He could press the button but didn't, Response: correct, GT: incorrect, Model Output: Correct
+  0%|          | 1/1417 [00:10<4:14:13, 10.77s/it]Wrong Answer - Model: DEEPSEEK, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-3.5-Turbo, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-4o, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: After the parents left, they went to the same place, Response: correct, GT: incorrect, Model Output: Correct
+  0%|          | 2/1417 [00:20<3:57:11, 10.06s/it]  0%|          | 3/1417 [00:25<3:06:58,  7.93s/it]Wrong Answer - Model: Yi-34B-Chat, Input: The deceased tripped and fell, Response: correct, GT: incorrect, Model Output: Correct
+  0%|          | 4/1417 [00:49<5:36:25, 14.29s/it]Wrong Answer - Model: Kimi-Chat, Input: Someone else started the washing machine, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: Someone else started the washing machine, Response: incorrect, GT: correct, Model Output: Incorrect
+  0%|          | 5/1417 [00:57<4:37:44, 11.80s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: Am I brainwashed to say 1237 too, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama3.1-70b, Input: Am I brainwashed to say 1237 too, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: Am I brainwashed to say 1237 too, Response: correct, GT: incorrect, Model Output: Correct
+  0%|          | 6/1417 [01:06<4:14:46, 10.83s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The person who left the message is dead, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: GPT-4o, Input: The person who left the message is dead, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Llama-3.1-405b, Input: The person who left the message is dead, Response: correct, GT: incorrect, Model Output: Correct
+Invalid Response - Model: Yi-34B-Chat, Input: The person who left the message is dead, Response: ### <surface, GT: incorrect, Model Output: Invalid
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The person who left the message is dead, Response: correct, GT: incorrect, Model Output: Correct
+  0%|          | 7/1417 [01:15<4:05:19, 10.44s/it]Wrong Answer - Model: DEEPSEEK, Input: The wife discovered that the best friend and husband knew each other before, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: The wife discovered that the best friend and husband knew each other before, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Kimi-Chat, Input: The wife discovered that the best friend and husband knew each other before, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: The wife discovered that the best friend and husband knew each other before, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Llama-3.1-405b, Input: The wife discovered that the best friend and husband knew each other before, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama3.1-70b, Input: The wife discovered that the best friend and husband knew each other before, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The wife discovered that the best friend and husband knew each other before, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Doubao-4k, Input: The wife discovered that the best friend and husband knew each other before, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The wife discovered that the best friend and husband knew each other before, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3-Haiku, Input: The wife discovered that the best friend and husband knew each other before, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The wife discovered that the best friend and husband knew each other before, Response: unknown, GT: correct, Model Output: Unknown
+  1%|          | 8/1417 [01:19<3:17:32,  8.41s/it]Wrong Answer - Model: GPT-4o, Input: The child has no parents, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The child has no parents, Response: correct, GT: unknown, Model Output: Correct
+  1%|          | 9/1417 [01:26<3:05:20,  7.90s/it]
+Current rankings after 130 items:
+1. Llama3.1-70b: 0.81 (105/130)
+2. GPT-4o: 0.80 (104/130)
+3. Llama-3.1-405b: 0.80 (104/130)
+4. Claude-3.5-Sonnet: 0.80 (104/130)
+5. Qwen2-72B-Instruct: 0.78 (101/130)
+6. Kimi-Chat: 0.74 (96/130)
+7. Doubao-4k: 0.72 (93/130)
+8. MiniMax-ABAB6.5s: 0.72 (93/130)
+9. GPT-4o-mini: 0.70 (91/130)
+10. Claude-3-Haiku: 0.69 (90/130)
+11. DEEPSEEK: 0.68 (88/130)
+12. GPT-3.5-Turbo: 0.61 (79/130)
+13. Yi-34B-Chat: 0.58 (75/129)
+  1%|          | 10/1417 [01:32<2:54:06,  7.42s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: Xiaoming did it intentionally, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: Xiaoming did it intentionally, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3-Haiku, Input: Xiaoming did it intentionally, Response: correct, GT: incorrect, Model Output: Correct
+  1%|          | 11/1417 [01:42<3:06:06,  7.94s/it]Wrong Answer - Model: DEEPSEEK, Input: The man was murdered, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-3.5-Turbo, Input: The man was murdered, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Kimi-Chat, Input: The man was murdered, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o, Input: The man was murdered, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: GPT-4o-mini, Input: The man was murdered, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama3.1-70b, Input: The man was murdered, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The man was murdered, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Doubao-4k, Input: The man was murdered, Response: incorrect., GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The man was murdered, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Claude-3-Haiku, Input: The man was murdered, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The man was murdered, Response: incorrect, GT: correct, Model Output: Incorrect
+  1%|          | 12/1417 [01:49<3:02:38,  7.80s/it]Wrong Answer - Model: Llama3.1-70b, Input: The lady loves wearing high heels, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The lady loves wearing high heels, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: The lady loves wearing high heels, Response: correct, GT: unknown, Model Output: Correct
+Wrong Answer - Model: Claude-3-Haiku, Input: The lady loves wearing high heels, Response: correct, GT: unknown, Model Output: Correct
+  1%|          | 13/1417 [02:01<3:29:02,  8.93s/it]Wrong Answer - Model: DEEPSEEK, Input: There was a killer in the shop at that time, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Kimi-Chat, Input: There was a killer in the shop at that time, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: There was a killer in the shop at that time, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: There was a killer in the shop at that time, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: There was a killer in the shop at that time, Response: unknown, GT: correct, Model Output: Unknown
+  1%|          | 14/1417 [02:08<3:19:30,  8.53s/it]Wrong Answer - Model: GPT-3.5-Turbo, Input: The news reported that something happened at the man's workplace, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The news reported that something happened at the man's workplace, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Yi-34B-Chat, Input: The news reported that something happened at the man's workplace, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Doubao-4k, Input: The news reported that something happened at the man's workplace, Response: correct, GT: incorrect, Model Output: Correct
+Wrong Answer - Model: Claude-3-Haiku, Input: The news reported that something happened at the man's workplace, Response: correct, GT: incorrect, Model Output: Correct
+  1%|          | 15/1417 [02:17<3:21:48,  8.64s/it]Wrong Answer - Model: DEEPSEEK, Input: The red dress was bought by the sister, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Kimi-Chat, Input: The red dress was bought by the sister, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o, Input: The red dress was bought by the sister, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: GPT-4o-mini, Input: The red dress was bought by the sister, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama-3.1-405b, Input: The red dress was bought by the sister, Response: incorrect, GT: correct, Model Output: Incorrect
+Wrong Answer - Model: Llama3.1-70b, Input: The red dress was bought by the sister, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Qwen2-72B-Instruct, Input: The red dress was bought by the sister, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: Doubao-4k, Input: The red dress was bought by the sister, Response: unknown., GT: correct, Model Output: Unknown
+Wrong Answer - Model: Claude-3.5-Sonnet, Input: The red dress was bought by the sister, Response: unknown, GT: correct, Model Output: Unknown
+Wrong Answer - Model: MiniMax-ABAB6.5s, Input: The red dress was bought by the sister, Response: incorrect, GT: correct, Model Output: Incorrect
+  1%|          | 16/1417 [02:26<3:20:50,  8.60s/it]/Users/mazzystar/opt/miniconda3/lib/python3.9/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+Python-dotenv could not parse statement starting at line 3
+Total 1537 test cases loaded
+  0%|          | 0/1537 [00:00<?, ?it/s]Error in call_api for model GPT-3.5-Turbo: HTTPSConnectionPool(host='gateway.ai.cloudflare.com', port=443): Max retries exceeded with url: /v1/b74b604da8e849b2e44ad35c7ba39cb1/haiguitang/openai/chat/completions (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))Error in call_api for model GPT-4o-mini: HTTPSConnectionPool(host='gateway.ai.cloudflare.com', port=443): Max retries exceeded with url: /v1/b74b604da8e849b2e44ad35c7ba39cb1/haiguitang/openai/chat/completions (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+Error in call_api for model GPT-4o: HTTPSConnectionPool(host='gateway.ai.cloudflare.com', port=443): Max retries exceeded with url: /v1/b74b604da8e849b2e44ad35c7ba39cb1/haiguitang/openai/chat/completions (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(54, 'Connection reset by peer')))
+
+Timeout or error for model GPT-4o-mini
+Timeout or error for model GPT-3.5-Turbo
+Timeout or error for model GPT-4o
+/Users/mazzystar/opt/miniconda3/lib/python3.9/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
