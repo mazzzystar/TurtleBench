@@ -18,7 +18,7 @@
 - 我们的评估日志。注意：我们在标注和计算准确率时将**错**(F)和**不相关**(N)进行了合并、不做区分。
 
 > [!IMPORTANT]  
-> 合并类别会降低难度，因此我们可能在未来，将类别标注重新变为三类：对、错、不相关，并在 4448 条样本上重新标注、测试模型表现，然后在这里更新。
+> 合并类别会降低难度，因此我们可能在未来，将类别标注重新变为三类：对、错、不相关，并在 [4448](https://github.com/mazzzystar/TurtleBenchmark/blob/dev/evaluation/chinese/data/sorted_cases.list) 条样本上重新标注、测试模型表现。
 
 ### 使用方法
 
@@ -73,6 +73,7 @@ python evaluate.py --shot 0
 
 ## TODO
 
+- [ ] 将标注类别重新改为三类：T/F/N，并在[4448](https://github.com/mazzzystar/TurtleBenchmark/blob/dev/evaluation/chinese/data/sorted_cases.list) 条样本上重新标注、测试模型表现。
 - [x] 将数据集和测试样例翻译成英文。
 - [ ] 人工逐条二次确认翻译后的标注准确率。
 - [ ] 使用英语 prompt，在英文模型上评测并给出结果。
