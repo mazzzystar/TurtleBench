@@ -15,10 +15,10 @@
 
 - 32 个独特的"海龟汤"故事。
 - 1537 个来自用户问题的人工标注标签: 对(T)、错(F)、不相关(N)
-- 我们的评估日志。注意：我们在标注和计算准确率时将**错**(F)和**不相关**(N)进行了合并、不做区分。
+- 我们的评估日志。
 
 > [!IMPORTANT]  
-> 合并类别会降低难度，因此我们可能在未来，将类别标注重新变为三类：对、错、不相关，并在 [4448](https://github.com/mazzzystar/TurtleBenchmark/blob/dev/evaluation/chinese/data/sorted_cases.list) 条样本上重新标注、测试模型表现。
+> 我们在标注时发现：存在部分样本既可以标注为错(F)，也可以标注为不相关(N)，因此我们将**错**(F)和**不相关**(N)进行了合并、不做区分，在计算准确率时也在代码中做了合并——这会降低难度，因此我们可能在未来，将类别标注重新变为三类：对、错、不相关，并在 [4448](https://github.com/mazzzystar/TurtleBenchmark/blob/dev/evaluation/chinese/data/sorted_cases.list) 条样本上重新标注、测试模型表现。
 
 ### 使用方法
 
