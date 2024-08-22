@@ -1,0 +1,6 @@
+requests
+python-dotenv
+tqdm
+openai
+anthropic
+together
