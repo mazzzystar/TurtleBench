@@ -1,19 +1,17 @@
-import os
-import json
-import asyncio
-import requests
-import aiohttp
-from prompt import simple_system_prompt, system_prompt_with_2shots
-from dotenv import load_dotenv
-from tqdm import tqdm
-from openai import OpenAI
-from anthropic import Anthropic
-from together import Together
-import concurrent.futures
-from functools import partial
-import threading
-from tqdm import tqdm
 import argparse
+import concurrent.futures
+import json
+import os
+from functools import partial
+
+import requests
+from anthropic import Anthropic
+from dotenv import load_dotenv
+from openai import OpenAI
+from together import Together
+from tqdm import tqdm
+
+from prompt import simple_system_prompt, system_prompt_with_2shots
 
 # Load environment variables
 load_dotenv()
@@ -186,12 +184,12 @@ def call_api(model, prompt, user_input):
                     api_key=model["config"]["apiKey"],
                     base_url=model["config"]["baseURL"]
                 )
-                
+
                 messages = [
                     {"role": "system", "content": prompt},
                     {"role": "user", "content": user_input}
                 ]
-                
+
                 response = client.chat.completions.create(
                     model=model["config"]["model"],
                     messages=messages,
@@ -200,7 +198,7 @@ def call_api(model, prompt, user_input):
                     top_p=model["config"]["top_p"],
                     stream=False
                 )
-                
+
                 return response.choices[0].message.content
             else:
                 url = model["config"]["baseURL"] + "/chat/completions"
@@ -217,7 +215,7 @@ def call_api(model, prompt, user_input):
                     "max_tokens": model["config"]["maxTokens"],
                     "temperature": model["config"]["temperature"],
                 }
-                
+
                 if "top_p" in model["config"]:
                     data["top_p"] = model["config"]["top_p"]
 
@@ -226,15 +224,15 @@ def call_api(model, prompt, user_input):
                     raise Exception(f"API call failed with status {response.status_code}: {response.text}")
                 result = response.json()
                 return result["choices"][0]["message"]["content"]
-        
+
         elif model["type"] == "together":
             client = Together(api_key=model["config"]["apiKey"])
-            
+
             messages = [
                 {"role": "system", "content": prompt},
                 {"role": "user", "content": user_input}
             ]
-            
+
             response = client.chat.completions.create(
                 model=model["config"]["model"],
                 messages=messages,
@@ -245,12 +243,12 @@ def call_api(model, prompt, user_input):
                 stop=model["config"]["stop"],
                 stream=False
             )
-            
+
             return response.choices[0].message.content
 
         elif model["type"] == "anthropic":
             client = Anthropic(api_key=model["config"]["apiKey"])
-            
+
             message = client.messages.create(
                 model=model["config"]["model"],
                 max_tokens=model["config"]["maxTokens"],
@@ -268,7 +266,7 @@ def call_api(model, prompt, user_input):
                     }
                 ]
             )
-            
+
             return message.content[0].text
 
         elif model["type"] == "minimax":
@@ -277,7 +275,7 @@ def call_api(model, prompt, user_input):
                 "Authorization": f"Bearer {model['config']['apiKey']}",
                 "Content-Type": "application/json"
             }
-            
+
             payload = {
                 "model": model["config"]["model"],
                 "messages": [
@@ -298,14 +296,14 @@ def call_api(model, prompt, user_input):
                 "temperature": model["config"]["temperature"],
                 "top_p": model["config"]["top_p"]
             }
-            
+
             response = requests.post(url, headers=headers, json=payload)
             if response.status_code != 200:
                 raise Exception(f"API call failed with status {response.status_code}: {response.text}")
-            
+
             result = response.json()
             return result["choices"][0]["message"]["content"]
-        
+
         else:
             raise ValueError(f"Unsupported model type: {model['type']}")
     except Exception as e:
@@ -398,7 +396,7 @@ def evaluate_models(models, test_cases, stories, shot_type):
 
                 if starts_with_answer(response, "对") or starts_with_answer(response, "错") or starts_with_answer(response, "不知道"):
                     results[model['name']]['total'] += 1
-                    
+
                     # Save the actual model output
                     if starts_with_answer(response, "对"):
                         case_results[model['name']] = "T"
@@ -406,7 +404,7 @@ def evaluate_models(models, test_cases, stories, shot_type):
                         case_results[model['name']] = "F"
                     else:
                         case_results[model['name']] = "N"
-                    
+
                     # Calculate accuracy (merging N and F)
                     if (ground_truth == "T" and case_results[model['name']] == "T") or \
                        ((ground_truth == "F" or ground_truth == "N") and case_results[model['name']] != "T"):
@@ -443,19 +441,19 @@ def evaluate_models(models, test_cases, stories, shot_type):
             # Save log and print accuracy ranking every 10 steps
             if i % 10 == 0 or i == len(test_cases):
                 print(f"\nCurrent rankings after {i} items:")
-                current_results = [(name, res['correct'] / max(res['total'], 1), res['correct'], res['total']) 
+                current_results = [(name, res['correct'] / max(res['total'], 1), res['correct'], res['total'])
                                 for name, res in results.items()]
                 current_results.sort(key=lambda x: x[1], reverse=True)
-                
+
                 for rank, (name, accuracy, correct, total) in enumerate(current_results, 1):
                     print(f"{rank}. {name}: {accuracy:.2f} ({correct}/{total})")
 
                 # Update challenging cases file
-                with open(f"logs_with_2shots/challenging_cases_simple_prompt_{i}.json", "w", encoding="utf-8") as f:
+                with open(f"{log_folder}/challenging_cases_simple_prompt_{i}.json", "w", encoding="utf-8") as f:
                     json.dump(challenging_cases, f, ensure_ascii=False, indent=2)
 
                 # Update all cases file
-                with open(f"logs_with_2shots/all_cases_simple_prompt_{i}.json", "w", encoding="utf-8") as f:
+                with open(f"{log_folder}/all_cases_simple_prompt_{i}.json", "w", encoding="utf-8") as f:
                     json.dump(all_cases, f, ensure_ascii=False, indent=2)
 
         except Exception as e:
@@ -464,11 +462,11 @@ def evaluate_models(models, test_cases, stories, shot_type):
 
     # Final update to challenging cases file
     final_index = start_index + len(test_cases[start_index:])
-    with open(f"logs_with_2shots/challenging_cases_simple_prompt_{final_index}.json", "w", encoding="utf-8") as f:
+    with open(f"{log_folder}/challenging_cases_simple_prompt_{final_index}.json", "w", encoding="utf-8") as f:
         json.dump(challenging_cases, f, ensure_ascii=False, indent=2)
 
     # Final update to all cases file
-    with open(f"logs_with_2shots/all_cases_simple_prompt_{final_index}.json", "w", encoding="utf-8") as f:
+    with open(f"{log_folder}/all_cases_simple_prompt_{final_index}.json", "w", encoding="utf-8") as f:
         json.dump(all_cases, f, ensure_ascii=False, indent=2)
 
     return results, challenging_cases, all_cases
@@ -476,7 +474,7 @@ def evaluate_models(models, test_cases, stories, shot_type):
 def save_all_cases(all_cases, output_file):
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(all_cases, f, ensure_ascii=False, indent=2)
-    
+
     print(f"All cases have been saved to {output_file}")
 
 def parse_challenging_cases(input_file, output_file):
@@ -492,24 +490,26 @@ def parse_challenging_cases(input_file, output_file):
 
     print(f"Parsed challenging cases have been written to {output_file}")
 
+
 def main():
     # Parse command line arguments
     parser = argparse.ArgumentParser(description="Run story understanding evaluation")
     parser.add_argument("--shot", choices=["0", "2"], default="2", help="Number of shots (0 or 2)")
     args = parser.parse_args()
 
-    test_cases = load_test_cases("data/cases.list")
-    results, challenging_cases, all_cases = evaluate_models(models, test_cases, stories, args.shot)
+    test_cases = load_test_cases("data/cases.list")[:10]
+    results, challenging_cases, all_cases = evaluate_models(models[:1], test_cases, stories, args.shot)
 
-    final_results = [(name, res['correct'] / max(res['total'], 1), res['correct'], res['total']) 
+    final_results = [(name, res['correct'] / max(res['total'], 1), res['correct'], res['total'])
                      for name, res in results.items()]
     final_results.sort(key=lambda x: x[1], reverse=True)
-    
+
     print(f"\nFinal Rankings ({args.shot}-shot):")
     for rank, (name, accuracy, correct, total) in enumerate(final_results, 1):
         print(f"{rank}. {name}: {accuracy:.2f} ({correct}/{total})")
-
+    log_folder = f"logs_with_{args.shot}shots"
     print(f"Evaluation complete. Logs have been saved in the '{log_folder}' directory.")
+
 
 if __name__ == "__main__":
     main()
