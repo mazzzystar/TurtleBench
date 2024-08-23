@@ -4,3 +4,4 @@ tqdm
 openai
 anthropic
 together
+pyautogen

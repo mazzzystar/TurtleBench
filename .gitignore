@@ -1,3 +1,5 @@
 .env
 venv
 logs_with_*
+OAI_CONFIG_LIST
+.cache/
