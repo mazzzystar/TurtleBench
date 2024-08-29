@@ -7,7 +7,7 @@ I was dismembered	|	The Elevator	|	Unknown
 The elevator broke down and I was trapped inside	|	The Elevator	|	Incorrect
 I'm afraid of heights	|	The Girl on the Balcony	|	Unknown
 I went crazy	|	The Forgery	|	Incorrect
-The boss was killed after I bought snacks	|	The Discounted Snacks	|	Unknown
+The boss was killed after I bought snacks	|	The Discounted Snacks	|	Incorrect
 Thomas knows the best friend	|	The Best Friend	|	Correct
 I was forced to say 1237	|	1237	|	Incorrect
 The man doesn't know the soup is poisonous	|	The Turtle Soup Story	|	Unknown
@@ -105,8 +105,8 @@ The corpse is dad	|	The Little Red Dress	|	Incorrect
 The person in the painting changed before and after	|	A Painting	|	Correct
 The girl cheated on the exam	|	The Condition	|	Unknown
 The best friend and the husband are having an affair	|	The Best Friend	|	Correct
-This woman is the neighbor herself	|	The Woman in the Pink Dress	|	Correct
-Did I anger the person who wrote this	|	The Forgery	|	Incorrect
+This woman is the neighbor	|	The Woman in the Pink Dress	|	Correct
+I anger the person who wrote this	|	The Forgery	|	Incorrect
 Thomas's things are at the best friend's house	|	The Best Friend	|	Incorrect
 The parents were shocked because their son's girlfriend is me	|	Meeting the Parents	|	Correct
 He fell from a nearby cliff	|	Half a Matchstick	|	Incorrect
@@ -114,8 +114,8 @@ My boyfriend and I are blood relatives	|	Meeting the Parents	|	Correct
 There's a corpse in the washing machine	|	The Washing Machine	|	Incorrect
 I'm actually my boyfriend's biological sister	|	Meeting the Parents	|	Correct
 The mother she mentioned was kidnapped	|	The Four-Year-Old Mother	|	Correct
-What did the wife discover at the best friend's house	|	The Best Friend	|	Correct
-These words were written by me	|	The Forgery	|	Correct
+The wife discovered something at the best friend's house	|	The Best Friend	|	Correct
+I wrote these words	|	The Forgery	|	Correct
 The daughter did something bad using the internet	|	The Diary	|	Correct
 The elevator had an accident	|	The Elevator	|	Incorrect
 He could press the button but didn't	|	The 18th Floor	|	Incorrect
@@ -123,26 +123,26 @@ After the parents left, they went to the same place	|	The Ritual	|	Incorrect
 The man's family was on the news	|	The News	|	Incorrect
 The deceased tripped and fell	|	Half a Matchstick	|	Incorrect
 Someone else started the washing machine	|	The Washing Machine	|	Correct
-Am I brainwashed to say 1237 too	|	1237	|	Incorrect
+I am brainwashed to say 1237 too	|	1237	|	Incorrect
 The person who left the message is dead	|	The Forgery	|	Incorrect
 The wife discovered that the best friend and husband knew each other before	|	The Best Friend	|	Correct
 The child has no parents	|	The Four-Year-Old Mother	|	Unknown
 The child's so-called mother is at home	|	The Four-Year-Old Mother	|	Correct
-Xiaoming did it intentionally	|	The 18th Floor	|	Incorrect
+Xiaoming did it intentionally	for his own purposes|	The 18th Floor	|	Incorrect
 The man was murdered	|	Half a Matchstick	|	Correct
 The lady loves wearing high heels	|	The High Heels	|	Unknown
 There was a killer in the shop at that time	|	The Discounted Snacks	|	Correct
 The news reported that something happened at the man's workplace	|	The News	|	Incorrect
-The red dress was bought by the sister	|	The Little Red Dress	|	Correct
+The red dress was bought by the sister	|	The Little Red Dress	|	Unknown
 The color of the red dress was dyed by blood	|	The Little Red Dress	|	Incorrect
 There's a third person in the story	|	The Girl on the Balcony	|	Incorrect
 The sawdust was made by himself	|	The Circus	|	Incorrect
 I hurt someone	|	The Forgery	|	Correct
 What I saw was not a normal fish	|	Fish	|	Incorrect
-His being scared silly is related to the snacks themselves	|	The Discounted Snacks	|	Incorrect
+His being scared is related to the snacks themselves	|	The Discounted Snacks	|	Incorrect
 Someone had set up his house in advance	|	The Circus	|	Correct
 The thing in the painting is a real human face	|	A Painting	|	Correct
-It's not his first time in the tunnel	|	The Tunnel	|	Incorrect
+It's not his first time in the tunnel	|	The Tunnel	|	Unknown
 The man is imitating his wife	|	The Forgery	|	Correct
 I was forced to become a sailor	|	Fish	|	Unknown
 Thomas knows which floor the best friend's house is on	|	The Best Friend	|	Correct
@@ -152,7 +152,7 @@ The person who said this has mental problems	|	The Forgery	|	Incorrect
 The time on the train malfunctioned	|	The Midnight Train	|	Incorrect
 The sawdust was caused by the blind man himself	|	The Circus	|	Incorrect
 The letter is from someone I know	|	The Forgery	|	Incorrect
-The man died not long ago	|	Half a Matchstick	|	Incorrect
+The man died not long ago	|	Half a Matchstick	|	Unknown
 The pale face is related to the man's age	|	The Midnight Train	|	Incorrect
 Her mother's birthday is in July	|	1237	|	Unknown
 There are others besides me	|	The Elevator	|	Correct
@@ -167,7 +167,7 @@ The person who supposedly won't come back and the 'me' who's in trouble are two 
 The content of the news is related to what these snacks are	|	The Discounted Snacks	|	Incorrect
 It's because sometimes the elevator doesn't go to the 18th floor	|	The 18th Floor	|	Incorrect
 The man fell from a sand dune	|	Half a Matchstick	|	Incorrect
-The woman is pretending	|	The Woman in the Pink Dress	|	Correct
+The woman pretends to be a woman	|	The Woman in the Pink Dress	|	Correct
 I'll be in danger if I go to the balcony again	|	The Girl on the Balcony	|	Incorrect
 The boy didn't enter the same university as the girl as a student	|	The Condition	|	Correct
 456 is related to homonyms	|	1237	|	Incorrect
@@ -176,7 +176,7 @@ The man committed suicide because he drank turtle soup	|	The Turtle Soup Story	|
 The daughter is not my daughter	|	The Diary	|	Incorrect
 The death row inmate requested his corpse to disappear quickly	|	The Death Row Inmate and the Demon	|	Incorrect
 The man drew a lot to ride the hot air balloon, so to reduce weight, he was pushed down by others	|	Half a Matchstick	|	Correct
-The reason I was startled is that the place I found surprised me	|	The Lost Phone	|	Correct
+The reason I was startled is that the place I found my phone surprised me	|	The Lost Phone	|	Correct
 The blind dwarf tried to increase his height	|	The Circus	|	Incorrect
 The trouble encountered is that the murder might be discovered	|	The Forgery	|	Correct
 I am considered an anomaly by the blind government	|	Eyesight	|	Correct
@@ -193,8 +193,8 @@ There were other people in the man's house last night	|	The Woman in the Pink Dr
 There are others	|	The 18th Floor	|	Unknown
 He killed the other person so he wouldn't have to leave and could be together forever	|	The Forgery	|	Incorrect
 The child's so-called mother has experienced something bad	|	The Four-Year-Old Mother	|	Correct
-The hot air balloon crashed	|	Half a Matchstick	|	Incorrect
-The fish saved me	|	Fish	|	Correct
+The hot air balloon crashed	|	Half a Matchstick	|	Unknown
+Fish saved me before	|	Fish	|	Correct
 The corpse is my relative	|	The Little Red Dress	|	Incorrect
 The fisherman told the boy some information	|	The Seaweed	|	Correct
 I feel scared and it's related to the content of his photo	|	Exchanging Photos	|	Correct
