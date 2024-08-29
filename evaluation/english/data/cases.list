@@ -40,7 +40,7 @@ The appearance of the person in the painting changed	|	A Painting	|	Correct
 The half matchstick was broken when the man fell	|	Half a Matchstick	|	Incorrect
 The blind dwarf's job in the circus was walking on a tightrope	|	The Circus	|	Unknown
 The painting moved	|	A Painting	|	Incorrect
-There is a second person	|	The Circus	|	Correct
+There is a second person in this story	|	The Circus	|	Correct
 The elevator's ascent doesn't match the buttons	|	The Elevator	|	Incorrect
 There are kidnappers upstairs	|	The Elevator	|	Incorrect
 The man knows he will die in five minutes	|	The Midnight Train	|	Incorrect
@@ -59,11 +59,11 @@ The high expenses are due to internet or electricity bills	|	The Diary	|	Incorre
 The washing machine has an automatic start program	|	The Washing Machine	|	Incorrect
 The two people are counting the same thing	|	Counting	|	Correct
 There's someone in my house	|	The Lost Phone	|	Correct
-My partner died	|	Fish	|	Correct
+My partners died	|	Fish	|	Correct
 Someone killed the man	|	Half a Matchstick	|	Correct
 The man died accidentally	|	Half a Matchstick	|	Incorrect
 The man killed the woman and then faked the woman's cause of death	|	The Forgery	|	Correct
-His lighting the match is related to the hot air balloon	|	Half a Matchstick	|	Correct
+His lighting the match is related to the hot air balloon	|	Half a Matchstick	|	Unknown
 The death row inmate wished for the air to stink	|	The Death Row Inmate and the Demon	|	Incorrect
 Someone else used the scavenger's washing machine	|	The Washing Machine	|	Correct
 I got on the wrong elevator	|	The Elevator	|	Incorrect
@@ -81,13 +81,13 @@ These few sentences were written by the same person	|	The Forgery	|	Correct
 Mom is unhappy	|	The Ritual	|	Unknown
 After talking to the person on the train, the man knows at what age he will die	|	The Midnight Train	|	Correct
 The man in the painting is alive	|	A Painting	|	Correct
-What did the wife discover	|	The Best Friend	|	Correct
+The wife discovered something	|	The Best Friend	|	Correct
 This passage is a conversation between lovers	|	The Forgery	|	Incorrect
 The news reported about a haunted house	|	The News	|	Incorrect
 There's something dirty on my balcony	|	The Girl on the Balcony	|	Incorrect
 The turtle soup is different from what he imagined	|	The Turtle Soup Story	|	Correct
 The blind person's cane is too short	|	The Circus	|	Unknown
-Other things in the photo are abnormal	|	Exchanging Photos	|	Correct
+Some other things in the photo are abnormal	|	Exchanging Photos	|	Correct
 Xiaoming can't reach some of the elevator buttons	|	The 18th Floor	|	Correct
 This person's illness is really all cured	|	The Tunnel	|	Correct
 I avoided being killed because of the red dress	|	The Little Red Dress	|	Incorrect
@@ -95,7 +95,7 @@ The man received a prophecy that the train would have an accident when the grand
 My sister deliberately picked the red dress for me	|	The Little Red Dress	|	Incorrect
 I'm still alive	|	The Girl on the Balcony	|	Correct
 The blind man is not really a dwarf	|	The Circus	|	Incorrect
-Is that shredded dress the one the woman was wearing	|	The Woman in the Pink Dress	|	Correct
+The shredded dress is the one the woman was wearing	|	The Woman in the Pink Dress	|	Correct
 The face of the man in the painting moves	|	A Painting	|	Incorrect
 The blind man wants to grow taller	|	The Circus	|	Incorrect
 He committed suicide because he thought the train was going to explode	|	The Tunnel	|	Incorrect
