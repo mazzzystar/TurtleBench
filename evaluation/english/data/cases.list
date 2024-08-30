@@ -400,7 +400,7 @@ There were other items or traces near his body indicating he had tried to start 
 The soup made him think of something	|	The Turtle Soup Story	|	Correct
 I saw a corpse	|	The Four-Year-Old Mother	|	Incorrect
 Opening the door pushed someone down	|	The Mountaintop	|	Correct
-The characters in the painting really exist	|	A Painting	|	Correct
+The character in the painting really exist	|	A Painting	|	Correct
 She was killed by her own heel	|	The High Heels	|	Incorrect
 Last night there was a real person in the painting	|	A Painting	|	Correct
 This corpse is someone I know	|	The Little Red Dress	|	Correct
@@ -413,7 +413,7 @@ The daughter's behavior is related to school or holidays	|	The Diary	|	Incorrect
 My boyfriend is my parents' child	|	Meeting the Parents	|	Correct
 The seller might not know the price	|	The Discounted Snacks	|	Correct
 The boy entered university through means other than grades	|	The Condition	|	Correct
-The lifespan he saw for the mother-in-law was only 69	|	The Midnight Train	|	Correct
+The lifespan he saw for the granny was only 69	|	The Midnight Train	|	Correct
 The high heels were a sign that caused a misunderstanding and led to murder	|	The High Heels	|	Incorrect
 The boy snuck into the school	|	The Condition	|	Incorrect
 Suddenly the elevator lights went out	|	The Elevator	|	Incorrect
@@ -425,7 +425,7 @@ The school is in the basement	|	The Elevator	|	Incorrect
 The number of people who died in this story is one or more	|	The Elevator	|	Correct
 The man fell from a cliff	|	Half a Matchstick	|	Incorrect
 The building across is abandoned	|	The Girl on the Balcony	|	Incorrect
-The mother-in-law also has superpowers	|	The Midnight Train	|	Unknown
+The elderly woman also has superpowers	|	The Midnight Train	|	Unknown
 His death is related to others	|	The Circus	|	Correct
 I saw someone die in the elevator	|	The Elevator	|	Incorrect
 The washing machine was started by a dead person	|	The Washing Machine	|	Incorrect
@@ -435,7 +435,7 @@ The man sees words above people's heads	|	The Midnight Train	|	Unknown
 The three of them all knew each other before	|	The Best Friend	|	Correct
 The source of the smell is a living thing	|	The Death Row Inmate and the Demon	|	Incorrect
 The man is looking for a 70-year-old person	|	The Midnight Train	|	Incorrect
-Mom's thinking is touching	|	1237	|	Correct
+Mom's consideration is touching	|	1237	|	Correct
 He is counting which number I am to be killed	|	Counting	|	Incorrect
 The one knocking wasn't human	|	The Mountaintop	|	Incorrect
 My phone was once in someone else's hands	|	The Lost Phone	|	Correct
@@ -465,12 +465,12 @@ Someone has eaten human flesh before	|	Fish	|	Unknown
 Our balcony is high and has railings	|	The Girl on the Balcony	|	Unknown
 The person who sold him the goods wasn't the boss	|	The Discounted Snacks	|	Correct
 My mother waving her hands is normal	|	The Ritual	|	Correct
-I don't want to go to school	|	The Elevator	|	Incorrect
+I don't want to go to school	|	The Elevator	|	Unknown
 The elevator is out of control	|	The Elevator	|	Incorrect
 The nausea is because the fish is too fishy	|	Fish	|	Incorrect
 The name on the lawyer's letter isn't the daughter's	|	The Diary	|	Incorrect
 The handwriting is my imitation	|	The Forgery	|	Correct
-The mother transferred away the father's money	|	The Ritual	|	Incorrect
+The mother transferred away the father's money	|	The Ritual	|	Unknown
 An elevator accident has occurred	|	The Elevator	|	Incorrect
 It's the man's own gun	|	The Turtle Soup Story	|	Unknown
 The lady's change in height led to her death	|	The High Heels	|	Correct
@@ -478,19 +478,19 @@ These are words said by others	|	The Forgery	|	Incorrect
 The man will die if he guesses wrong	|	The Midnight Train	|	Incorrect
 There's a bad person in the ascending elevator	|	The Elevator	|	Incorrect
 There's terrifying content on the phone	|	The Lost Phone	|	Incorrect
-The person disappointed in me is my wife	|	The Forgery	|	Incorrect
+I want people to know that my wife is disappointed in me|	The Forgery	|	Correct
 He saw the deceased from TV today	|	The News	|	Correct
 The person reporting the news content is the man	|	The News	|	Incorrect
 This person has claustrophobia	|	The Tunnel	|	Incorrect
 The new government caused everyone to go blind	|	Eyesight	|	Incorrect
 His illness has really recovered	|	The Tunnel	|	Correct
-The blind dwarf inhaled wood shavings	|	The Circus	|	Incorrect
+The blind dwarf inhaled wood shavings that caused his death |	The Circus	|	Incorrect
 The color of the dress is related to the cause of death	|	The Little Red Dress	|	Correct
 The man thought he could see people's ages but it was actually their death ages	|	The Midnight Train	|	Incorrect
 There were two men at the neighbor's house last night	|	The Woman in the Pink Dress	|	Incorrect
 The man drank fake turtle soup when he experienced a shipwreck	|	The Turtle Soup Story	|	Correct
 A group of people on the hot air balloon used matches to draw lots to decide who jumps off	|	Half a Matchstick	|	Correct
-The weight of the luggage is related to the man's death	|	Half a Matchstick	|	Correct
+The weight of the luggage and people on the air-balloon is related to the man's death	|	Half a Matchstick	|	Correct
 The daughter is wrongly accused	|	The Diary	|	Incorrect
 Her mother is really her mother	|	1237	|	Correct
 It's the mumbling of a person with mental issues	|	The Forgery	|	Incorrect
