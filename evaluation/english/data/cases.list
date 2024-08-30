@@ -299,7 +299,7 @@ Someone got into trouble	|	The Forgery	|	Correct
 I've been afraid of fish since I was little	|	Fish	|	Incorrect
 The corpse only appears at night	|	The Little Red Dress	|	Incorrect
 This is a child's prank	|	The Four-Year-Old Mother	|	Incorrect
-He died from falling when the hot air balloon lost fire	|	Half a Matchstick	|	Incorrect
+He died from falling when the hot air balloon ran out of fuel	|	Half a Matchstick	|	Incorrect
 The divorce is Thomas's problem	|	The Best Friend	|	Correct
 My boyfriend and I are family	|	Meeting the Parents	|	Correct
 Someone came to steal things	|	The Washing Machine	|	Incorrect
@@ -309,7 +309,7 @@ Her mother can't count correctly	|	1237	|	Incorrect
 Experienced some things at sea and survived by eating fish	|	Fish	|	Correct
 The painting is a window	|	A Painting	|	Correct
 It's not actually a portrait	|	A Painting	|	Correct
-My trouble is related to text	|	The Forgery	|	Correct
+My trouble is related to the text	|	The Forgery	|	Correct
 Father is not at home	|	The Little Red Dress	|	Incorrect
 My wearing the red dress caused his death	|	The Little Red Dress	|	Correct
 The woman might not have died if she hadn't worn these high heels	|	The High Heels	|	Correct
@@ -321,7 +321,7 @@ An accident happened at the man's workplace	|	The News	|	Correct
 The mother's transfer was to purchase something	|	The Ritual	|	Correct
 The sister intentionally made me wear the red dress	|	The Little Red Dress	|	Incorrect
 He's afraid of the dark	|	The Tunnel	|	Incorrect
-Thomas seduced the best friend	|	The Best Friend	|	Incorrect
+Thomas seduced the best friend	|	The Best Friend	|	Unknown
 Home visit revealed the child's birthday is in July	|	1237	|	Correct
 He committed suicide voluntarily	|	The Tunnel	|	Correct
 Someone killed her	|	The High Heels	|	Correct
@@ -352,11 +352,11 @@ Something happened to me	|	The Elevator	|	Correct
 He realized he wasn't actually blind	|	The Tunnel	|	Incorrect
 The match lit something	|	Half a Matchstick	|	Incorrect
 Thomas has the best friend's phone number in his phone	|	The Best Friend	|	Unknown
-I have eaten fish meat	|	Fish	|	Correct
-When he opened the door, the doorknob hit the person knocking and knocked them down the mountain to their death	|	The Mountaintop	|	Correct
+I have eaten fish	|	Fish	|	Correct
+When he opened the door, the door hit the person knocking it and knocked them down the mountain to their death	|	The Mountaintop	|	Correct
 The sister is still alive	|	The Little Red Dress	|	Correct
 The little red dress was a signal for an affair, accidentally worn and resulted in being killed by the father	|	The Little Red Dress	|	Correct
-The dwarf wanted to hang himself	|	The Circus	|	Incorrect
+The dwarf wanted to hang himself	|	The Circus	|	Unknown
 The process of sliding down the slide was scary	|	The Slide	|	Incorrect
 The man can see the old lady dying at 70	|	The Midnight Train	|	Incorrect
 There's a killer in the ascending elevator	|	The Elevator	|	Incorrect
@@ -367,9 +367,9 @@ The government wants to send people who regained eyesight to laboratories	|	Eyes
 4 years old refers to the number of years the mother has been in this family	|	The Four-Year-Old Mother	|	Correct
 He once mistook soup made from other ingredients for turtle soup	|	The Turtle Soup Story	|	Correct
 We're hiding and counting in hide-and-seek, he's also counting	|	Counting	|	Incorrect
-The man's job is related to his age	|	The Midnight Train	|	Incorrect
+The man's job is related to his age	|	The Midnight Train	|	Unknown
 Thomas knows his wife's best friend	|	The Best Friend	|	Correct
-The wife's best friend is Thomas's ex-girlfriend	|	The Best Friend	|	Incorrect
+The wife's best friend is Thomas's ex-girlfriend	|	The Best Friend	|	Unknown
 The man works in a haunted house	|	The News	|	Correct
 The girl is a timed doll	|	The Girl on the Balcony	|	Incorrect
 The man saw dead people	|	The News	|	Correct
@@ -388,7 +388,7 @@ Thomas did something wrong	|	The Best Friend	|	Correct
 The girl is really waving	|	The Girl on the Balcony	|	Incorrect
 The boy mistook the person in the water for something else and failed to save them	|	The Seaweed	|	Correct
 There's a problem with the tunnel	|	The Tunnel	|	Incorrect
-The argument was because things were cut up	|	The Woman in the Pink Dress	|	Incorrect
+The argument was because the dress was cut up	|	The Woman in the Pink Dress	|	Incorrect
 The painting seen on the second day is the real painting	|	A Painting	|	Incorrect
 Thomas had been to the wife's best friend's house before	|	The Best Friend	|	Correct
 The man fell from the hot air balloon	|	Half a Matchstick	|	Correct
