@@ -597,18 +597,18 @@ The discounted snacks contain real snacks	|	The Discounted Snacks	|	Correct
 The man's superpower is identifying others' ages	|	The Midnight Train	|	Incorrect
 He might want to harm me	|	Counting	|	Correct
 The mother is following the father	|	The Ritual	|	Incorrect
-I knew what happened to the kid's family	|	1237	|	Correct
+I learnt what happened to the kid's family	|	1237	|	Correct
 Someone died while the elevator was ascending	|	The Elevator	|	Correct
-I met the man from the painting in reality	|	A Painting	|	Unknown
+I had met the man from the painting in reality	|	A Painting	|	Incorrect
 This sound is really coming from the washing machine	|	The Washing Machine	|	Correct
 The daughter joined some kind of group	|	The Diary	|	Correct
-Her high heels had quality issues	|	The High Heels	|	Incorrect
+Her high heels had quality issues	|	The High Heels	|	Unknown
 That girl had an intimate relationship with the neighbor	|	The Woman in the Pink Dress	|	Incorrect
 The best friend is the wife's relative	|	The Best Friend	|	Incorrect
 The photo sent by the online friend is the same as the one I took	|	Exchanging Photos	|	Correct
-Waving hands is dancing	|	The Ritual	|	Correct
-The man was pushed down	|	Half a Matchstick	|	Correct
-Other people can see this sentence	|	Eyesight	|	Correct
+Waving hands is actually a dance move	|	The Ritual	|	Correct
+The man was pushed down	the cliff |	Half a Matchstick	|	Correct
+There are other people who can see this sentence	|	Eyesight	|	Correct
 The phone was left at home but I live alone	|	The Lost Phone	|	Correct
 An accident occurred at work	|	The Circus	|	Incorrect
 The corpse is my family member	|	The Little Red Dress	|	Incorrect
@@ -617,7 +617,7 @@ The person in the painting stares at me wherever I go	|	A Painting	|	Unknown
 Thomas did something to the best friend that made his wife think he was cheating	|	The Best Friend	|	Incorrect
 The daughter transferred money to buy something	|	The Diary	|	Correct
 The matches were placed there by someone else	|	Half a Matchstick	|	Incorrect
-There are other people in the room	|	The Lost Phone	|	Correct
+There are other people in the house	|	The Lost Phone	|	Correct
 The trouble is that the police will come looking for me	|	The Forgery	|	Correct
 The man drew the shortest match	|	Half a Matchstick	|	Correct
 The cause of the deceased's death is related to me	|	The Little Red Dress	|	Correct
@@ -636,9 +636,9 @@ He was forced to jump off the train	|	The Tunnel	|	Incorrect
 He had an affair with his wife's best friend and was discovered by his wife	|	The Best Friend	|	Correct
 The wife is unhappy	|	The Best Friend	|	Correct
 An accident happened at school	|	The Elevator	|	Incorrect
-After hearing the mother-in-law's answer, others also turned pale	|	The Midnight Train	|	Unknown
+After hearing the granny's answer, others also turned pale	|	The Midnight Train	|	Unknown
 This is a pirate ship so the sailors are also pirates	|	Fish	|	Incorrect
-I saw the person from the painting	|	A Painting	|	Unknown
+I had seen the person from the painting	before|	A Painting	|	Incorrect
 My companion was used as fish bait	|	Fish	|	Correct
 The dwarf does woodworking	|	The Circus	|	Incorrect
 The woman works at heights	|	The High Heels	|	Incorrect
@@ -652,17 +652,16 @@ The half matchstick was placed in his hand by the killer	|	Half a Matchstick	|	I
 The girl's arm really exists	|	The Girl on the Balcony	|	Correct
 The man's death is related to a second person	|	The Turtle Soup Story	|	Correct
 His original illness was amnesia	|	The Tunnel	|	Incorrect
-The hot air balloon had an accident and everyone drew matches to decide who would jump	|	Half a Matchstick	|	Correct
+The hot air balloon malfunctioned and everyone drew matches to decide who would jump	|	Half a Matchstick	|	Correct
 Other people came to our house	|	The Little Red Dress	|	Correct
 The news reported a murder case	|	The News	|	Incorrect
 This sentence was said to me by a lover	|	The Forgery	|	Incorrect
-The real shopkeeper of the small store was killed by the murderer who pretended to be the shopkeeper and didn't know the price of snacks so sold them cheaply	|	The Discounted Snacks	|	Correct
-The best friend is Thomas's ex	|	The Best Friend	|	Incorrect
+The real shopkeeper of the small store was killed by the murderer who pretended to be the shopkeeper and probably didn't know the price of snacks so sold them cheaply	|	The Discounted Snacks	|	Correct
+The best friend is Thomas's ex	|	The Best Friend	|	Unknown
 The girl was posed in a waving gesture by someone	|	The Girl on the Balcony	|	Incorrect
 I went to a floor that didn't originally exist in the elevator	|	The Elevator	|	Incorrect
-I had an accident at sea	|	Fish	|	Correct
+I was in trouble at sea	|	Fish	|	Correct
 Everyone can see his corpse	|	The Death Row Inmate and the Demon	|	Incorrect
-The man in the painting is still alive	|	A Painting	|	Correct
 The painting has changed	|	A Painting	|	Correct
 There was someone else besides the man at the neighbor's house last night	|	The Woman in the Pink Dress	|	Correct
 This person is reciting something	|	The Forgery	|	Incorrect
@@ -676,7 +675,7 @@ Thomas harassed the best friend	|	The Best Friend	|	Incorrect
 The man was once very desperate	|	Half a Matchstick	|	Correct
 My boyfriend is my biological brother	|	Meeting the Parents	|	Correct
 The elevator malfunctioned and should have gone down	|	The Elevator	|	Incorrect
-The corpse belongs to a criminal	|	The Little Red Dress	|	Incorrect
+It's a criminal's corpse	|	The Little Red Dress	|	Incorrect
 I caused the elevator to ascend	|	The Elevator	|	Incorrect
 It was to conceal which floor he lived on	|	The 18th Floor	|	Incorrect
 The man encountered difficulties	|	The Forgery	|	Correct
