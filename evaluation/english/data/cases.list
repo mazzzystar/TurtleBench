@@ -199,28 +199,28 @@ The corpse is my relative	|	The Little Red Dress	|	Incorrect
 The fisherman told the boy some information	|	The Seaweed	|	Correct
 I feel scared and it's related to the content of his photo	|	Exchanging Photos	|	Correct
 There were others at the neighbor's house that night	|	The Woman in the Pink Dress	|	Correct
-The man's world is constantly cycling	|	The Midnight Train	|	Incorrect
-The numbers are months	|	1237	|	Correct
+The man's world is in a infinite loop	|	The Midnight Train	|	Incorrect
+The numbers indicate months	|	1237	|	Correct
 Thomas and the best friend had an affair before	|	The Best Friend	|	Correct
 The mother wants to help the father	|	The Ritual	|	Incorrect
 The news mentioned the man's company	|	The News	|	Incorrect
 The grandmother won't live to 70	|	The Midnight Train	|	Correct
 The daughter bought something in June	|	The Diary	|	Correct
 The sawdust is not man-made	|	The Circus	|	Incorrect
-I saw a murder	|	The Elevator	|	Correct
+I witnessed a murder	|	The Elevator	|	Correct
 The high heels caused a change in height	|	The High Heels	|	Correct
 He has a mental illness	|	The Tunnel	|	Incorrect
 The words I saw were written by a blind person	|	Eyesight	|	Incorrect
 My boyfriend is my biological brother	|	Meeting the Parents	|	Correct
 My biological parents have met my boyfriend in person	|	Meeting the Parents	|	Correct
 The 18th floor doesn't always exist	|	The 18th Floor	|	Incorrect
-The text was forged by me	|	The Forgery	|	Correct
+I forged the text	|	The Forgery	|	Correct
 This note is passed from one person to another	|	The Forgery	|	Incorrect
 The family doesn't let Xiaoming come up directly	|	The 18th Floor	|	Incorrect
 This soup tastes different from the human flesh he ate before	|	The Turtle Soup Story	|	Correct
 Her mother can't count 456	|	1237	|	Incorrect
 He's afraid of tunnels	|	The Tunnel	|	Incorrect
-The 70-year-old person will be dangerous to the man	|	The Midnight Train	|	Incorrect
+The 70-year-old person is dangerous to the man	|	The Midnight Train	|	Incorrect
 Everyone in the child's family only has four fingers	|	The Four-Year-Old Mother	|	Incorrect
 The child really thinks their mother is only four years old	|	The Four-Year-Old Mother	|	Incorrect
 There's a corpse on top of the elevator	|	The Elevator	|	Incorrect
@@ -229,45 +229,45 @@ The killer saw me	|	The Elevator	|	Correct
 It's a death game similar to Russian roulette	|	Counting	|	Incorrect
 Thomas has been to the best friend's house	|	The Best Friend	|	Correct
 The wife really left forever	|	The Forgery	|	Correct
-The man's friend or colleague had an incident	|	The News	|	Incorrect
+The man's friend or colleague was in trouble	|	The News	|	Incorrect
 The reason for the parents' argument is related to money	|	The Ritual	|	Incorrect
 I'm imitating someone else's handwriting	|	The Forgery	|	Correct
 The fisherman mentioned the boy's deceased acquaintance	|	The Seaweed	|	Incorrect
-The daughter received a lawyer's letter causing high expenses for the family	|	The Diary	|	Incorrect
+The daughter received a lawyer's letter which causes high expenses for the family	|	The Diary	|	Incorrect
 If I tell everyone the message, I will become blind again	|	Eyesight	|	Incorrect
 The grandmother's death is related to the man	|	The Midnight Train	|	Incorrect
 The man found that the turtle soup is the same as he remembered	|	The Turtle Soup Story	|	Incorrect
 The blind person's house is built of wood	|	The Circus	|	Unknown
 The boyfriend knows his parents won't approve	|	Meeting the Parents	|	Incorrect
-My boyfriend's parents and I are actually relatives who haven't met, but his parents have seen my photo	|	Meeting the Parents	|	Unknown
-The fish ate its companion	|	Fish	|	Correct
+My boyfriend's parents and I are actually relatives who haven't met for a long time, but his parents have seen my photo	|	Meeting the Parents	|	Unknown
+The fish ate its companion	|	Fish	|	Incorrect
 There are bloodstains on the little red dress	|	The Little Red Dress	|	Incorrect
 The daughter received a lawyer's letter for spending my money	|	The Diary	|	Incorrect
 The child's so-called mother is still alive	|	The Four-Year-Old Mother	|	Correct
 The seller killed the original shop owner	|	The Discounted Snacks	|	Correct
 The train has already derailed	|	The Midnight Train	|	Incorrect
-If I didn't wear the little red dress, would no one have died	|	The Little Red Dress	|	Correct
+If I didn't wear the little red dress, no one would have died	|	The Little Red Dress	|	Correct
 I wore the little red dress to a wedding/funeral and it caused someone in the family to pass away	|	The Little Red Dress	|	Incorrect
-Did someone set this up to make him give up something	|	The Circus	|	Correct
+Someone set this up to make him give up something	|	The Circus	|	Correct
 Something happened at the man's workplace	|	The News	|	Correct
 The person who sees that sentence will die	|	Eyesight	|	Incorrect
 I saw words threatening me	|	Eyesight	|	Incorrect
-I was also afraid of fish before becoming a sailor	|	Fish	|	Unknown
+I was also afraid of fish before becoming a sailor	|	Fish	|	False
 This person's handwriting is getting messier	|	The Forgery	|	Unknown
-This person is shocked	|	The Tunnel	|	Correct
+This person is distressed	by something |	The Tunnel	|	Correct
 He's deeply in debt	|	The Tunnel	|	Incorrect
 Because saying this sentence will make everyone blind again	|	Eyesight	|	Incorrect
 The grandmother is very afraid of the man	|	The Midnight Train	|	Unknown
 Someone upstairs pressed the elevator button	|	The Elevator	|	Correct
 Based on the old lady's words, she deduced that the old lady is someone she knows	|	The Midnight Train	|	Incorrect
 The phone was found but it's not mine	|	The Lost Phone	|	Incorrect
-He was caught picking up the washing machine	|	The Washing Machine	|	Correct
+The scavenger was caught picking up the washing machine	|	The Washing Machine	|	Correct
 The shoes are broken	|	The High Heels	|	Incorrect
 Something happened to my family	|	The Elevator	|	Incorrect
 He was pushed down because he drew lots on the hot air balloon	|	Half a Matchstick	|	Correct
-His mother wants the teacher to pay attention to him	|	1237	|	Incorrect
+Her mother wants the teacher to pay attention to her	|	1237	|	Incorrect
 The knocking sound is the sound of falling	|	The Mountaintop	|	Incorrect
-A second person appeared in the story	|	The High Heels	|	Correct
+There is a second person in this story	|	The High Heels	|	Correct
 There are two dwarfs in the circus	|	The Circus	|	Correct
 This is the last supper he ordered for himself	|	The Turtle Soup Story	|	Incorrect
 He met a doctor in the tunnel	|	The Tunnel	|	Incorrect
@@ -277,13 +277,13 @@ I am also their child	|	Meeting the Parents	|	Correct
 The discounted snacks are really snacks	|	The Discounted Snacks	|	Correct
 I've been afraid of fish since birth	|	Fish	|	Incorrect
 Xiaowang knows he might meet with misfortune	|	The Slide	|	Incorrect
-There is no bed number 456	|	1237	|	Unknown
+There is no bed number 4,5, and 6	|	1237	|	Unknown
 The child is helping to trick the kindergarten teacher	|	The Four-Year-Old Mother	|	Correct
 I'm imitating a story from TV or movies	|	The Forgery	|	Incorrect
 I was once used as fish bait	|	Fish	|	Incorrect
 The man can see everyone's age	|	The Midnight Train	|	Incorrect
 There are other people in the house	|	The Washing Machine	|	Correct
-Was the match lit	|	Half a Matchstick	|	Incorrect
+The match was lighted	|	Half a Matchstick	|	Unknown
 The man has mind-reading abilities and knows the grandmother is about to die	|	The Midnight Train	|	Incorrect
 The door opens outward	|	The Mountaintop	|	Correct
 He saw himself going to see a doctor	|	The Tunnel	|	Incorrect
@@ -294,7 +294,7 @@ The phone has been used by someone	|	The Lost Phone	|	Correct
 There was someone else besides me during the elevator's ascent	|	The Elevator	|	Incorrect
 Someone used his washing machine without permission	|	The Washing Machine	|	Correct
 The man's superpower is related to the grandmother	|	The Midnight Train	|	Incorrect
-He once lived at his wife's best friend's house	|	The Best Friend	|	Correct
+He once stayed at his wife's best friend's house	|	The Best Friend	|	Correct
 Someone got into trouble	|	The Forgery	|	Correct
 I've been afraid of fish since I was little	|	Fish	|	Incorrect
 The corpse only appears at night	|	The Little Red Dress	|	Incorrect
