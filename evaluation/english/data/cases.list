@@ -502,24 +502,23 @@ There's someone on top of the elevator	|	The Elevator	|	Incorrect
 The man's death was decided by voting	|	Half a Matchstick	|	Incorrect
 The mother is going to buy something	|	The Ritual	|	Incorrect
 The boy entered the university through other means	|	The Condition	|	Correct
-He opened the door and pushed the person knocking down	|	The Mountaintop	|	Correct
-The man's death was caused by the mother-in-law	|	The Midnight Train	|	Incorrect
+He opened the door and pushed the person who knocked the door down	|	The Mountaintop	|	Correct
+The man's death was caused by the elderly woman	|	The Midnight Train	|	Incorrect
 The ritual is actually held for family members	|	The Ritual	|	Incorrect
 The boy jumping into the river is related to a third person	|	The Seaweed	|	Correct
 The boy's body was donated	|	The Condition	|	Correct
 The scavenger is sleeping in their own residence	|	The Washing Machine	|	Correct
-There are people other than parents in my boyfriend's family	|	Meeting the Parents	|	Unknown
-The painting is made of glass	|	A Painting	|	Correct
+The so-called painting is made of glass	|	A Painting	|	Correct
 The girl has no shadow	|	The Girl on the Balcony	|	Unknown
 The daughter's online friend scammed money from the family	|	The Diary	|	Incorrect
 The man is the Grim Reaper	|	The Midnight Train	|	Incorrect
 The man saw the photo of the deceased person on the news	|	The News	|	Correct
 The man disappeared	|	A Painting	|	Correct
 The boy turned into a corpse	|	The Condition	|	Correct
-The lady works at night	|	The High Heels	|	Correct
-The man didn't guess the mother-in-law's age correctly	|	The Midnight Train	|	Incorrect
-The boy the girl dissected in medical school is the corpse	|	The Condition	|	Correct
-The man saw that the mother-in-law's age is 70	|	The Midnight Train	|	Incorrect
+The lady went to work that night	|	The High Heels	|	Correct
+The man didn't guess the granny's age correctly	|	The Midnight Train	|	Incorrect
+The girl goes to medical school and the boy is the body there used for dissection	|	The Condition	|	Correct
+The man saw that the granny's age is 70	|	The Midnight Train	|	Incorrect
 The deceased got scared after knocking and fell down by themselves	|	The Mountaintop	|	Incorrect
 The man in the painting is a real man	|	A Painting	|	Correct
 His illness hasn't improved	|	The Tunnel	|	Incorrect
@@ -532,7 +531,7 @@ The blind man learned for the first time that he was a dwarf	|	The Circus	|	Inco
 The daughter's behavior caused negative consequences for a celebrity	|	The Diary	|	Correct
 That night the man was arguing with someone else	|	The Woman in the Pink Dress	|	Correct
 The turtle soup he drank before was made from his wife's flesh	|	The Turtle Soup Story	|	Correct
-The man in the painting is actually looking at my man	|	A Painting	|	Correct
+The man in the painting is actually a man looking at me	|	A Painting	|	Correct
 He saw something he shouldn't have seen	|	The Tunnel	|	Incorrect
 The girl's house has a balcony	|	The Girl on the Balcony	|	Correct
 His wife died and didn't survive	|	The Turtle Soup Story	|	Correct
@@ -540,9 +539,9 @@ The best friend got married	|	The Best Friend	|	Unknown
 The man's identity was revealed by the news	|	The News	|	Incorrect
 The killer murdered because I was going to school	|	The Little Red Dress	|	Incorrect
 The fourth, fifth, and sixth children died	|	1237	|	Incorrect
-They discovered that the boy and I look very similar	|	Meeting the Parents	|	Unknown
+They discovered that my boyfriend and I look very similar	|	Meeting the Parents	|	Unknown
 The father went to dance in the square	|	The Ritual	|	Incorrect
-Waving hands is square dancing	|	The Ritual	|	Correct
+Waving hands is doing square-dancing	|	The Ritual	|	Correct
 I called my own phone	|	The Lost Phone	|	Correct
 Xiao Ming remembered the floor wrong	|	The 18th Floor	|	Incorrect
 During the home visit, I learned why the child always says 7 after 123	|	1237	|	Correct
@@ -568,8 +567,8 @@ The deceased called the elevator up	|	The Elevator	|	Correct
 I killed the person who died	|	The Forgery	|	Correct
 I eventually found my phone	|	The Lost Phone	|	Correct
 The deceased had a grudge against my family	|	The Little Red Dress	|	Incorrect
-The wife's divorce was due to emotional reasons	|	The Best Friend	|	Correct
-The blind dwarf thought he couldn't compete with others so he committed suicide	|	The Circus	|	Correct
+The wife's divorce was due to relationship related reasons	|	The Best Friend	|	Correct
+The blind dwarf thought he couldn't compete with others for the job position so he committed suicide	|	The Circus	|	Correct
 She and her best friend caught Thomas cheating	|	The Best Friend	|	Incorrect
 The man in the painting disappeared	|	A Painting	|	Correct
 I know the ingredients of the fish bait so I find the fish disgusting	|	Fish	|	Correct
@@ -598,7 +597,7 @@ The discounted snacks contain real snacks	|	The Discounted Snacks	|	Correct
 The man's superpower is identifying others' ages	|	The Midnight Train	|	Incorrect
 He might want to harm me	|	Counting	|	Correct
 The mother is following the father	|	The Ritual	|	Incorrect
-I saw the situation in the child's home	|	1237	|	Correct
+I knew what happened to the kid's family	|	1237	|	Correct
 Someone died while the elevator was ascending	|	The Elevator	|	Correct
 I met the man from the painting in reality	|	A Painting	|	Unknown
 This sound is really coming from the washing machine	|	The Washing Machine	|	Correct
