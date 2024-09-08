@@ -695,10 +695,10 @@ A person is repeatedly making sounds	|	The Forgery	|	Incorrect
 There will be a punishment for guessing the passenger's age wrong	|	The Midnight Train	|	Incorrect
 The train is about to have an accident and this man is stuck in a loop	|	The Midnight Train	|	Incorrect
 I was mistaken for someone else	|	The Little Red Dress	|	Incorrect
-It was caused by other dwarfs in the circus	|	The Circus	|	Correct
+It was caused by another dwarf in the circus	|	The Circus	|	Correct
 There is actually no tunnel, this person has become blind again	|	The Tunnel	|	Incorrect
 The 18th floor is the top floor	|	The 18th Floor	|	Unknown
-The mother is making a transaction with someone while transferring money	|	The Ritual	|	Correct
+The mother, transferring money, is making a transaction with someone	|	The Ritual	|	Correct
 He drank the soup with the intention of seeking the truth	|	The Turtle Soup Story	|	Unknown
 The elevator can reach the 18th floor	|	The 18th Floor	|	Correct
 She will die because her height increases	|	The High Heels	|	Correct
@@ -710,13 +710,12 @@ Thomas is familiar with the best friend's house	|	The Best Friend	|	Correct
 The photo sent by the online friend is my photo	|	Exchanging Photos	|	Correct
 The girl went crazy due to too much academic pressure	|	The Condition	|	Incorrect
 The man died of dehydration	|	Half a Matchstick	|	Incorrect
-He works in a haunted house, and the prop corpse is actually dead	|	The News	|	Correct
+He works in a haunted house, and the prop corpse is actually a dead person	|	The News	|	Correct
 The killer wanted to scare away the homeless person	|	The Washing Machine	|	Incorrect
 The father knows about the mother transferring money to someone else	|	The Ritual	|	Unknown
-I witnessed a murder scene and I need to report the floor number to the police as the killer is counting floors to kill me	|	Counting	|	Correct
+I witnessed a murder scene and I need to report the floor number to the police as the killer is counting the floors I'm on to kill me	|	Counting	|	Correct
 Someone has been to the dwarf's house	|	The Circus	|	Correct
 The little red dress has a special meaning	|	The Little Red Dress	|	Correct
-The opposition to the marriage is related to my appearance	|	Meeting the Parents	|	Correct
 The mother-in-law's age of death is 70	|	The Midnight Train	|	Incorrect
 The death row inmate's corpse is intact	|	The Death Row Inmate and the Demon	|	Unknown
 The blind dwarf's house collapsed	|	The Circus	|	Incorrect
@@ -743,7 +742,7 @@ Throughout the whole process, the daughter is still the same daughter	|	The Diar
 Xiao Wang can't leave the slide	|	The Slide	|	Incorrect
 I really went to school	|	The Little Red Dress	|	Correct
 Someone was killed in the elevator	|	The Elevator	|	Unknown
-The half matchstick was burned off	|	Half a Matchstick	|	Incorrect
+The half matchstick was burned off	|	Half a Matchstick	|	Unknown
 It was a text message I received	|	The Forgery	|	Incorrect
 The blind dwarf died while doing woodwork	|	The Circus	|	Incorrect
 The lady works wearing high heels	|	The High Heels	|	Correct
@@ -751,9 +750,9 @@ The small store he went to was robbed	|	The Discounted Snacks	|	Correct
 Someone died	|	The Condition	|	Correct
 A woman will never come back	|	The Forgery	|	Correct
 I'm imitating the handwriting of the person who died	|	The Forgery	|	Correct
-The boy knows the person who previously died in the river	|	The Seaweed	|	Correct
+The man knows the person who previously died in the river	|	The Seaweed	|	Correct
 My boyfriend's parents know me	|	Meeting the Parents	|	Correct
-The mother-in-law is a relative of the man	|	The Midnight Train	|	Incorrect
+The granny is a relative of the man	|	The Midnight Train	|	Incorrect
 I saw him kill someone but he's counting my floor	|	Counting	|	Correct
 The snacks are legal	|	The Discounted Snacks	|	Unknown
 The man must guess everyone's age correctly by midnight	|	The Midnight Train	|	Incorrect
@@ -768,7 +767,7 @@ I pressed the down button but the elevator went up	|	The Elevator	|	Incorrect
 The man died and became a cadaver for medical students	|	The Condition	|	Correct
 The girl waving is asking for help	|	The Girl on the Balcony	|	Incorrect
 I found my phone in an unfamiliar place	|	The Lost Phone	|	Incorrect
-The person selling discounted snacks is problematic	|	The Discounted Snacks	|	Correct
+The person selling discounted snacks is suspicious	|	The Discounted Snacks	|	Correct
 The death row inmate failed to escape	|	The Death Row Inmate and the Demon	|	Incorrect
 I really will never come back	|	The Forgery	|	Incorrect
 My phone appeared at the crime scene	|	The Lost Phone	|	Incorrect
@@ -788,14 +787,14 @@ He saw a ghost	|	The Tunnel	|	Incorrect
 Someone is imitating others in front of me	|	The Forgery	|	Incorrect
 I am repeating the same day over and over	|	The Forgery	|	Incorrect
 The high heels broke	|	The High Heels	|	Incorrect
-The mother wants to spend money secretly without anyone knowing	|	The Ritual	|	Incorrect
+The mother wants to spend money secretly without anyone knowing	|	The Ritual	|	Unknown
 My phone is now in someone else's hands	|	The Lost Phone	|	Incorrect
 The father and mother went out to dance in the square	|	The Ritual	|	Incorrect
 The sailor's companion doesn't like fish	|	Fish	|	Unknown
-There was someone at the door when knocking	|	The Mountaintop	|	Correct
-I was still alive when saying this sentence	|	The Forgery	|	Correct
+There was someone at the door when there's the knocking sound	|	The Mountaintop	|	Correct
+I was still alive when saying the sentences	|	The Forgery	|	Correct
 He thought he wouldn't be employed anymore	|	The Circus	|	Correct
-His special ability made an incorrect judgment on his mother-in-law	|	The Midnight Train	|	Incorrect
+His special ability made an incorrect judgment on the old lady	|	The Midnight Train	|	Incorrect
 The blind dwarf thought he had grown taller and the circus didn't want him	|	The Circus	|	Correct
 Thomas had been to his wife's best friend's house before	|	The Best Friend	|	Correct
 Someone successfully imitated my handwriting and wants to dispose of me	|	The Forgery	|	Incorrect
@@ -811,7 +810,7 @@ The phone is in its original place but has been used	|	The Lost Phone	|	Correct
 The news content involves a murderer	|	The News	|	Incorrect
 The elevator's destination is not the school	|	The Elevator	|	Correct
 I voluntarily went for the home visit	|	1237	|	Correct
-The snacks are made of human flesh	|	The Discounted Snacks	|	Incorrect
+The snacks are made of human flesh	|	The Discounted Snacks	|	Unknown
 The protagonist was abandoned by relatives	|	The Forgery	|	Incorrect
 The corpse is my relative	|	The Little Red Dress	|	Incorrect
 The man came to the restaurant without speaking	|	The Turtle Soup Story	|	Unknown
@@ -828,17 +827,17 @@ The man was killed by the person who has the other half of the matchstick	|	Half
 The red high heels were the target for murder	|	The High Heels	|	Incorrect
 The man in the painting is alive	|	A Painting	|	Correct
 The washing machine sound is the scavenger's auditory hallucination	|	The Washing Machine	|	Incorrect
-The mother-in-law lied	|	The Midnight Train	|	Incorrect
+The granny lied	|	The Midnight Train	|	Incorrect
 The reason for the divorce was Thomas's affair	|	The Best Friend	|	Correct
-This person has claustrophobia	|	The Tunnel	|	Incorrect
-The man's luggage had been tampered with by someone else	|	Half a Matchstick	|	Incorrect
+This person has claustrophobia	|	The Tunnel	|	Unknown
+The man's luggage had been tampered with by someone else	|	Half a Matchstick	|	Unknown
 That is a real painting	|	A Painting	|	Incorrect
-He lost his job	|	The Tunnel	|	Incorrect
+He lost his job	|	The Tunnel	|	Unknown
 The man fell together with his luggage	|	Half a Matchstick	|	Incorrect
-The corpse was killed by someone else and then placed inside	|	The Little Red Dress	|	Incorrect
+The person who died was killed by someone else and then placed inside	|	The Little Red Dress	|	Incorrect
 The fish was caught using a person as bait	|	Fish	|	Correct
-The mother-in-law has a special identity	|	The Midnight Train	|	Incorrect
-If he doesn't open the door, he will die	|	The Mountaintop	|	Incorrect
+The granny has a special identity	|	The Midnight Train	|	Incorrect
+If he doesn't open the door, he will die	|	The Mountaintop	|	Unknown
 The wife found out about something	|	The Best Friend	|	Correct
 The killer called the elevator up	|	The Elevator	|	Incorrect
 The man is still alive	|	The News	|	Correct
@@ -849,14 +848,14 @@ Wearing a little red dress is not allowed at school	|	The Little Red Dress	|	Inc
 The new government wants to kill people who can see	|	Eyesight	|	Correct
 The man fell from an airplane	|	Half a Matchstick	|	Incorrect
 If the little girl wears a dress of another color, a corpse will appear	|	The Little Red Dress	|	Incorrect
-That mother-in-law is a normal person	|	The Midnight Train	|	Correct
+That old lady is a normal person	|	The Midnight Train	|	Correct
 The hot air balloon malfunctioned	|	Half a Matchstick	|	Correct
 The man's job is illegal	|	The News	|	Incorrect
 The elevator malfunctioned	|	The Elevator	|	Incorrect
 The man was pushed down and died from the fall	|	Half a Matchstick	|	Correct
 They are all about to die and the man can see how long they have lived	|	The Midnight Train	|	Correct
 The first and second viewings are of the same thing	|	A Painting	|	Incorrect
-The inside of the washing machine is clean	|	The Washing Machine	|	Incorrect
+The inside of the washing machine was clean	|	The Washing Machine	|	Incorrect
 The parents' argument is due to the mother's abnormal behavior	|	The Ritual	|	Unknown
 The elevator suddenly lost power	|	The Elevator	|	Incorrect
 The wife has evidence of her husband's affair	|	The Best Friend	|	Correct
@@ -864,9 +863,9 @@ The sailor experienced a shipwreck and ate human flesh but claimed it was fish m
 The news content is about a murderer	|	The News	|	Incorrect
 The criminal wants to frame the scavenger	|	The Washing Machine	|	Incorrect
 The man saw something strange while at work	|	The News	|	Correct
-I don't know the corpse	|	The Little Red Dress	|	Incorrect
+I don't know the person who died	|	The Little Red Dress	|	Incorrect
 The news reported that this man has gone missing	|	The News	|	Incorrect
-The man lit the match on the hot air balloon	|	Half a Matchstick	|	Incorrect
+The man lit the match on the hot air balloon	|	Half a Matchstick	|	Unknown
 This man is looking for someone	|	The Midnight Train	|	Incorrect
 Someone died	|	The News	|	Correct
 The person Thomas had an affair with is present	|	The Best Friend	|	Correct
@@ -874,17 +873,17 @@ He committed suicide because of another person	|	The Turtle Soup Story	|	Correct
 I have a mental abnormality	|	Fish	|	Unknown
 The dress and hair belong to the man	|	The Woman in the Pink Dress	|	Correct
 Something bad will happen if passengers on the train are over seventy years old	|	The Midnight Train	|	Incorrect
-The corpse is related to the person in the cabin	|	The Mountaintop	|	Correct
+The death is related to the person in the cabin	|	The Mountaintop	|	Correct
 It's almost midnight	|	The Midnight Train	|	Correct
-The blind dwarf's death was due to his height	|	The Circus	|	Correct
+The blind dwarf's death was due to his awareness of his height	|	The Circus	|	Correct
 The person in the cabin killed someone	|	The Mountaintop	|	Correct
 Mom is sick so she doesn't know 456	|	1237	|	Incorrect
 Natural factors caused the fall	|	Half a Matchstick	|	Incorrect
-The corpse is my neighbor	|	The Little Red Dress	|	Incorrect
+The person who died is my neighbor	|	The Little Red Dress	|	Incorrect
 The painting changed	|	A Painting	|	Correct
-The mother's ritual is related to the argument	|	The Ritual	|	Incorrect
+The mother's ritual is related to an quarrel	|	The Ritual	|	Incorrect
 I was later raised by adoptive parents	|	Meeting the Parents	|	Correct
-The phone recorded something after it was lost	|	The Lost Phone	|	Incorrect
+The phone recorded something after it was lost	|	The Lost Phone	|	Unknown
 The online friend is asking for help	|	Exchanging Photos	|	Incorrect
 The person who wrote these words committed murder	|	The Forgery	|	Correct
 His wish was to make the road smell bad	|	The Death Row Inmate and the Demon	|	Incorrect
@@ -893,16 +892,16 @@ One person killed another and tried to forge a suicide note but couldn't write i
 The man disappeared the next day	|	A Painting	|	Correct
 There is a person in the washing machine	|	The Washing Machine	|	Incorrect
 Someone was hiding in the washing machine and was brought home by the scavenger	|	The Washing Machine	|	Incorrect
-The man in the restaurant is really drinking turtle soup	|	The Turtle Soup Story	|	Correct
+The man in the restaurant is drinking real turtle soup	|	The Turtle Soup Story	|	Correct
 He had an episode because he saw the tunnel	|	The Tunnel	|	Incorrect
 The neighbor and the woman in the dress are the same person	|	The Woman in the Pink Dress	|	Correct
-The high heels were conspicuous and led to her murder	|	The High Heels	|	Unknown
+The high heels were conspicuous and led to her murder	|	The High Heels	|	Incorrect
 The sound emitted is not the real sound of a washing machine	|	The Washing Machine	|	Incorrect
 I am a relative of my boyfriend	|	Meeting the Parents	|	Correct
 The daughter hired a lawyer	|	The Diary	|	Unknown
 He got cancer	|	The Tunnel	|	Incorrect
 The man hates that restaurant	|	The Turtle Soup Story	|	Unknown
-The parents recognized the girl as their abandoned baby through a birthmark on her face	|	Meeting the Parents	|	Incorrect
+The parents recognized the girl as their abandoned baby through a birthmark on her face	|	Meeting the Parents	|	Unknown
 The online friend didn't show their face	|	Exchanging Photos	|	Correct
 Xiao Ming sometimes wears insoles to increase his height	|	The 18th Floor	|	Incorrect
 Children are not allowed to say 4	|	1237	|	Incorrect
@@ -914,7 +913,7 @@ After the elevator accelerated upwards, it malfunctioned and I'm trapped inside	
 Thomas is actually the best friend	|	The Best Friend	|	Incorrect
 Someone pressed the elevator button	|	The Elevator	|	Correct
 The girl fell down	|	The Girl on the Balcony	|	Incorrect
-That sentence means he would become blind again if he spoke	|	Eyesight	|	Incorrect
+That sentence is that he would become blind again if he spoke	|	Eyesight	|	Incorrect
 Someone on the train lied about their age	|	The Midnight Train	|	Incorrect
 The sound of sawing wood was misinterpreted by the dwarf as something else	|	The Circus	|	Incorrect
 The girl was already dead when greeting every day	|	The Girl on the Balcony	|	Correct
@@ -952,12 +951,12 @@ The washing machine started due to a timer	|	The Washing Machine	|	Incorrect
 The red dress was part of the sister's plot	|	The Little Red Dress	|	Incorrect
 The blind man thought he could no longer work in the circus	|	The Circus	|	Correct
 I killed my wife and forged evidence	|	The Forgery	|	Correct
-Someone entered our house	|	The Lost Phone	|	Correct
+Someone entered my house	|	The Lost Phone	|	Correct
 I was supposed to go down	|	The Elevator	|	Correct
 The boy died in an accident before the college entrance exam, but the girl saw him at university	|	The Condition	|	Incorrect
 The killer targeted the red dress	|	The Little Red Dress	|	Incorrect
 If I don't go to school today, a corpse will appear	|	The Little Red Dress	|	Incorrect
-The daughter is the defendant	|	The Diary	|	Correct
+The daughter is a defendant	|	The Diary	|	Correct
 The child is blood-related to her so-called mother	|	The Four-Year-Old Mother	|	Incorrect
 I am still alive	|	The Little Red Dress	|	Correct
 He died because of bad luck	|	Half a Matchstick	|	Correct
@@ -974,9 +973,9 @@ The online friend sent a photo of my house	|	Exchanging Photos	|	Correct
 The missing numbers are closely related to the event	|	1237	|	Correct
 The dinner eaten was a normal dinner	|	The Ritual	|	Correct
 That is a painting	|	A Painting	|	Incorrect
-The turtle soup in the restaurant contains real turtle	|	The Turtle Soup Story	|	Correct
+The turtle soup in the restaurant is made using real turtle	as ingredients|	The Turtle Soup Story	|	Correct
 I have seen this man before	|	A Painting	|	Incorrect
-The argument was caused by the woman's attire	|	The Woman in the Pink Dress	|	Correct
+The quarrel was caused by the woman's attire	|	The Woman in the Pink Dress	|	Correct
 The pink dress and long hair were cut by the woman I saw herself	|	The Woman in the Pink Dress	|	Incorrect
 I witnessed a murder in the elevator	|	The Elevator	|	Incorrect
 They had an argument at the best friend's house	|	The Best Friend	|	Incorrect
