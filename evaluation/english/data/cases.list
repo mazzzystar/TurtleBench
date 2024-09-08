@@ -1000,8 +1000,7 @@ I discovered the corpse while changing clothes	|	The Little Red Dress	|	Incorrec
 His illness hasn't improved	|	The Tunnel	|	Incorrect
 Someone ran away from home	|	The Forgery	|	Incorrect
 There was a wound on the foot that wasn't noticed because the shoe was red	|	The High Heels	|	Unknown
-Something really fell in the neighbor's house late at night	|	The Woman in the Pink Dress	|	Correct
-The content of the painting made me feel scared	|	A Painting	|	Incorrect
+Someone smashed things in the neighbor's house late at night	|	The Woman in the Pink Dress	|	Correct
 I am the daughter of my boyfriend's parents	|	Meeting the Parents	|	Correct
 The blind man made a coffin for himself	|	The Circus	|	Incorrect
 He has a mental illness	|	The Turtle Soup Story	|	Unknown
@@ -1016,7 +1015,7 @@ The mother's waving of hands is due to her own reasons	|	The Ritual	|	Correct
 This person thinks he hasn't been cured	|	The Tunnel	|	Correct
 I died in an accident	|	The Elevator	|	Incorrect
 The mother is an imprisoned teacher	|	The Four-Year-Old Mother	|	Correct
-Someone opened my phone when it was lost	|	The Lost Phone	|	Correct
+Someone unlocked my phone when it was lost	|	The Lost Phone	|	Correct
 People who regain their eyesight will be killed if others find out	|	Eyesight	|	Correct
 The man fell from a cliff	|	Half a Matchstick	|	Incorrect
 Her mother deliberately said it wrong	|	1237	|	Correct
@@ -1024,14 +1023,14 @@ The teacher was killed by someone else	|	The Little Red Dress	|	Correct
 He is counting days	|	Counting	|	Incorrect
 The child's mother has the intelligence level of a four-year-old	|	The Four-Year-Old Mother	|	Incorrect
 The best friend advised the wife to get a divorce	|	The Best Friend	|	Incorrect
-The death row inmate died on a road where no one could see him	|	The Death Row Inmate and the Demon	|	Correct
+The death row inmate died on a road and no one could see him	|	The Death Row Inmate and the Demon	|	Correct
 The scavenger started the washing machine himself	|	The Washing Machine	|	Incorrect
 This person thinks his illness hasn't improved	|	The Tunnel	|	Correct
 The good news the daughter mentioned was only good for her	|	The Diary	|	Correct
 The mother the child refers to is a preschool teacher	|	The Four-Year-Old Mother	|	Correct
 His death is related to him being a dwarf	|	The Circus	|	Correct
 The death row inmate wanted to have superpowers	|	The Death Row Inmate and the Demon	|	Correct
-This person is afraid of the dark	|	The Tunnel	|	Incorrect
+This person is afraid of the dark	|	The Tunnel	|	Unknown
 The daughter did something that resulted in receiving a lawyer's letter	|	The Diary	|	Correct
 It was other dwarfs from the circus who killed him	|	The Circus	|	Incorrect
 The man will die in five minutes	|	The Midnight Train	|	Unknown
@@ -1053,12 +1052,12 @@ He is counting the floors sufficient for you to die after jumping	|	Counting	|	I
 My boyfriend's parents are still alive	|	Meeting the Parents	|	Correct
 The daughter was scammed online during the pandemic	|	The Diary	|	Incorrect
 The boy is still alive	|	The Condition	|	Incorrect
-The corpse is me	|	The Little Red Dress	|	Incorrect
+The person who died is me	|	The Little Red Dress	|	Incorrect
 The handwriting I produced is different from what I imagined	|	The Forgery	|	Correct
 The girl waving at me now is her ghost	|	The Girl on the Balcony	|	Incorrect
 The washing machine was started by a person	|	The Washing Machine	|	Correct
 These words were written by himself	|	The Forgery	|	Correct
-My boyfriend's parents don't like me	|	Meeting the Parents	|	Incorrect
+My boyfriend's parents don't like me	|	Meeting the Parents	|	Unknown
 I am about to be trapped	|	The Elevator	|	Correct
 The man's life is in danger	|	The News	|	Incorrect
 The wife's best friend is Thomas's ex	|	The Best Friend	|	Unknown
@@ -1068,11 +1067,11 @@ The man had previously seen a corpse	|	The News	|	Correct
 He jumped off the car to commit suicide because he was too excited	|	The Tunnel	|	Incorrect
 The dress and long hair belong to the neighbor herself	|	The Woman in the Pink Dress	|	Correct
 He slept in someone else's house	|	The Washing Machine	|	Incorrect
-The match has been burned	|	Half a Matchstick	|	Incorrect
+The match has been burned	|	Half a Matchstick	|	Unknown
 The wife discovered some secret at her best friend's house	|	The Best Friend	|	Correct
 I might be harmed	|	The Elevator	|	Correct
 The best friend did something bad	|	The Best Friend	|	Correct
-There is a cliff near his corpse	|	Half a Matchstick	|	Incorrect
+There is a cliff near his corpse	|	Half a Matchstick	|	Unknown
 The man accidentally fell off the cliff	|	Half a Matchstick	|	Incorrect
 I know the deceased	|	The Little Red Dress	|	Correct
 The boy had jumped into the river before	|	The Seaweed	|	Correct
@@ -1083,7 +1082,7 @@ Xiao Wang slid down and saw his grown-up self	|	The Slide	|	Correct
 It was written by multiple people	|	The Forgery	|	Incorrect
 The man encountered a corpse	|	The News	|	Correct
 There's something familiar in the photo	|	Exchanging Photos	|	Correct
-There's someone else in my room	|	The Lost Phone	|	Correct
+There was someone else in my room	|	The Lost Phone	|	Correct
 The salesperson made people think it was a discount to cover up something	|	The Discounted Snacks	|	Correct
 My boyfriend is his parents' child	|	Meeting the Parents	|	Correct
 The match burned through the parachute	|	Half a Matchstick	|	Incorrect
@@ -1095,8 +1094,8 @@ The dwarf committed suicide with sharpened wood	|	The Circus	|	Unknown
 The blind man used wood shavings as foot padding	|	The Circus	|	Incorrect
 He had a dream about the midnight train and it was all just scaring himself	|	The Midnight Train	|	Incorrect
 I look the same as their son	|	Meeting the Parents	|	Incorrect
-The daughter has depression	|	The Diary	|	Incorrect
-Red is actually an omen of bad luck	|	The High Heels	|	Incorrect
+The daughter has depression	|	The Diary	|	Unknown
+Red is actually an omen of bad luck	|	The High Heels	|	Unknown
 The elevator continues to rise after reaching the top floor	|	The Elevator	|	Incorrect
 The turtle soup contains hallucinogenic drugs that cause loss of mental control leading to suicide	|	The Turtle Soup Story	|	Incorrect
 For certain reasons, my boyfriend and I have to live in two separate families	|	Meeting the Parents	|	Correct
