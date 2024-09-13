@@ -1235,7 +1235,7 @@ The scavenger started the washing machine	|	The Washing Machine	|	Incorrect
 The neighbor herself is physically injured	|	The Woman in the Pink Dress	|	Unknown
 The daughter is addicted to investing	|	The Diary	|	Incorrect
 I tried to forge something	|	The Forgery	|	Correct
-This is the content of someone's diary	|	The Forgery	|	Correct
+This is the content of someone's diary	|	The Forgery	|	Unknown
 I killed someone	|	The Forgery	|	Correct
 I encountered a murderer while I was at school	|	The Little Red Dress	|	Incorrect
 It's a single-parent family	|	1237	|	Unknown
@@ -1260,7 +1260,7 @@ The position of the painting is strange	|	A Painting	|	Incorrect
 The surrounding wood shavings were created by himself	|	The Circus	|	Incorrect
 The man can see other people's ages	|	The Midnight Train	|	Incorrect
 456 is related to time	|	1237	|	Correct
-He came with a companion	|	The Turtle Soup Story	|	Unknown
+He came with a companion	|	The Turtle Soup Story	|	Incorrect
 The man died due to an accident	|	Half a Matchstick	|	Incorrect
 My scalp tingles because this painting is not right	|	A Painting	|	Correct
 The circus sometimes needs to make their own props	|	The Circus	|	Unknown
@@ -1268,14 +1268,14 @@ The person who wrote these words is dead	|	The Forgery	|	Incorrect
 The online friend is under my bed	|	Exchanging Photos	|	Correct
 The death row inmate's wish was for the world to become smelly	|	The Death Row Inmate and the Demon	|	Incorrect
 The washing machine was started to cover up the truth about the murder	|	The Washing Machine	|	Correct
-I saw fish eating people when I was a sailor	|	Fish	|	Correct
+I saw fish eating people when I was a sailor	|	Fish	|	Unknown
 The child can't tell how old their mother really is	|	The Four-Year-Old Mother	|	Incorrect
 We live in the same building	|	Counting	|	Incorrect
 The position of the person in the painting has changed	|	A Painting	|	Correct
 The man in the painting is still there	|	A Painting	|	Incorrect
-The man can't hear the TV sound	|	The News	|	Incorrect
-The elevator reached the top floor	|	The Elevator	|	Incorrect
-There is evidence in the washing machine	|	The Washing Machine	|	Correct
+The man can't hear the TV sound	|	The News	|	Unknown
+The elevator reached the top floor	|	The Elevator	|	Unknown
+There was evidence in the washing machine	|	The Washing Machine	|	Correct
 There are quality issues with the discounted snacks	|	The Discounted Snacks	|	Unknown
 Turtle soup is a metaphor, not real soup	|	The Turtle Soup Story	|	Incorrect
 His companion did it to lighten the weight of the hot air balloon	|	Half a Matchstick	|	Correct
@@ -1290,8 +1290,8 @@ The man wanted to die completely	|	The Tunnel	|	Incorrect
 He saw a corpse in the tunnel	|	The Tunnel	|	Incorrect
 There are other people present	|	The Elevator	|	Correct
 The man's companion is alive	|	Half a Matchstick	|	Unknown
-I really found my phone	|	The Lost Phone	|	Correct
-The father disagrees with the mother learning to dance	|	The Ritual	|	Incorrect
+I actually found my phone	|	The Lost Phone	|	Correct
+The father disagrees with the mother learning to dance	|	The Ritual	|	Unknown
 He is forging something	|	The Forgery	|	Correct
 He fell from the hot air balloon	|	Half a Matchstick	|	Correct
 The little red dress is not a dress	|	The Little Red Dress	|	Incorrect
