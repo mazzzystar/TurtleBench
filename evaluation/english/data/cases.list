@@ -1301,11 +1301,11 @@ This person committed suicide because they thought their illness wasn't cured	|	
 The man fell off a camel	|	Half a Matchstick	|	Incorrect
 One person had to get off due to overloading	|	Half a Matchstick	|	Correct
 When calling to find the phone, someone answered	|	The Lost Phone	|	Correct
-The fish ate my lover	|	Fish	|	Unknown
+Fish ate my lover	|	Fish	|	Unknown
 I saw a corpse at the child's house	|	The Four-Year-Old Mother	|	Incorrect
 The death row inmate hoped to leave a lasting bad reputation	|	The Death Row Inmate and the Demon	|	Incorrect
 The wife's best friend hinted at her to divorce her husband	|	The Best Friend	|	Incorrect
-His eyes were cured using someone else's eyes	|	The Tunnel	|	Incorrect
+His eyes were cured using someone else's eyes	|	The Tunnel	|	 Unknown
 The mother and father went to the same place	|	The Ritual	|	Incorrect
 The seaweed looks very much like a person's hair	|	The Seaweed	|	Correct
 The man fell from a hot air balloon	|	Half a Matchstick	|	Correct
@@ -1314,7 +1314,7 @@ His wife discovered some secret of Thomas	|	The Best Friend	|	Correct
 The elevator is abnormal, it should have gone down	|	The Elevator	|	Incorrect
 I am going to the roof	|	The Elevator	|	Incorrect
 There is something in the photo that scares me	|	Exchanging Photos	|	Correct
-My boyfriend and I are siblings	|	Meeting the Parents	|	Incorrect
+My boyfriend and I are siblings	|	Meeting the Parents	|	Correct
 The man was riding in a hot air balloon	|	Half a Matchstick	|	Correct
 The turtle soup in the restaurant is poison	|	The Turtle Soup Story	|	Unknown
 The repeated sounds are recordings	|	The Forgery	|	Incorrect
@@ -1324,28 +1324,28 @@ The demon misunderstood the death row inmate's meaning	|	The Death Row Inmate an
 The man wanted to light something	|	Half a Matchstick	|	Incorrect
 The man was discovered wearing women's clothes	|	The Forgery	|	Incorrect
 I saw a person being killed	|	The Elevator	|	Correct
-The child is not five years old, she found a female teacher to imprison her brother	|	The Four-Year-Old Mother	|	Correct
+The child is not five years old, she helps his brother to imprison female teachers	|	The Four-Year-Old Mother	|	Correct
 The best friend is the mistress	|	The Best Friend	|	Correct
 The man can see things that others can't	|	The Midnight Train	|	Correct
-The person who died is the boss	|	The Discounted Snacks	|	Correct
+The person who died is the shopkeeper	|	The Discounted Snacks	|	Correct
 It's because there's a problem with the elevator	|	The 18th Floor	|	Incorrect
 The divorce is related to infidelity	|	The Best Friend	|	Correct
 The phone has been called	|	The Lost Phone	|	Correct
 My life is in danger	|	A Painting	|	Unknown
-The man has a mental illness	|	The Tunnel	|	Incorrect
+The man has a mental illness	|	The Tunnel	|	Unknown
 There are people other than the scavenger in the story	|	The Washing Machine	|	Correct
 Thomas did something wrong	|	The Best Friend	|	Correct
 The fish bait is the same species as the fish	|	Fish	|	Incorrect
 I have seen people using humans as bait to fish	|	Fish	|	Correct
 I look very similar to his parents	|	Meeting the Parents	|	Unknown
-The child is forgetful	|	1237	|	Incorrect
-He came to this restaurant alone	|	The Turtle Soup Story	|	Unknown
+The child is forgetful	|	1237	|	Unknown
+He came to this restaurant alone	|	The Turtle Soup Story	|	Correct
 The sailor is allergic to fish	|	Fish	|	Incorrect
 His counting is related to my life safety	|	Counting	|	Correct
 The news is reporting this man's death	|	The News	|	Incorrect
 The man was killed by someone	|	Half a Matchstick	|	Correct
 This is my diary	|	The Forgery	|	Incorrect
-The child has psychological problems	|	1237	|	Incorrect
+The child has psychological problems	|	1237	|	Unknown
 Thomas has been unfaithful before	|	The Best Friend	|	Correct
 The dwarf's death is related to his blindness	|	The Circus	|	Correct
 There is a second person in this story	|	The Circus	|	Correct
@@ -1356,14 +1356,14 @@ The illness was cured but the mind wasn't	|	The Tunnel	|	Incorrect
 The neighbor really lives alone	|	The Woman in the Pink Dress	|	Correct
 He is reading someone else's will	|	The Forgery	|	Incorrect
 He had suicidal tendencies before	|	The Turtle Soup Story	|	Unknown
-Her mother will die in March but the girl's birthday is in July	|	1237	|	Incorrect
-Others don't want me to go to school	|	The Elevator	|	Correct
+Her mother will die in March |	1237	|	Unknown
+Others don't allow me to go to school	|	The Elevator	|	Correct
 My flesh was used as fish bait	|	Fish	|	Incorrect
 Mom is alive	|	1237	|	Correct
 The turtle soup in the restaurant contains ingredients other than turtle	|	The Turtle Soup Story	|	Unknown
 The content of the photo is very strange	|	Exchanging Photos	|	Correct
 The death row inmate's wish was to see the sun outside	|	The Death Row Inmate and the Demon	|	Incorrect
-This person has a mental illness	|	The Tunnel	|	Incorrect
+This person has a mental illness	|	The Tunnel	|	Unknown
 I have eaten human flesh	|	Fish	|	Unknown
 The man's gun is his own	|	The Turtle Soup Story	|	Unknown
 Someone once came here with the man	|	The Seaweed	|	Correct
@@ -1375,25 +1375,25 @@ The long-haired woman is a real woman	|	The Woman in the Pink Dress	|	Incorrect
 Someone has died in the river before	|	The Seaweed	|	Correct
 The person was poisoned to death	|	The Little Red Dress	|	Incorrect
 Thomas exposed his secret at the best friend's house	|	The Best Friend	|	Correct
-The floor the elevator leads to exists	|	The Elevator	|	Correct
+The floor that the elevator leads to exists	|	The Elevator	|	Correct
 The man's luggage has been searched	|	Half a Matchstick	|	Unknown
 The person waving across is a corpse	|	The Girl on the Balcony	|	Correct
 Mom really thinks the next number after 123 is 7	|	1237	|	Incorrect
 The person who died is the one living in the small house	|	The Mountaintop	|	Incorrect
 There is an elevator that can only go up to the 15th floor	|	The 18th Floor	|	Incorrect
 My boyfriend's parents recognize my face	|	Meeting the Parents	|	Correct
-Thomas's wife is having an affair	|	The Best Friend	|	Incorrect
+Thomas's wife is having an affair	|	The Best Friend	|	Unknown
 A colleague threw knives because she grew taller and as a result she died	|	The High Heels	|	Correct
 My boyfriend's parents met me when I was young	|	Meeting the Parents	|	Correct
 Someone is imitating my speech	|	The Forgery	|	Incorrect
-The match has already been lit	|	Half a Matchstick	|	Incorrect
+The match has already been lit	|	Half a Matchstick	|	Unknown
 The child's mother has a child's face	|	The Four-Year-Old Mother	|	Incorrect
 They have seen my face before	|	Meeting the Parents	|	Correct
 The content of the painting itself is horrifying	|	A Painting	|	Incorrect
 The hair in the painting is real human hair	|	A Painting	|	Correct
 The boy jumping into the river was stimulated by something	|	The Seaweed	|	Correct
-He went to play in the desert	|	Half a Matchstick	|	Correct
-The clerk he saw is the murderer	|	The Discounted Snacks	|	Correct
+He went for a trip in the desert	|	Half a Matchstick	|	Correct
+The cashier he saw is the murderer	|	The Discounted Snacks	|	Correct
 The mother transferred money to many people	|	The Ritual	|	Unknown
 The online friend's photo was taken in a place familiar to me	|	Exchanging Photos	|	Correct
 Someone helped Xiao Ming press the button	|	The 18th Floor	|	Incorrect
