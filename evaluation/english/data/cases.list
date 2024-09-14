@@ -1411,14 +1411,14 @@ There are living people in the painting	|	A Painting	|	Correct
 Her mother deliberately taught her this way	|	1237	|	Correct
 It's related to the child's family members	|	1237	|	Correct
 The best friend and the wife have a good relationship	|	The Best Friend	|	Unknown
-I witnessed fish eating my companion	|	Fish	|	Correct
+I witnessed fish eating my companion	|	Fish	| Unknown
 He had been to sea before	|	The Turtle Soup Story	|	Correct
 The man's job is illegal	|	The News	|	Incorrect
 There's something inside the washing machine	|	The Washing Machine	|	Correct
 I have a blood relation with this family	|	Meeting the Parents	|	Correct
 Thomas cheated with the best friend	|	The Best Friend	|	Correct
 He went to the 15th floor because he couldn't reach the elevator button without an umbrella	|	The 18th Floor	|	Correct
-The salesperson is actually a murderer in disguise	|	The Discounted Snacks	|	Correct
+The cashier guy is actually a murderer in disguise	|	The Discounted Snacks	|	Correct
 Mom doesn't recognize 4 and 5	|	1237	|	Incorrect
 These high heels will cause the woman to be killed by someone at work	|	The High Heels	|	Correct
 The tunnel leads to the world of death	|	The Tunnel	|	Incorrect
@@ -1447,7 +1447,6 @@ The child's mother is a child bride	|	The Four-Year-Old Mother	|	Incorrect
 The long-haired woman is the man's daughter	|	The Woman in the Pink Dress	|	Incorrect
 The seller appeared in the news report	|	The Discounted Snacks	|	Correct
 I killed my wife	|	The Forgery	|	Correct
-I have seen fish eat my companion	|	Fish	|	Correct
 I have been under surveillance all the time	|	The Girl on the Balcony	|	Unknown
 What happened on the way home caused the divorce	|	The Best Friend	|	Incorrect
 The elevator is ascending because the girl pressed the elevator button for help before being killed	|	The Elevator	|	Correct
@@ -1470,8 +1469,8 @@ The soup was served by a waiter	|	The Turtle Soup Story	|	Unknown
 The man is repeating a certain behavior	|	The Forgery	|	Correct
 I didn't go to school	|	The Little Red Dress	|	Incorrect
 The death is related to the color red	|	The High Heels	|	Incorrect
-Thomas's wife had an affair	|	The Best Friend	|	Incorrect
-The boy remembered his partner	|	The Seaweed	|	Correct
+Thomas's wife had an affair	|	The Best Friend	|	Unknown
+The conversation reminds the boy of his partner	|	The Seaweed	|	Correct
 Someone is following me	|	The Elevator	|	Incorrect
 The man is not in the painting	|	A Painting	|	Correct
 I saw myself the next day	|	A Painting	|	Incorrect
@@ -1481,7 +1480,7 @@ Thomas did something unfaithful to his wife	|	The Best Friend	|	Correct
 I witnessed crew members killing each other	|	Fish	|	Unknown
 I didn't see the girl's mother during the home visit	|	1237	|	Incorrect
 I have a blood relation with my boyfriend's parents	|	Meeting the Parents	|	Correct
-The deceased fell after being hit and thrown	|	Half a Matchstick	|	Incorrect
+The person who died had fallee after being hit and thrown	|	Half a Matchstick	|	Incorrect
 My boyfriend's parents have seen my face	|	Meeting the Parents	|	Correct
 The phone has been with me the whole time	|	The Lost Phone	|	Incorrect
 The child's mother has a number recognition disorder	|	1237	|	Incorrect
@@ -1492,7 +1491,7 @@ He couldn't see and got off when he heard a sound	|	The Tunnel	|	Incorrect
 I killed the person who was speaking	|	The Forgery	|	Incorrect
 The person throwing things was the neighbor themselves	|	The Woman in the Pink Dress	|	Unknown
 The daughter willingly spent money	|	The Diary	|	Correct
-There's a problem with the slide itself	|	The Slide	|	Correct
+There's something strange about the slide itself	|	The Slide	|	Correct
 The person reported in the news is in his house	|	The News	|	Incorrect
 The child's mother can only count to 4	|	The Four-Year-Old Mother	|	Incorrect
 The painting is actually a mirror	|	A Painting	|	Incorrect
@@ -1504,7 +1503,7 @@ The elevator can always reach the 18th floor	|	The 18th Floor	|	Correct
 The painting doesn't exist and is something else	|	A Painting	|	Correct
 He did it to pretend he had climbed the stairs all the way up	|	The 18th Floor	|	Incorrect
 The man was mentally shocked after drinking the turtle soup	|	The Turtle Soup Story	|	Correct
-The man became a corpse for dissection	|	The Condition	|	Correct
+The man became a cadaver for dissection	|	The Condition	|	Correct
 The killer committed the crime because of the little red dress	|	The Little Red Dress	|	Incorrect
 This is a conversation between two people breaking up	|	The Forgery	|	Incorrect
 The man in the painting did something chilling	|	A Painting	|	Correct
