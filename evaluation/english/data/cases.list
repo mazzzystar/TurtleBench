@@ -128,7 +128,7 @@ The person who left the message is dead	|	The Forgery	|	Incorrect
 The wife discovered that the best friend and husband knew each other before	|	The Best Friend	|	Correct
 The child has no parents	|	The Four-Year-Old Mother	|	Unknown
 The child's so-called mother is at home	|	The Four-Year-Old Mother	|	Correct
-Xiaoming did it intentionally	for his own purposes|	The 18th Floor	|	Incorrect
+Xiaoming did it intentionally for his own purposes	|	The 18th Floor	|	Incorrect
 The man was murdered	|	Half a Matchstick	|	Correct
 The lady loves wearing high heels	|	The High Heels	|	Unknown
 There was a killer in the shop at that time	|	The Discounted Snacks	|	Correct
@@ -254,7 +254,7 @@ The person who sees that sentence will die	|	Eyesight	|	Incorrect
 I saw words threatening me	|	Eyesight	|	Incorrect
 I was also afraid of fish before becoming a sailor	|	Fish	|	False
 This person's handwriting is getting messier	|	The Forgery	|	Unknown
-This person is distressed	by something |	The Tunnel	|	Correct
+This person is distressed by something	|	The Tunnel	|	Correct
 He's deeply in debt	|	The Tunnel	|	Incorrect
 Because saying this sentence will make everyone blind again	|	Eyesight	|	Incorrect
 The grandmother is very afraid of the man	|	The Midnight Train	|	Unknown
@@ -478,13 +478,13 @@ These are words said by others	|	The Forgery	|	Incorrect
 The man will die if he guesses wrong	|	The Midnight Train	|	Incorrect
 There's a bad person in the ascending elevator	|	The Elevator	|	Incorrect
 There's terrifying content on the phone	|	The Lost Phone	|	Incorrect
-I want people to know that my wife is disappointed in me|	The Forgery	|	Correct
+I want people to know that my wife is disappointed in me	|	The Forgery	|	Correct
 He saw the deceased from TV today	|	The News	|	Correct
 The person reporting the news content is the man	|	The News	|	Incorrect
 This person has claustrophobia	|	The Tunnel	|	Incorrect
 The new government caused everyone to go blind	|	Eyesight	|	Incorrect
 His illness has really recovered	|	The Tunnel	|	Correct
-The blind dwarf inhaled wood shavings that caused his death |	The Circus	|	Incorrect
+The blind dwarf inhaled wood shavings that caused his death	|	The Circus	|	Incorrect
 The color of the dress is related to the cause of death	|	The Little Red Dress	|	Correct
 The man thought he could see people's ages but it was actually their death ages	|	The Midnight Train	|	Incorrect
 There were two men at the neighbor's house last night	|	The Woman in the Pink Dress	|	Incorrect
@@ -607,7 +607,7 @@ That girl had an intimate relationship with the neighbor	|	The Woman in the Pink
 The best friend is the wife's relative	|	The Best Friend	|	Incorrect
 The photo sent by the online friend is the same as the one I took	|	Exchanging Photos	|	Correct
 Waving hands is actually a dance move	|	The Ritual	|	Correct
-The man was pushed down	the cliff |	Half a Matchstick	|	Correct
+The man was pushed down the cliff	|	Half a Matchstick	|	Correct
 There are other people who can see this sentence	|	Eyesight	|	Correct
 The phone was left at home but I live alone	|	The Lost Phone	|	Correct
 An accident occurred at work	|	The Circus	|	Incorrect
@@ -638,7 +638,7 @@ The wife is unhappy	|	The Best Friend	|	Correct
 An accident happened at school	|	The Elevator	|	Incorrect
 After hearing the granny's answer, others also turned pale	|	The Midnight Train	|	Unknown
 This is a pirate ship so the sailors are also pirates	|	Fish	|	Incorrect
-I had seen the person from the painting	before|	A Painting	|	Incorrect
+I had seen the person from the painting before	|	A Painting	|	Incorrect
 My companion was used as fish bait	|	Fish	|	Correct
 The dwarf does woodworking	|	The Circus	|	Incorrect
 The woman works at heights	|	The High Heels	|	Incorrect
@@ -973,7 +973,7 @@ The online friend sent a photo of my house	|	Exchanging Photos	|	Correct
 The missing numbers are closely related to the event	|	1237	|	Correct
 The dinner eaten was a normal dinner	|	The Ritual	|	Correct
 That is a painting	|	A Painting	|	Incorrect
-The turtle soup in the restaurant is made using real turtle	as ingredients|	The Turtle Soup Story	|	Correct
+The turtle soup in the restaurant is made using real turtle as ingredients	|	The Turtle Soup Story	|	Correct
 I have seen this man before	|	A Painting	|	Incorrect
 The quarrel was caused by the woman's attire	|	The Woman in the Pink Dress	|	Correct
 The pink dress and long hair were cut by the woman I saw herself	|	The Woman in the Pink Dress	|	Incorrect
@@ -1356,7 +1356,7 @@ The illness was cured but the mind wasn't	|	The Tunnel	|	Incorrect
 The neighbor really lives alone	|	The Woman in the Pink Dress	|	Correct
 He is reading someone else's will	|	The Forgery	|	Incorrect
 He had suicidal tendencies before	|	The Turtle Soup Story	|	Unknown
-Her mother will die in March |	1237	|	Unknown
+Her mother will die in March	|	1237	|	Unknown
 Others don't allow me to go to school	|	The Elevator	|	Correct
 My flesh was used as fish bait	|	Fish	|	Incorrect
 Mom is alive	|	1237	|	Correct
@@ -1411,7 +1411,7 @@ There are living people in the painting	|	A Painting	|	Correct
 Her mother deliberately taught her this way	|	1237	|	Correct
 It's related to the child's family members	|	1237	|	Correct
 The best friend and the wife have a good relationship	|	The Best Friend	|	Unknown
-I witnessed fish eating my companion	|	Fish	| Unknown
+I witnessed fish eating my companion	|	Fish	|	Unknown
 He had been to sea before	|	The Turtle Soup Story	|	Correct
 The man's job is illegal	|	The News	|	Incorrect
 There's something inside the washing machine	|	The Washing Machine	|	Correct
