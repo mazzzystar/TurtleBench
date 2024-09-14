@@ -7,7 +7,7 @@ I was dismembered	|	The Elevator	|	Unknown
 The elevator broke down and I was trapped inside	|	The Elevator	|	Incorrect
 I'm afraid of heights	|	The Girl on the Balcony	|	Unknown
 I went crazy	|	The Forgery	|	Incorrect
-The boss was killed after I bought snacks	|	The Discounted Snacks	|	Incorrect
+The boss of the shop was killed after I bought snacks	|	The Discounted Snacks	|	Incorrect
 Thomas knows the best friend	|	The Best Friend	|	Correct
 I was forced to say 1237	|	1237	|	Incorrect
 The man doesn't know the soup is poisonous	|	The Turtle Soup Story	|	Unknown
@@ -16,7 +16,7 @@ The blind dwarf was fired from the circus	|	The Circus	|	Incorrect
 There's a stranger in my house	|	The Lost Phone	|	Correct
 The washing machine owner wants to take the washing machine away	|	The Washing Machine	|	Incorrect
 The daughter defamed someone	|	The Diary	|	Correct
-The corpse is the neighbor	|	The Little Red Dress	|	Incorrect
+The person who died is the neighbor	|	The Little Red Dress	|	Incorrect
 The boy really died, used as a dissection prop in the girls' school	|	The Condition	|	Correct
 After his death, his corpse was placed on the road by someone else	|	The Death Row Inmate and the Demon	|	Incorrect
 The fisherman lied	|	The Seaweed	|	Incorrect
@@ -69,7 +69,7 @@ Someone else used the scavenger's washing machine	|	The Washing Machine	|	Correc
 I got on the wrong elevator	|	The Elevator	|	Incorrect
 The online friend is alive	|	Exchanging Photos	|	Correct
 Four years old doesn't mean four years old, but means something has been going on for four years	|	The Four-Year-Old Mother	|	Correct
-The little red dress belongs to this corpse	|	The Little Red Dress	|	Incorrect
+The little red dress belongs to this person who died	|	The Little Red Dress	|	Incorrect
 I feel scared	|	A Painting	|	Correct
 The hot air balloon is still flying	|	Half a Matchstick	|	Unknown
 The blind dwarf thought he was growing taller, couldn't continue working, and then committed suicide	|	The Circus	|	Correct
@@ -101,7 +101,7 @@ The blind man wants to grow taller	|	The Circus	|	Incorrect
 He committed suicide because he thought the train was going to explode	|	The Tunnel	|	Incorrect
 The reason the child feels terrified is the same as Xiaowang's	|	The Slide	|	Correct
 The grandmother's age will bring about something bad	|	The Midnight Train	|	Incorrect
-The corpse is dad	|	The Little Red Dress	|	Incorrect
+The person who died is dad	|	The Little Red Dress	|	Incorrect
 The person in the painting changed before and after	|	A Painting	|	Correct
 The girl cheated on the exam	|	The Condition	|	Unknown
 The best friend and the husband are having an affair	|	The Best Friend	|	Correct
@@ -187,7 +187,7 @@ The other person is dead, these words were said on the phone before death	|	The 
 What happened at the best friend's house made the wife unhappy	|	The Best Friend	|	Correct
 I've already graduated and don't need to go to school	|	The Elevator	|	Incorrect
 I don't like going to school	|	The Elevator	|	Incorrect
-The deceased was murdered	|	The Little Red Dress	|	Correct
+The person who died was murdered	|	The Little Red Dress	|	Correct
 There are two people in the story	|	The Forgery	|	Correct
 There were other people in the man's house last night	|	The Woman in the Pink Dress	|	Correct
 There are others	|	The 18th Floor	|	Unknown
@@ -195,7 +195,7 @@ He killed the other person so he wouldn't have to leave and could be together fo
 The child's so-called mother has experienced something bad	|	The Four-Year-Old Mother	|	Correct
 The hot air balloon crashed	|	Half a Matchstick	|	Unknown
 Fish saved me before	|	Fish	|	Correct
-The corpse is my relative	|	The Little Red Dress	|	Incorrect
+The person who died is my relative	|	The Little Red Dress	|	Incorrect
 The fisherman told the boy some information	|	The Seaweed	|	Correct
 I feel scared and it's related to the content of his photo	|	Exchanging Photos	|	Correct
 There were others at the neighbor's house that night	|	The Woman in the Pink Dress	|	Correct
@@ -403,7 +403,7 @@ Opening the door pushed someone down	|	The Mountaintop	|	Correct
 The character in the painting really exist	|	A Painting	|	Correct
 She was killed by her own heel	|	The High Heels	|	Incorrect
 Last night there was a real person in the painting	|	A Painting	|	Correct
-This corpse is someone I know	|	The Little Red Dress	|	Correct
+This person who died is someone I know	|	The Little Red Dress	|	Correct
 I was at home all day	|	The Lost Phone	|	Incorrect
 Xiao Ming doesn't live on the 18th floor	|	The 18th Floor	|	Incorrect
 456 can't be mentioned	|	1237	|	Incorrect
@@ -514,7 +514,7 @@ The daughter's online friend scammed money from the family	|	The Diary	|	Incorre
 The man is the Grim Reaper	|	The Midnight Train	|	Incorrect
 The man saw the photo of the deceased person on the news	|	The News	|	Correct
 The man disappeared	|	A Painting	|	Correct
-The boy turned into a corpse	|	The Condition	|	Correct
+The boy turned into a cadaver	|	The Condition	|	Correct
 The lady went to work that night	|	The High Heels	|	Correct
 The man didn't guess the granny's age correctly	|	The Midnight Train	|	Incorrect
 The girl goes to medical school and the boy is the body there used for dissection	|	The Condition	|	Correct
@@ -611,7 +611,7 @@ The man was pushed down	the cliff |	Half a Matchstick	|	Correct
 There are other people who can see this sentence	|	Eyesight	|	Correct
 The phone was left at home but I live alone	|	The Lost Phone	|	Correct
 An accident occurred at work	|	The Circus	|	Incorrect
-The corpse is my family member	|	The Little Red Dress	|	Incorrect
+The person who died is my family member	|	The Little Red Dress	|	Incorrect
 There was a drug in the turtle soup that caused him to commit suicide	|	The Turtle Soup Story	|	Incorrect
 The person in the painting stares at me wherever I go	|	A Painting	|	Unknown
 Thomas did something to the best friend that made his wife think he was cheating	|	The Best Friend	|	Incorrect
@@ -812,7 +812,7 @@ The elevator's destination is not the school	|	The Elevator	|	Correct
 I voluntarily went for the home visit	|	1237	|	Correct
 The snacks are made of human flesh	|	The Discounted Snacks	|	Unknown
 The protagonist was abandoned by relatives	|	The Forgery	|	Incorrect
-The corpse is my relative	|	The Little Red Dress	|	Incorrect
+The person who died is my relative	|	The Little Red Dress	|	Incorrect
 The man came to the restaurant without speaking	|	The Turtle Soup Story	|	Unknown
 I am the parent of the daughter	|	The Diary	|	Correct
 Wearing the little red dress made others think I was someone else	|	The Little Red Dress	|	Incorrect
@@ -895,7 +895,7 @@ Someone was hiding in the washing machine and was brought home by the scavenger	
 The man in the restaurant is drinking real turtle soup	|	The Turtle Soup Story	|	Correct
 He had an episode because he saw the tunnel	|	The Tunnel	|	Incorrect
 The neighbor and the woman in the dress are the same person	|	The Woman in the Pink Dress	|	Correct
-The high heels were conspicuous and led to her murder	|	The High Heels	|	Incorrect
+The high heels were conspicuous and led to her death	|	The High Heels	|	Incorrect
 The sound emitted is not the real sound of a washing machine	|	The Washing Machine	|	Incorrect
 I am a relative of my boyfriend	|	Meeting the Parents	|	Correct
 The daughter hired a lawyer	|	The Diary	|	Unknown
@@ -1086,7 +1086,7 @@ There was someone else in my room	|	The Lost Phone	|	Correct
 The salesperson made people think it was a discount to cover up something	|	The Discounted Snacks	|	Correct
 My boyfriend is his parents' child	|	Meeting the Parents	|	Correct
 The match burned through the parachute	|	Half a Matchstick	|	Incorrect
-The death of the corpse is related to the red dress	|	The Little Red Dress	|	Correct
+The death of the person is related to the red dress	|	The Little Red Dress	|	Correct
 The man was lost	|	Half a Matchstick	|	Incorrect
 He hopes to recover from his illness	|	The Tunnel	|	Correct
 The soup he's drinking in the restaurant contains human tissue	|	The Turtle Soup Story	|	Incorrect
@@ -1140,7 +1140,7 @@ He was looking into amnesia	|	The Tunnel	|	Incorrect
 They are his own private photos	|	Exchanging Photos	|	Incorrect
 I saw something bad at home	|	The Lost Phone	|	Incorrect
 The washing machine's owner wants to harm him	|	The Washing Machine	|	Incorrect
-The corpse is a stranger	|	The Little Red Dress	|	Incorrect
+The person who died is a stranger	|	The Little Red Dress	|	Incorrect
 The argument was because of something the man did	|	The Woman in the Pink Dress	|	Correct
 The one operating the washing machine is not human	|	The Washing Machine	|	Incorrect
 Someone is framing me	|	The Forgery	|	Incorrect
@@ -1202,7 +1202,7 @@ Actually, the balcony the girl is standing on is my home	|	The Girl on the Balco
 The man's superpower is predicting the future	|	The Midnight Train	|	Incorrect
 The man has been dead for a long time	|	Half a Matchstick	|	Unknown
 The other person is imitating what I've said before	|	The Forgery	|	Incorrect
-It was a murder	|	The High Heels	|	Correct
+It was a homicide	|	The High Heels	|	Correct
 There is a second person present besides the scavenger	|	The Washing Machine	|	Correct
 I saw a murder when the elevator door opened	|	The Elevator	|	Correct
 We don't know the person who died	|	The Little Red Dress	|	Incorrect
@@ -1399,7 +1399,7 @@ The online friend's photo was taken in a place familiar to me	|	Exchanging Photo
 Someone helped Xiao Ming press the button	|	The 18th Floor	|	Incorrect
 There are only two people in this story	|	The Woman in the Pink Dress	|	Incorrect
 The best friend doesn't like Thomas	|	The Best Friend	|	Incorrect
-The corpse is someone the sister knows	|	The Little Red Dress	|	Incorrect
+The person who died is someone the sister knows	|	The Little Red Dress	|	Incorrect
 The elevator's ascending speed is abnormal	|	The Elevator	|	Incorrect
 It's a parrot	|	The Forgery	|	Incorrect
 The man is on the train with a special mission	|	The Midnight Train	|	Incorrect
