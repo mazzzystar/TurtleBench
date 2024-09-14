@@ -224,12 +224,14 @@ def main():
 if __name__ == "__main__":
     DEFAULT_MODELS = [
         Model.GPT_35_TURBO, 
-        Model.GPT_4_MINI, 
+        Model.GPT_4O_MINI, 
+        Model.GPT_4O_20240806,
         Model.GPT_O1_MINI_20240912, 
         Model.GPT_O1_PREVIEW_20240912, 
         Model.CLAUDE_3_HAIKU, 
         Model.CLAUDE_35_SONNET, 
         Model.LLAMA_31_405B,
-        Model.DEEPSEEK_V25
+        Model.DEEPSEEK_V25,
+        Model.Qwen2_72B
     ]
     main()

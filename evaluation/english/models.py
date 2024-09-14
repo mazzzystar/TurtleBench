@@ -16,8 +16,8 @@ class ModelType(Enum):
 
 class Model(Enum):
     GPT_35_TURBO = ("GPT-3.5-Turbo", ModelType.OPENAI, "gpt-3.5-turbo")
-    GPT_4_MINI = ("GPT-4o-mini", ModelType.OPENAI, "gpt-4o-mini")
-    GPT_4o_20240806 = ("GPT-4o-2024-08-06", ModelType.OPENAI, "gpt-4o-2024-08-06")
+    GPT_4O_MINI = ("GPT-4o-mini", ModelType.OPENAI, "gpt-4o-mini")
+    GPT_4O_20240806 = ("GPT-4o-2024-08-06", ModelType.OPENAI, "gpt-4o-2024-08-06")
     GPT_O1_MINI_20240912 = ("o1-mini-2024-09-12", ModelType.OPENAI, "o1-mini-2024-09-12")
     GPT_O1_PREVIEW_20240912 = ("o1-preview-2024-09-12", ModelType.OPENAI, "o1-preview-2024-09-12")
     CLAUDE_3_HAIKU = ("Claude-3-Haiku", ModelType.ANTHROPIC, "claude-3-haiku-20240307")
