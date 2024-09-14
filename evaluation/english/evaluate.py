@@ -8,13 +8,14 @@ from functools import partial
 from tqdm import tqdm
 from models import Model, call_api
 
+# Only load Correct and Incorrect test cases
 def load_test_cases(filename):
     test_cases = []
     failed_lines = []
     with open(filename, "r", encoding="utf-8") as f:
         for line_number, line in enumerate(f, 1):
             parts = line.strip().split("	|	")
-            if len(parts) == 3:
+            if len(parts) == 3 and parts[2] in ["Correct", "Incorrect"]:
                 test_cases.append(parts)
             else:
                 failed_lines.append((line_number, line.strip()))
@@ -161,32 +162,9 @@ def print_current_rankings(results, i):
     for rank, (name, accuracy, correct, total) in enumerate(current_results, 1):
         print(f"{rank}. {name}: {accuracy:.2f} ({correct}/{total})")
 
-def main():
-    parser = argparse.ArgumentParser(description="Run story understanding evaluation")
-    parser.add_argument("--shot", choices=["0", "2"], default="0", help="Number of shots (0 or 2)")
-    parser.add_argument("--models", nargs="+", type=str, default=["GPT_35_TURBO", "GPT_4_MINI", "CLAUDE_3_HAIKU"],
-                        help="List of models to evaluate")
-    args = parser.parse_args()
-
-    selected_models = [Model[model_name] for model_name in args.models]
-
-    test_cases = load_test_cases("data/cases.list")
-    stories = load_stories("data/stories.json")
-    results, challenging_cases, all_cases, time_logs = evaluate_models(selected_models, test_cases, stories, args.shot)
-
-    print_current_rankings(results, len(test_cases))
-    print(f"Evaluation complete. Logs saved in 'logs_with_{args.shot}shots' directory.")
-
-    log_folder = f"logs_with_{args.shot}shots"
-    with open(f"{log_folder}/overall_time_usage.json", "w", encoding="utf-8") as f:
-        json.dump({
-            "model_total_time": {model.display_name: sum(log['time_usage'].get(model.display_name, 0) for log in time_logs) for model in selected_models},
-            "model_call_count": {model.display_name: sum(1 for log in time_logs if model.display_name in log['time_usage']) for model in selected_models},
-        }, f, ensure_ascii=False, indent=2)
-
 
 def main():
-    parser = argparse.ArgumentParser(description="Run story understanding evaluation")
+    parser = argparse.ArgumentParser(description="Run turtle benchmark evaluation")
     parser.add_argument("--shot", choices=["0", "2"], default="0", help="Number of shots (0 or 2)")
     parser.add_argument("--models", nargs="+", type=str, 
                         help="List of models to evaluate. If not specified, default models will be used.")
