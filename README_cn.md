@@ -25,6 +25,8 @@
 ### 使用方法
 
 ```bash
+pip install -r requirements.txt
+
 cd evaluation
 
 mv .env.example .env

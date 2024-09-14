@@ -14,6 +14,8 @@ Turtle Benchmark is a novel, uncheatable benchmark for evaluating Large Language
 ### Usage
 
 ```bash
+pip install -r requirements.txt
+
 cd evaluation
 
 mv .env.example .env

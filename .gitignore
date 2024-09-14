@@ -1,3 +1,8 @@
+.gitignore
+.DS_Store
+evaluation/.DS_Store
 .env
-venv
-logs_with_*
+evaluation/*/logs_with_0shots
+evaluation/*/logs_with_2shots
+__pycache__
+evaluation/*/__pycache__
