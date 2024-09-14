@@ -98,8 +98,9 @@ def evaluate_models(models, test_cases, stories, shot_type):
             if case_results[model.display_name].lower() == ground_truth.lower():
                 results[model.display_name]['correct'] += 1
             else:
-                print(f"Wrong Answer - Model: {model.display_name}, Input: {user_input}, "
-                      f"Response: {case_results[model.display_name]}, GT: {ground_truth}")
+                print(f"Wrong Answer - Model: {model.display_name}, <{story_title}>, Input: {user_input}, "
+                    f"Response: {case_results[model.display_name]}, GT: {ground_truth}")
+
 
             logs[model.display_name].append({
                 "Input": user_input,
