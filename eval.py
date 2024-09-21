@@ -2,14 +2,11 @@ import argparse
 import json
 import os
 import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from functools import partial
+from datetime import datetime
 
 from tqdm import tqdm
 
 from models import call_api
-
-# Load stories
 
 
 def load_stories(filename):
@@ -42,7 +39,7 @@ def load_test_cases(filename, language):
         for line_number, line in failed_lines:
             print(f"Line {line_number}: {line}")
 
-    return test_cases
+    return test_cases[:50]
 
 
 def load_prompt(filename):
@@ -54,35 +51,57 @@ def starts_with_answer(response, answer):
     return response.strip().lower().startswith(answer.lower())
 
 
-def evaluate_models(models, test_cases, stories, shot_type, prompt_template, log_folder, language):
-    results = {model_name: {'correct': 0, 'total': 0} for model_name in models}
-    logs = {model_name: [] for model_name in models}
-    challenging_cases = []
+def evaluate_model(model_name, test_cases, stories, shot_type, prompt_template, log_folder, language, save_interval, time_delay):
     all_cases = []
-    time_logs = []
 
-    filename_prefix = f"all_cases_{language}_shot{shot_type}"
+    info = {
+        "model": model_name,
+        "language": language,
+        "shot_type": shot_type,
+        "timestamp": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    }
 
-    # Find the last tested sample
-    last_tested = max([int(fname.split('_')[-1].split('.')[0]) for fname in os.listdir(log_folder)
-                       if fname.startswith(filename_prefix) and fname.endswith('.json')], default=0)
+    overall = {
+        'total_samples': 0,
+        'correct': 0,
+        'accuracy': 0.0,
+        'time_usage': 0.0,
+        'total_tokens': 0
+    }
+
+    filename_prefix = f"all_cases_{model_name}_{language}_shot{shot_type}"
+
+    existing_files = [fname for fname in os.listdir(log_folder) if fname.startswith(
+        filename_prefix) and fname.endswith('.json') and model_name in fname]
+
+    if existing_files:
+        last_tested = max([int(fname.split('_')[-1].split('.')[0])
+                          for fname in existing_files])
+    else:
+        last_tested = 0
 
     if last_tested > 0:
         with open(f"{log_folder}/{filename_prefix}_{last_tested}.json", "r", encoding="utf-8") as f:
-            all_cases = json.load(f)
+            results = json.load(f)
 
-        # Update results with previously tested samples
+        all_cases = results['cases']
+
         for case in all_cases:
-            for model_name, result in case['results'].items():
-                if result is not None:
-                    results[model_name]['total'] += 1
-                    if is_correct(result, case['ground_truth'], language):
-                        results[model_name]['correct'] += 1
+            result = case['model_output']
+            if result is not None:
+                overall['total_samples'] += 1
+                if is_correct(result, case['ground_truth'], language):
+                    overall['correct'] += 1
+            overall['total_tokens'] += case['total_tokens']
+            overall['time_usage'] += case['time_usage']
 
-    # Start from the next untested sample
+        overall['accuracy'] = round(
+            overall['correct'] / overall['total_samples'], 6) if overall['total_samples'] > 0 else 0.0
+
     start_index = len(all_cases)
 
     for i, (user_input, story_title, ground_truth) in enumerate(tqdm(test_cases[start_index:]), start_index + 1):
+        time.sleep(time_delay)
         story = next((s for s in stories if s["title"] == story_title), None)
         if not story:
             print(f"Story not found: {story_title}")
@@ -91,69 +110,62 @@ def evaluate_models(models, test_cases, stories, shot_type, prompt_template, log
         prompt = prompt_template.replace(
             "{surface}", story["surface"]).replace("{bottom}", story["bottom"])
 
-        case_results = {}
-        time_usage = {}
+        case_result = None
+        time_usage = None
 
-        with ThreadPoolExecutor(max_workers=len(models)) as executor:
-            future_to_model = {executor.submit(partial(call_api_with_timeout, timeout=20),
-                                               model_name, prompt, user_input): model_name for model_name in models}
-            for future in as_completed(future_to_model):
-                model_name = future_to_model[future]
-                try:
-                    response, elapsed_time = future.result()
-                    time_usage[model_name] = elapsed_time
-                    if response:
-                        case_results[model_name] = process_response(
-                            response, language)
-                except Exception as exc:
-                    print(f'{model_name} generated an exception: {exc}')
+        response, total_tokens, elapsed_time = call_api_with_timeout(
+            model_name, prompt, user_input)
+        time_usage = elapsed_time
+        if response:
+            case_result = process_response(response, language)
 
-        for model_name in models:
-            if model_name not in case_results:
-                continue
-
-            results[model_name]['total'] += 1
-            if is_correct(case_results[model_name], ground_truth, language):
-                results[model_name]['correct'] += 1
+        if case_result is not None:
+            overall['total_samples'] += 1
+            if is_correct(case_result, ground_truth, language):
+                overall['correct'] += 1
             else:
                 print(f"Wrong Answer - Model: {model_name}, <{story_title}>, Input: {user_input}, "
-                      f"Response: {case_results[model_name]}, GT: {ground_truth}")
-
-            logs[model_name].append({
-                "Input": user_input,
-                "Response": case_results[model_name],
-                "GT": ground_truth,
-                "Accuracy": f"{results[model_name]['correct']}/{results[model_name]['total']} "
-                            f"({results[model_name]['correct']/results[model_name]['total']:.2f})"
-            })
+                      f"Response: {case_result}, GT: {ground_truth}")
 
         all_cases.append({
+            'sample': i,
             "input": user_input,
             "story_title": story_title,
             "ground_truth": ground_truth,
-            "results": case_results,
+            "model_output": case_result,
+            "total_tokens": total_tokens,
             "time_usage": time_usage
         })
-        time_logs.append({"sample": i, "time_usage": time_usage})
 
-        if i % 10 == 0 or i == len(test_cases):
-            save_interim_results(log_folder, filename_prefix,
-                                 i, challenging_cases, all_cases, time_logs)
-            print_current_rankings(results, i)
+        overall['accuracy'] = round(
+            overall['correct'] / overall['total_samples'], 6) if overall['total_samples'] > 0 else 0.0
+        overall['total_tokens'] += total_tokens
+        overall['time_usage'] += time_usage
 
-    return results, challenging_cases, all_cases, time_logs
+        results = {
+            "info": info,
+            "overall": overall,
+            "cases": all_cases
+        }
+
+        if i % save_interval == 0 or i == len(test_cases):
+            save_interim_results(log_folder, filename_prefix, i, results)
+            print(f"Model: {model_name}, Total: {overall['total_samples']}, Correct: {overall['correct']}, "
+                  f"Accuracy: {overall['accuracy']}")
+
+    return overall, all_cases
 
 
-def call_api_with_timeout(model_name, prompt, user_input, timeout=20):
+def call_api_with_timeout(model_name, prompt, user_input):
     start_time = time.time()
     try:
-        result = call_api(model_name, prompt, user_input)
+        result, total_tokens = call_api(model_name, prompt, user_input)
         elapsed_time = time.time() - start_time
-        return result, elapsed_time
+        return result, total_tokens, elapsed_time
     except Exception as e:
         elapsed_time = time.time() - start_time
         print(f"Error in call_api for model {model_name}: {str(e)}")
-        return None, elapsed_time
+        return None, None, elapsed_time
 
 
 def process_response(response, language):
@@ -184,30 +196,16 @@ def is_correct(model_output, ground_truth, language):
             return model_output == "T"
         else:
             return model_output in ["F", "N"]
-    else:  # English
+    else:
         if ground_truth == "Correct":
             return model_output == "Correct"
         else:
             return model_output in ["Incorrect", "Unknown"]
 
 
-
-def save_interim_results(log_folder, filename_prefix, i, challenging_cases, all_cases, time_logs):
-    with open(f"{log_folder}/challenging_cases_{filename_prefix}_{i}.json", "w", encoding="utf-8") as f:
-        json.dump(challenging_cases, f, ensure_ascii=False, indent=2)
+def save_interim_results(log_folder, filename_prefix, i, all_cases):
     with open(f"{log_folder}/{filename_prefix}_{i}.json", "w", encoding="utf-8") as f:
-        json.dump(all_cases, f, ensure_ascii=False, indent=2)
-    with open(f"{log_folder}/time_logs_{filename_prefix}_{i}.json", "w", encoding="utf-8") as f:
-        json.dump(time_logs, f, ensure_ascii=False, indent=2)
-
-
-def print_current_rankings(results, i):
-    print(f"\nCurrent rankings after {i} items:")
-    current_results = [(name, res['correct'] / res['total'], res['correct'], res['total'])
-                       for name, res in results.items()]
-    current_results.sort(key=lambda x: x[1], reverse=True)
-    for rank, (name, accuracy, correct, total) in enumerate(current_results, 1):
-        print(f"{rank}. {name}: {accuracy:.2f} ({correct}/{total})")
+        json.dump(all_cases, f, ensure_ascii=False, indent=4)
 
 
 def main():
@@ -219,42 +217,55 @@ def main():
                         help="List of models to evaluate. If not specified, default models will be used.")
     parser.add_argument("--language", choices=["en", "zh"], default="zh",
                         help="Language to use for evaluation (en or zh)")
+    
+    parser.add_argument("--save_interval", type=int, default=10,
+                        help="Interval to save interim results")
+    
+    parser.add_argument("--time_delay", type=float, default=3,
+                        help="Time delay between API calls")
+    
     args = parser.parse_args()
 
-    selected_models = args.models
+    if args.models is None:
+        selected_models = MODEL_NAMES
+    else:
+        selected_models = args.models
 
     print(f"Evaluating models with {args.shot} shots")
     print(f"Using language: {args.language}")
 
-    # Set data paths
     data_path = os.path.join("data", args.language)
     test_cases = load_test_cases(os.path.join(
         data_path, "cases.list"), args.language)
     stories = load_stories(os.path.join(data_path, "stories.json"))
 
-    # Load prompt
     prompt_filename = f"{'prompt_2shots' if args.shot == '2' else 'simple_prompt'}_{args.language}.txt"
     prompt_path = os.path.join("prompts", prompt_filename)
     prompt_template = load_prompt(prompt_path)
 
-    # Set log folder
     log_folder = os.path.join("logs", f"{args.language}_with_{args.shot}shots")
     os.makedirs(log_folder, exist_ok=True)
 
-    # Evaluate models
-    results, challenging_cases, all_cases, time_logs = evaluate_models(
-        selected_models, test_cases, stories, args.shot, prompt_template, log_folder, args.language)
-
-    print_current_rankings(results, len(test_cases))
-    print(f"Evaluation complete. Logs saved in '{log_folder}' directory.")
-
-    # Save overall time usage
-    with open(os.path.join(log_folder, "overall_time_usage.json"), "w", encoding="utf-8") as f:
-        json.dump({
-            "model_total_time": {model_name: sum(log['time_usage'].get(model_name, 0) for log in time_logs) for model_name in selected_models},
-            "model_call_count": {model_name: sum(1 for log in time_logs if model_name in log['time_usage']) for model_name in selected_models},
-        }, f, ensure_ascii=False, indent=2)
+    for model_name in selected_models:
+        print(f"Evaluating model: {model_name}")
+        overall, all_cases = evaluate_model(
+            model_name, test_cases, stories, args.shot, prompt_template, log_folder, args.language, args.save_interval, args.time_delay)
+        print(f"Model: {model_name}, Total: {overall['total_samples']}, Correct: {overall['correct']}, "
+              f"Accuracy: {overall['accuracy']}")
+        print(
+            f"Evaluation complete for model {model_name}. Logs saved in '{log_folder}' directory.")
 
 
 if __name__ == "__main__":
+    MODEL_NAMES = [
+        'GPT_o1_Preview',
+        'GPT_o1_Mini',
+        'GPT_4o',
+        'Claude_3_5_Sonnet',
+        'Llama_3_1_405B',
+        'Llama_3_1_70B',
+        'Moonshot_v1_8k',
+        'Deepseek_V2_5',
+        'Qwen_2_72B'
+    ]
     main()

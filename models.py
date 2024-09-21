@@ -75,7 +75,12 @@ def call_api(model_name, prompt, user_input):
 
         # Call the API
         response = client.chat.completions.create(**params)
-        return response.choices[0].message.content
+        content = response.choices[0].message.content
+        # prompt_tokens = response.usage.prompt_tokens
+        # input_tokens = response.usage.completion_tokens
+        total_tokens = response.usage.total_tokens
+
+        return content, total_tokens
 
     except Exception as e:
         print(f"Error in call_api for model {model_name}: {str(e)}")
@@ -86,7 +91,7 @@ if __name__ == '__main__':
     # Example usage
     prompt = "You are a helpful assistant."
     user_input = "how are you?"
-    model_name = "GPT_o1_Mini"
+    model_name = "Llama_3_1_70B"
 
     response = call_api(model_name, prompt, user_input)
     print(response)
