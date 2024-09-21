@@ -39,7 +39,7 @@ def load_test_cases(filename, language):
         for line_number, line in failed_lines:
             print(f"Line {line_number}: {line}")
 
-    return test_cases[:50]
+    return test_cases
 
 
 def load_prompt(filename):
@@ -259,14 +259,14 @@ def main():
 
 if __name__ == "__main__":
     MODEL_NAMES = [
-        # 'GPT_4o',
-        # 'Claude_3_5_Sonnet',
+        'GPT_4o',
+        'Claude_3_5_Sonnet',
+        'Moonshot_v1_8k',
         # 'GPT_o1_Preview',
         # 'GPT_o1_Mini',
-        # 'Llama_3_1_405B',
-        # 'Llama_3_1_70B',
-        # 'Moonshot_v1_8k',
+        'Llama_3_1_405B',
+        'Llama_3_1_70B',
         'Deepseek_V2_5',
-        # 'Qwen_2_72B'
+        'Qwen_2_72B'
     ]
     main()
