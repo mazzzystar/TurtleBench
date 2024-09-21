@@ -87,7 +87,7 @@ def evaluate_model(model_name, test_cases, stories, shot_type, prompt_template, 
         all_cases = results['cases']
 
         for case in all_cases:
-            result = case['model_output']
+            result = case['model_judge']
             if result is not None:
                 overall['total_samples'] += 1
                 if is_correct(result, case['ground_truth'], language):
@@ -129,10 +129,11 @@ def evaluate_model(model_name, test_cases, stories, shot_type, prompt_template, 
 
         all_cases.append({
             'sample': i,
-            "input": user_input,
             "story_title": story_title,
+            "input": user_input,
+            "model_response": response,
             "ground_truth": ground_truth,
-            "model_output": case_result,
+            "model_judge": case_result,
             "total_tokens": total_tokens,
             "time_usage": time_usage
         })
