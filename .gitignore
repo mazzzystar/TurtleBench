@@ -4,3 +4,4 @@ __pycache__
 config.ini
 *.json
 *.csv
+!stories.json
