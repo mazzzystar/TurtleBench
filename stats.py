@@ -46,8 +46,7 @@ def stats():
             json_path = os.path.join(subfolder, json_file)
             with open(json_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-            # data should have 'info', 'overall', 'cases'
-            info = data.get('info', {})
+            # Get the model name and other info
             overall = data.get('overall', {})
             # Collect the data
             row = {
@@ -63,6 +62,8 @@ def stats():
             }
             data_list.append(row)
 
+    data_list.sort(key=lambda x: x['accuracy'], reverse=True)
+
     # Now write the data_list to a CSV file
     stats_folder = 'stats'
     if not os.path.exists(stats_folder):
@@ -73,6 +74,7 @@ def stats():
     with open(os.path.join(stats_folder, filename), mode='w', newline='') as csvfile:
         fieldnames = ['model', 'language', 'shot_type', 'total_samples',
                       'correct', 'accuracy', 'time_usage', 'total_tokens']
+
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         for row in data_list:
