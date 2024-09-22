@@ -1,12 +1,18 @@
-import csv
+import csv 
 import json
 import os
 import re
+import shutil
 from datetime import datetime
 
 
 def stats():
     logs_folder = 'logs'
+    outputs_folder = 'outputs'
+
+    # Create outputs folder if it doesn't exist
+    if not os.path.exists(outputs_folder):
+        os.makedirs(outputs_folder)
 
     # Prepare a list to store the collected data
     data_list = []
@@ -62,7 +68,11 @@ def stats():
             }
             data_list.append(row)
 
-    data_list.sort(key=lambda x: x['accuracy'], reverse=True)
+            # Copy the latest JSON file to the outputs folder
+            output_json_path = os.path.join(outputs_folder, json_file)
+            shutil.copyfile(json_path, output_json_path)
+
+    data_list.sort(key=lambda x: (x['language'], -x['accuracy']))
 
     # Now write the data_list to a CSV file
     stats_folder = 'stats'
@@ -81,6 +91,7 @@ def stats():
             writer.writerow(row)
 
     print(f"Stats collected and saved to {filename}")
+    print(f"Latest logs copied to {outputs_folder}")
 
 
 if __name__ == "__main__":
