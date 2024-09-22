@@ -191,17 +191,17 @@ def process_response(response, language):
             return "Invalid"
 
 
-def is_correct(model_output, ground_truth, language):
+def is_correct(model_judge, ground_truth, language):
     if language == 'zh':
         if ground_truth == "T":
-            return model_output == "T"
+            return model_judge == "T"
         else:
-            return model_output in ["F", "N"]
+            return model_judge in ["F", "N"]
     else:
         if ground_truth == "Correct":
-            return model_output == "Correct"
+            return model_judge == "Correct"
         else:
-            return model_output in ["Incorrect", "Unknown"]
+            return model_judge in ["Incorrect", "Unknown"]
 
 
 def save_interim_results(log_folder, filename_prefix, i, all_cases):
