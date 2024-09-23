@@ -1,98 +1,207 @@
-import csv 
+import csv
 import json
 import os
+import glob
 import re
 import shutil
+from eval import is_correct
 from datetime import datetime
 
 
-def stats():
-    logs_folder = 'logs'
-    outputs_folder = 'outputs'
+STATS_DIR = "./stats"
+OUTPUT_DIR = "./outputs"
 
-    # Create outputs folder if it doesn't exist
-    if not os.path.exists(outputs_folder):
-        os.makedirs(outputs_folder)
 
-    # Prepare a list to store the collected data
-    data_list = []
+def load_latest_logs(model_name, language, shot_type):
+    """Load the latest cases."""
+    filename_prefix = f"all_cases_{model_name}_{language}_shot{shot_type}"
 
-    # Iterate over subfolders in logs/
-    subfolders = [f.path for f in os.scandir(logs_folder) if f.is_dir()]
+    # Construct log folder path
+    log_folder = os.path.join("./logs", f"{language}_with_{shot_type}shots")
 
-    for subfolder in subfolders:
-        # Get the language and shot_type from the subfolder name
-        # Assuming subfolder name is like 'zh_with_0shots' or 'en_with_2shots'
-        subfolder_name = os.path.basename(subfolder)
-        match = re.match(r'(\w+)_with_(\d+)shots', subfolder_name)
-        if not match:
-            continue
-        language, shot_type = match.groups()
+    # Find all log files for the model
+    log_files = glob.glob(os.path.join(
+        log_folder, f"{filename_prefix}_*.json"))
 
-        # Now process the JSON files in this subfolder
-        json_files = [f for f in os.listdir(subfolder) if f.endswith('.json')]
+    if not log_files:
+        print(f"No log files found for model {model_name} in {log_folder}.")
+        return None
 
-        # Build a dictionary to keep track of the latest file for each model
-        model_files = {}
-        for json_file in json_files:
-            # The filenames are like 'all_cases_{model_name}_{language}_shot{shot_type}_{i}.json'
-            pattern = r'all_cases_(.+?)_' + re.escape(language) + \
-                r'_shot' + re.escape(shot_type) + r'_(\d+)\.json'
-            match = re.match(pattern, json_file)
-            if not match:
-                continue
-            model_name, index = match.groups()
-            index = int(index)
-            # Keep the JSON file with the highest index for each model
-            if model_name not in model_files or index > model_files[model_name][1]:
-                model_files[model_name] = (json_file, index)
+    try:
+        # Sort log files by the numerical part at the end of the filename
+        log_files.sort(key=lambda x: int(
+            x.split('_')[-1].split('.')[0]), reverse=True)
+    except (ValueError, IndexError) as e:
+        print(f"Error sorting log files: {e}")
+        return None
 
-        # Now, for each model, read the latest JSON file
-        for model_name, (json_file, index) in model_files.items():
-            json_path = os.path.join(subfolder, json_file)
-            with open(json_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            # Get the model name and other info
-            overall = data.get('overall', {})
-            # Collect the data
-            row = {
-                'model': model_name,
-                'language': language,
-                'shot_type': shot_type,
-                # 'timestamp': info.get('timestamp', ''),
-                'total_samples': overall.get('total_samples', 0),
-                'correct': overall.get('correct', 0),
-                'accuracy': overall.get('accuracy', 0.0),
-                'time_usage': overall.get('time_usage', 0.0),
-                'total_tokens': overall.get('total_tokens', 0)
-            }
-            data_list.append(row)
+    # Load the latest log file (the first one after sorting)
+    latest_log_file = log_files[0]
 
-            # Copy the latest JSON file to the outputs folder
-            output_json_path = os.path.join(outputs_folder, json_file)
-            shutil.copyfile(json_path, output_json_path)
+    try:
+        with open(latest_log_file, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, json.JSONDecodeError) as e:
+        print(f"Error loading file {latest_log_file}: {e}")
+        return None
 
-    data_list.sort(key=lambda x: (x['language'], -x['accuracy']))
+    return data
 
-    # Now write the data_list to a CSV file
-    stats_folder = 'stats'
-    if not os.path.exists(stats_folder):
-        os.makedirs(stats_folder)
 
-    filename = f"stats_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+def calculate_model_metrics(model_name, language, shot_type):
+    """Calculate metrics for the model."""
+    # Load the cases from the latest log file
+    logs = load_latest_logs(model_name, language, shot_type)
 
-    with open(os.path.join(stats_folder, filename), mode='w', newline='') as csvfile:
-        fieldnames = ['model', 'language', 'shot_type', 'total_samples',
-                      'correct', 'accuracy', 'time_usage', 'total_tokens']
+    info = logs.get("info", {})
+    overall = logs.get("overall", {})
+    cases = logs.get("cases", [])
 
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        for row in data_list:
+    # Initialize counters
+    tp = 0
+    fp = 0
+    tn = 0
+    fn = 0
+
+    # Calculate metrics
+    total_samples = len(cases)
+    correct = 0
+
+    for case in cases:
+        correct_flag = is_correct(case.get("model_judge"),
+                                  case.get("ground_truth"), language)
+        case["is_correct"] = correct_flag
+        if correct_flag:
+            correct += 1
+
+        if language == "en":
+            if case.get("ground_truth") == "Correct":
+                if correct_flag:
+                    tp += 1
+                else:
+                    fn += 1
+            else:
+                if correct_flag:
+                    tn += 1
+                else:
+                    fp += 1
+        else:
+            if case.get("ground_truth") == "T":
+                if correct_flag:
+                    tp += 1
+                else:
+                    fn += 1
+            else:
+                if correct_flag:
+                    tn += 1
+                else:
+                    fp += 1
+
+    # Calculate metrics
+    accuracy = correct / total_samples if total_samples > 0 else 0
+    precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+    recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+    f1_score = 2 * precision * recall / \
+        (precision + recall) if (precision + recall) > 0 else 0
+
+    # Check the overall metrics
+    assert overall.get("total_samples") == total_samples
+    assert overall.get("correct") == correct
+
+    # update the overall metrics
+    overall["precision"] = precision
+    overall["recall"] = recall
+    overall["f1_score"] = f1_score
+    overall["conf_matrix"] = {"TP": tp, "FP": fp, "TN": tn, "FN": fn}
+
+    # Save the updated logs to output folder
+    if not os.path.exists(OUTPUT_DIR):
+        os.makedirs(OUTPUT_DIR)
+    output_path = os.path.join(
+        OUTPUT_DIR, f"logs_{model_name}_{language}_shot{shot_type}_len{total_samples}.json")
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(logs, f, indent=4)
+
+    print(
+        f"Metrics for {model_name} ({language}, shot{shot_type}) have been calculated and logged to {output_path}")
+
+    return logs["overall"]
+
+
+def save_stats(model_names, languages, shot_types):
+    """Save the stats for all models, languages, and shot types, sorted by language, shot_type, and accuracy, with empty lines between different language or shot_type."""
+    if not os.path.exists(STATS_DIR):
+        os.makedirs(STATS_DIR)
+
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    stats_file = os.path.join(STATS_DIR, f"stats_{timestamp}.csv")
+
+    stats_data = []
+
+    # Collect metrics for all combinations
+    for model_name in model_names:
+        for language in languages:
+            for shot_type in shot_types:
+                metrics = calculate_model_metrics(
+                    model_name, language, shot_type)
+                stats_data.append([model_name, language, shot_type,
+                                  metrics["total_samples"], metrics["correct"],
+                                  metrics["accuracy"], metrics["precision"],
+                                  metrics["recall"], metrics["f1_score"],
+                                  metrics["conf_matrix"]["TP"], metrics["conf_matrix"]["FP"],
+                                  metrics["conf_matrix"]["TN"], metrics["conf_matrix"]["FN"]])
+
+    # Sort stats by language, shot_type, and accuracy (descending)
+    # x[1]: language, x[2]: shot_type, x[5]: accuracy (negative for descending)
+    stats_data_sorted = sorted(stats_data, key=lambda x: (x[1], x[2], -x[5]))
+
+    # Write to CSV with empty lines between different language and shot_type
+    with open(stats_file, mode="w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+
+        # Write header
+        writer.writerow(["Model", "Language", "Shot Type", "Total Samples", "Correct",
+                        "Accuracy", "Precision", "Recall", "F1 Score", "TP", "FP", "TN", "FN"])
+
+        # Track the previous language and shot_type
+        prev_language = None
+        prev_shot_type = None
+
+        # Write sorted data with empty lines where necessary
+        for row in stats_data_sorted:
+            current_language = row[1]
+            current_shot_type = row[2]
+
+            # Check for changes in language or shot_type
+            if prev_language is not None and (current_language != prev_language or current_shot_type != prev_shot_type):
+                writer.writerow([])  # Insert an empty line
+
+            # Write the current row
             writer.writerow(row)
 
-    print(f"Stats collected and saved to {filename}")
-    print(f"Latest logs copied to {outputs_folder}")
+            # Update the previous language and shot_type
+            prev_language = current_language
+            prev_shot_type = current_shot_type
+
+    print(f"Stats saved to {stats_file}")
+
+
+def main():
+    model_names = [
+        'GPT_o1_Preview',
+        'GPT_o1_Mini',
+        'GPT_4o',
+        'Claude_3_5_Sonnet',
+        'Moonshot_v1_8k',
+        'Llama_3_1_405B',
+        'Llama_3_1_70B',
+        'Deepseek_V2_5',
+        'Qwen_2_72B'
+    ]
+    languages = ["en", "zh"]
+    shot_types = [0]
+    save_stats(model_names, languages, shot_types)
 
 
 if __name__ == "__main__":
-    stats()
+    main()
