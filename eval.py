@@ -134,6 +134,7 @@ def evaluate_model(model_name, test_cases, stories, shot_type, prompt_template, 
             "model_response": response,
             "ground_truth": ground_truth,
             "model_judge": case_result,
+            "is_correct": is_correct(case_result, ground_truth, language) if case_result is not None else None,
             "total_tokens": total_tokens,
             "time_usage": time_usage
         })
@@ -259,14 +260,14 @@ def main():
 
 if __name__ == "__main__":
     MODEL_NAMES = [
-        'GPT_4o',
-        'Claude_3_5_Sonnet',
-        'Moonshot_v1_8k',
+        # 'GPT_4o',
+        # 'Claude_3_5_Sonnet',
+        # 'Moonshot_v1_8k',
         # 'GPT_o1_Preview',
         # 'GPT_o1_Mini',
         'Llama_3_1_405B',
-        'Llama_3_1_70B',
-        'Deepseek_V2_5',
-        'Qwen_2_72B'
+        # 'Llama_3_1_70B',
+        # 'Deepseek_V2_5',
+        # 'Qwen_2_72B'
     ]
     main()
