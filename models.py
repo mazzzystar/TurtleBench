@@ -76,11 +76,19 @@ def call_api(model_name, prompt, user_input):
         # Call the API
         response = client.chat.completions.create(**params)
         content = response.choices[0].message.content
-        # prompt_tokens = response.usage.prompt_tokens
-        # input_tokens = response.usage.completion_tokens
-        total_tokens = response.usage.total_tokens
+        prompt_tokens = response.usage.prompt_tokens if hasattr(response.usage, 'prompt_tokens') else 0
+        output_tokens = response.usage.completion_tokens if hasattr(response.usage, 'completion_tokens') else 0
+        reasoning_tokens = response.usage.completion_tokens_details.reasoning_tokens if hasattr(response.usage.completion_tokens_details, 'reasoning_tokens') else 0
+        total_tokens = response.usage.total_tokens if hasattr(response.usage, 'total_tokens') else 0
 
-        return content, total_tokens
+        cost_tokens = {
+            'prompt_tokens': prompt_tokens,
+            'output_tokens': output_tokens,
+            'reasoning_tokens': reasoning_tokens,
+            'total_tokens': total_tokens
+        }
+
+        return content, cost_tokens
 
     except Exception as e:
         print(f"Error in call_api for model {model_name}: {str(e)}")

@@ -20,7 +20,7 @@ A man walks into a bar and asks the bartender for a glass of water. The bartende
 The man had hiccups and wanted a glass of water to cure them. The bartender realized this and chose to scare him with a gun. The man's hiccups disappeared due to the sudden shock, so he sincerely thanked the bartender before leaving.
 
 Possible guesses and corresponding answers:
-Q: Does the man have a chronic illness? A: Incorrect
+Q: Does the man have a chronic illness? A: Unknown
 Q: Was the man scared away? A: Incorrect
 Q: Did the bartender want to kill the man? A: Incorrect
 Q: Did the bartender intend to scare the man? A: Correct
@@ -36,7 +36,7 @@ I saw several women chained up in her house, with a fierce-looking, ugly brute s
 Possible guesses and corresponding answers:
 Q: Is the child already dead? A: Incorrect
 Q: Is the child actually an adult? A: Correct
-Q: Does the child have schizophrenia? A: Incorrect
+Q: Does the child have schizophrenia? A: Unknown
 Q: Am I in danger? A: Correct
 
 ## Question Content

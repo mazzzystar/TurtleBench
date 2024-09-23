@@ -2,8 +2,6 @@ import csv
 import glob
 import json
 import os
-import re
-import shutil
 from collections import defaultdict
 from datetime import datetime
 

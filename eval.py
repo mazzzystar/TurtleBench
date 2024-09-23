@@ -66,7 +66,10 @@ def evaluate_model(model_name, test_cases, stories, shot_type, prompt_template, 
         'correct': 0,
         'accuracy': 0.0,
         'time_usage': 0.0,
-        'total_tokens': 0
+        'total_tokens': 0,
+        'prompt_tokens': 0,
+        'output_tokens': 0,
+        'reasoning_tokens': 0
     }
 
     filename_prefix = f"all_cases_{model_name}_{language}_shot{shot_type}"
@@ -93,6 +96,9 @@ def evaluate_model(model_name, test_cases, stories, shot_type, prompt_template, 
                 if is_correct(result, case['ground_truth'], language):
                     overall['correct'] += 1
             overall['total_tokens'] += case['total_tokens']
+            overall['prompt_tokens'] += case['prompt_tokens']
+            overall['output_tokens'] += case['output_tokens']
+            overall['reasoning_tokens'] += case['reasoning_tokens']
             overall['time_usage'] += case['time_usage']
 
         overall['accuracy'] = round(
@@ -113,7 +119,7 @@ def evaluate_model(model_name, test_cases, stories, shot_type, prompt_template, 
         case_result = None
         time_usage = None
 
-        response, total_tokens, elapsed_time = call_api_with_timeout(
+        response, cost_tokens, elapsed_time = call_api_with_timeout(
             model_name, prompt, user_input)
         time_usage = elapsed_time
         if response:
@@ -135,13 +141,20 @@ def evaluate_model(model_name, test_cases, stories, shot_type, prompt_template, 
             "ground_truth": ground_truth,
             "model_judge": case_result,
             "is_correct": is_correct(case_result, ground_truth, language) if case_result is not None else None,
-            "total_tokens": total_tokens,
+            "total_tokens": cost_tokens['total_tokens'],
+            "prompt_tokens": cost_tokens['prompt_tokens'],
+            "output_tokens": cost_tokens['output_tokens'],
+            "reasoning_tokens": cost_tokens['reasoning_tokens'],
             "time_usage": time_usage
         })
 
         overall['accuracy'] = round(
             overall['correct'] / overall['total_samples'], 6) if overall['total_samples'] > 0 else 0.0
-        overall['total_tokens'] += total_tokens
+        overall['total_tokens'] += cost_tokens['total_tokens']
+        overall['prompt_tokens'] += cost_tokens['prompt_tokens']
+        overall['output_tokens'] += cost_tokens['output_tokens']
+        overall['reasoning_tokens'] += cost_tokens['reasoning_tokens']
+
         overall['time_usage'] += time_usage
 
         results = {
@@ -260,14 +273,14 @@ def main():
 
 if __name__ == "__main__":
     MODEL_NAMES = [
-        # 'GPT_4o',
-        # 'Claude_3_5_Sonnet',
-        # 'Moonshot_v1_8k',
+        'GPT_4o',
+        'Claude_3_5_Sonnet',
+        'Moonshot_v1_8k',
         # 'GPT_o1_Preview',
         # 'GPT_o1_Mini',
         'Llama_3_1_405B',
-        # 'Llama_3_1_70B',
-        # 'Deepseek_V2_5',
-        # 'Qwen_2_72B'
+        'Llama_3_1_70B',
+        'Deepseek_V2_5',
+        'Qwen_2_72B'
     ]
     main()
