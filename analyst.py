@@ -1,12 +1,13 @@
 import csv
+import glob
 import json
 import os
-import glob
 import re
 import shutil
-from eval import is_correct
+from collections import defaultdict
 from datetime import datetime
 
+from eval import is_correct
 
 STATS_DIR = "./stats"
 OUTPUT_DIR = "./outputs"
@@ -67,12 +68,20 @@ def calculate_model_metrics(model_name, language, shot_type):
     total_samples = len(cases)
     correct = 0
 
+    story_stats = defaultdict(lambda: {'correct': 0, 'total': 0})
+
     for case in cases:
         correct_flag = is_correct(case.get("model_judge"),
                                   case.get("ground_truth"), language)
         case["is_correct"] = correct_flag
+
+        # Update story stats
+        story_title = case.get("story_title")
+        story_stats[story_title]['total'] += 1
+
         if correct_flag:
             correct += 1
+            story_stats[story_title]['correct'] += 1
 
         if language == "en":
             if case.get("ground_truth") == "Correct":
@@ -104,6 +113,16 @@ def calculate_model_metrics(model_name, language, shot_type):
     f1_score = 2 * precision * recall / \
         (precision + recall) if (precision + recall) > 0 else 0
 
+    # Story accuracy
+    story_accuracy = {}
+    for story_title, stats in story_stats.items():
+        accuracy = stats['correct'] / \
+            stats['total'] if stats['total'] > 0 else 0
+        story_accuracy[story_title] = accuracy
+
+    average_story_accuracy = sum(
+        story_accuracy.values()) / len(story_accuracy) if story_accuracy else 0
+
     # Check the overall metrics
     assert overall.get("total_samples") == total_samples
     assert overall.get("correct") == correct
@@ -114,13 +133,16 @@ def calculate_model_metrics(model_name, language, shot_type):
     overall["f1_score"] = f1_score
     overall["conf_matrix"] = {"TP": tp, "FP": fp, "TN": tn, "FN": fn}
 
+    overall["avg_story_accuracy"] = average_story_accuracy
+    overall["story_accuracy"] = story_accuracy
+
     # Save the updated logs to output folder
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
     output_path = os.path.join(
         OUTPUT_DIR, f"logs_{model_name}_{language}_shot{shot_type}_len{total_samples}.json")
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(logs, f, indent=4)
+        json.dump(logs, f, indent=4, ensure_ascii=False)
 
     print(
         f"Metrics for {model_name} ({language}, shot{shot_type}) have been calculated and logged to {output_path}")
@@ -146,7 +168,7 @@ def save_stats(model_names, languages, shot_types):
                     model_name, language, shot_type)
                 stats_data.append([model_name, language, shot_type,
                                   metrics["total_samples"], metrics["correct"],
-                                  metrics["accuracy"], metrics["precision"],
+                                  metrics["accuracy"], metrics["avg_story_accuracy"], metrics["precision"],
                                   metrics["recall"], metrics["f1_score"],
                                   metrics["conf_matrix"]["TP"], metrics["conf_matrix"]["FP"],
                                   metrics["conf_matrix"]["TN"], metrics["conf_matrix"]["FN"]])
@@ -161,7 +183,7 @@ def save_stats(model_names, languages, shot_types):
 
         # Write header
         writer.writerow(["Model", "Language", "Shot Type", "Total Samples", "Correct",
-                        "Accuracy", "Precision", "Recall", "F1 Score", "TP", "FP", "TN", "FN"])
+                        "Accuracy", "Avg Story Accuracy", "Precision", "Recall", "F1 Score", "TP", "FP", "TN", "FN"])
 
         # Track the previous language and shot_type
         prev_language = None
