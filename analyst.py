@@ -145,7 +145,54 @@ def calculate_model_metrics(model_name, language, shot_type):
     print(
         f"Metrics for {model_name} ({language}, shot{shot_type}) have been calculated and logged to {output_path}")
 
-    return logs["overall"]
+    return logs, logs["overall"]
+
+
+def aggregate_model_cases(model_names, language, shot_type):
+    """Aggregate cases for all models, languages, and shot types."""
+    all_cases = {}
+
+    for model_name in model_names:
+        # Load logs for the current model
+        logs, _ = calculate_model_metrics(model_name, language, shot_type)
+
+        # Aggregate cases
+        for case in logs["cases"]:
+            key = case["sample"]
+            if key not in all_cases:
+                all_cases[key] = {
+                    "sample": key,
+                    "story_title": case["story_title"],
+                    "input": case["input"],
+                    "ground_truth": case["ground_truth"],
+                    f"{model_name}": case["model_judge"],
+                }
+            else:
+                all_cases[key][f"{model_name}"] = case["model_judge"]
+
+        with open(f"./{STATS_DIR}/all_cases_{language}_shot{shot_type}.json", "w", encoding="utf-8") as f:
+            json.dump(all_cases, f, indent=4, ensure_ascii=False)
+
+    return all_cases
+
+
+def find_cases_with_specific_errors(all_cases, error_model, correct_models, language, shot_type):
+    """Find cases where a specific model answered incorrectly and specified models answered correctly."""
+    specific_error_cases = []
+
+    for case in all_cases.values():
+        error_response = case[error_model]
+        correct_responses = [case[model] for model in correct_models]
+
+        # Check if the error_model is incorrect and all correct_models are correct
+        if not is_correct(error_response, case["ground_truth"], language) and all(is_correct(resp, case["ground_truth"], language) for resp in correct_responses):
+            specific_error_cases.append(case)
+
+    # Save the results to a JSON file
+    with open(f"./{STATS_DIR}/specific_error_cases_{language}_shot{shot_type}_{len(correct_models)}.json", "w", encoding="utf-8") as f:
+        json.dump(specific_error_cases, f, indent=4, ensure_ascii=False)
+
+    return specific_error_cases
 
 
 def save_stats(model_names, languages, shot_types):
@@ -162,7 +209,7 @@ def save_stats(model_names, languages, shot_types):
     for model_name in model_names:
         for language in languages:
             for shot_type in shot_types:
-                metrics = calculate_model_metrics(
+                _, metrics = calculate_model_metrics(
                     model_name, language, shot_type)
                 stats_data.append([model_name, language, shot_type,
                                   metrics["total_samples"], metrics["correct"],
@@ -206,10 +253,10 @@ def save_stats(model_names, languages, shot_types):
     print(f"Stats saved to {stats_file}")
 
 
-def main():
+def main(more_analysis=False):
     model_names = [
-        'GPT_o1_Preview',
-        'GPT_o1_Mini',
+        # 'GPT_o1_Preview',
+        # 'GPT_o1_Mini',
         'GPT_4o',
         'Claude_3_5_Sonnet',
         'Moonshot_v1_8k',
@@ -219,8 +266,24 @@ def main():
         'Qwen_2_72B'
     ]
     languages = ["en", "zh"]
-    shot_types = [0]
+    shot_types = [2]
     save_stats(model_names, languages, shot_types)
+
+    if more_analysis:
+        for language in languages:
+            for shot_type in shot_types:
+                all_cases = aggregate_model_cases(
+                    model_names, language, shot_type)
+                find_cases_with_specific_errors(
+                    all_cases, "GPT_o1_Preview",
+                    ["GPT_4o", "Claude_3_5_Sonnet", "Moonshot_v1_8k", "Llama_3_1_405B",
+                        "Llama_3_1_70B", "Deepseek_V2_5", "Qwen_2_72B"],
+                    language, shot_type)
+
+                find_cases_with_specific_errors(
+                    all_cases, "GPT_o1_Preview",
+                    ["GPT_4o", "Claude_3_5_Sonnet", "Llama_3_1_405B"],
+                    language, shot_type)
 
 
 if __name__ == "__main__":
