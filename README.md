@@ -30,7 +30,7 @@ python analyst.py
 .
 ├── README.md                  # Project description and documentation
 ├── analyst.py                 # Data analysis script
-├── archived                   # Archived files and old data
+├── archived                   # Archived result files
 ├── config.ini                 # Configuration file (for actual run)
 ├── config_example.ini         # Example configuration file
 ├── data                       # Directory containing project data
@@ -49,3 +49,6 @@ python analyst.py
 ├── requirements.txt           # Project dependencies list
 └── stats                      # Statistics and result-related files
 ```
+## Results
+**Note**: You can find detailed experiment results in the [archived directory](./archived/).
+<p align="center"><img src="./assets/zh_results.png" alt=""></p>
