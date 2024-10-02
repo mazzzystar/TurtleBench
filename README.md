@@ -51,4 +51,4 @@ python analyst.py
 ```
 ## Results
 **Note**: You can find detailed experiment results in the [archived directory](./archived/).
-<p align="center"><img src="./assets/zh_results.png" alt=""></p>
+<p align="center"><img src="./assets/zh_results.png" alt="" width="75%"></p>
