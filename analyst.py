@@ -176,6 +176,35 @@ def aggregate_model_cases(model_names, language, shot_type):
     return all_cases
 
 
+def aggregate_model_logs(model_names, languages, shot_types):
+    """Aggregate logs from multiple models into a single log."""
+    aggregated_logs = {
+        "info": {},
+        "overall": {},
+        "cases": []
+    }
+
+    for model_name, language, shot_type in zip(model_names, languages, shot_types):
+        # Load logs for the current model
+        logs = load_latest_logs(model_name, language, shot_type)
+
+        # Aggregate info
+        aggregated_logs["info"].update(logs.get("info", {}))
+
+        # Aggregate overall metrics
+        overall = logs.get("overall", {})
+        for key, value in overall.items():
+            if key in aggregated_logs["overall"]:
+                aggregated_logs["overall"][key] += value
+            else:
+                aggregated_logs["overall"][key] = value
+
+        # Aggregate cases
+        aggregated_logs["cases"].extend(logs.get("cases", []))
+
+    return aggregated_logs
+
+
 def find_cases_with_specific_errors(all_cases, error_model, correct_models, language, shot_type):
     """Find cases where a specific model answered incorrectly and specified models answered correctly."""
     specific_error_cases = []

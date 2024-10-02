@@ -6,4 +6,5 @@ config.ini
 *.csv
 !stories.json
 *.pdf
-plots.ipynb
+!archived/**/*.json
+!archived/**/*.csv
