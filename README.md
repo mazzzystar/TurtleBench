@@ -1,6 +1,8 @@
 # TurtleBench: Evaluating Top Language Models via Real-World Yes/No Puzzles
 TurtleBench is a dynamic evaluation benchmark designed to assess the reasoning capabilities of large language models (LLMs) through real-world yes/no puzzles, emphasizing logical reasoning over knowledge recall by using user-generated data from a Turtle Soup puzzle platform.
+
 <p align="center"><img src="./assets/framework.png" alt="" width="88%"></p>
+
 ## Highlights
 - Objective and Unbiased: Eliminates the need for background knowledge, focusing purely on reasoning abilities.
 - Quantifiable Results: Clear, measurable outcomes (correct/incorrect/unknown) for easy comparison.
