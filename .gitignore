@@ -5,3 +5,5 @@ config.ini
 *.json
 *.csv
 !stories.json
+*.pdf
+plots.ipynb

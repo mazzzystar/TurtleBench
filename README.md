@@ -1,1 +1,2 @@
-# TurtleBench: A Reliable Benchmark for Evaluating Reasoning Capabilities of Large Language Models
+# TurtleBench: Evaluating Top Language Models via Real-World Yes/No Puzzles
+

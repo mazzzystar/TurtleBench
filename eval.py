@@ -14,7 +14,7 @@ def load_stories(filename):
         return json.load(f)
 
 
-def load_test_cases(filename, language):
+def load_test_cases(filename, language, sample_size=None):
     test_cases = []
     failed_lines = []
     with open(filename, "r", encoding="utf-8") as f:
@@ -39,6 +39,9 @@ def load_test_cases(filename, language):
         for line_number, line in failed_lines:
             print(f"Line {line_number}: {line}")
 
+    if sample_size:
+        test_cases = test_cases[:sample_size]
+        return test_cases
     return test_cases
 
 
@@ -232,13 +235,16 @@ def main():
                         help="List of models to evaluate. If not specified, default models will be used.")
     parser.add_argument("--language", choices=["en", "zh"], default="zh",
                         help="Language to use for evaluation (en or zh)")
-    
+
     parser.add_argument("--save_interval", type=int, default=10,
                         help="Interval to save interim results")
-    
+
     parser.add_argument("--time_delay", type=float, default=3,
                         help="Time delay between API calls")
     
+    parser.add_argument("--sample_size", type=int, default=None,
+                        help="Number of test cases to evaluate")
+
     args = parser.parse_args()
 
     if args.models is None:
@@ -251,7 +257,7 @@ def main():
 
     data_path = os.path.join("data", args.language)
     test_cases = load_test_cases(os.path.join(
-        data_path, "cases.list"), args.language)
+        data_path, "cases.list"), args.language, args.sample_size)
     stories = load_stories(os.path.join(data_path, "stories.json"))
 
     prompt_filename = f"{'prompt_2shots' if args.shot == '2' else 'simple_prompt'}_{args.language}.txt"
@@ -273,14 +279,14 @@ def main():
 
 if __name__ == "__main__":
     MODEL_NAMES = [
-        'GPT_4o',
-        'Claude_3_5_Sonnet',
-        'Moonshot_v1_8k',
-        # 'GPT_o1_Preview',
-        # 'GPT_o1_Mini',
-        'Llama_3_1_405B',
-        'Llama_3_1_70B',
-        'Deepseek_V2_5',
-        'Qwen_2_72B'
+        # 'GPT_4o',
+        # 'Claude_3_5_Sonnet',
+        # 'Moonshot_v1_8k',
+        'GPT_o1_Preview',
+        'GPT_o1_Mini',
+        # 'Llama_3_1_405B',
+        # 'Llama_3_1_70B',
+        # 'Deepseek_V2_5',
+        # 'Qwen_2_72B'
     ]
     main()

@@ -216,8 +216,12 @@ def save_stats(model_names, languages, shot_types):
                                   metrics["accuracy"], metrics["avg_story_accuracy"], metrics["precision"],
                                   metrics["recall"], metrics["f1_score"],
                                   metrics["conf_matrix"]["TP"], metrics["conf_matrix"]["FP"],
-                                  metrics["conf_matrix"]["TN"], metrics["conf_matrix"]["FN"]])
-
+                                  metrics["conf_matrix"]["TN"], metrics["conf_matrix"]["FN"],
+                                  metrics["total_tokens"] if "total_tokens" in metrics else 0,
+                                   metrics["prompt_tokens"] if "prompt_tokens" in metrics else 0,
+                                   metrics["output_tokens"] if "output_tokens" in metrics else 0,
+                                   metrics["reasoning_tokens"] if "reasoning_tokens" in metrics else 0,
+                                   metrics["time_usage"]])
     # Sort stats by language, shot_type, and accuracy (descending)
     # x[1]: language, x[2]: shot_type, x[5]: accuracy (negative for descending)
     stats_data_sorted = sorted(stats_data, key=lambda x: (x[1], x[2], -x[5]))
@@ -228,7 +232,7 @@ def save_stats(model_names, languages, shot_types):
 
         # Write header
         writer.writerow(["Model", "Language", "Shot Type", "Total Samples", "Correct",
-                        "Accuracy", "Avg Story Accuracy", "Precision", "Recall", "F1 Score", "TP", "FP", "TN", "FN"])
+                        "Accuracy", "Avg Story Accuracy", "Precision", "Recall", "F1 Score", "TP", "FP", "TN", "FN", "Total Tokens", "Prompt Tokens", "Output Tokens", "Reasoning Tokens", "Time Usage"])
 
         # Track the previous language and shot_type
         prev_language = None
@@ -255,8 +259,8 @@ def save_stats(model_names, languages, shot_types):
 
 def main(more_analysis=False):
     model_names = [
-        # 'GPT_o1_Preview',
-        # 'GPT_o1_Mini',
+        'GPT_o1_Preview',
+        'GPT_o1_Mini',
         'GPT_4o',
         'Claude_3_5_Sonnet',
         'Moonshot_v1_8k',
@@ -266,7 +270,7 @@ def main(more_analysis=False):
         'Qwen_2_72B'
     ]
     languages = ["en", "zh"]
-    shot_types = [2]
+    shot_types = [0]
     save_stats(model_names, languages, shot_types)
 
     if more_analysis:
