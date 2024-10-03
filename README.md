@@ -1,80 +1,56 @@
-# Turtle Benchmark
+# TurtleBench: Evaluating Top Language Models via Real-World Yes/No Puzzles
+TurtleBench is a dynamic evaluation benchmark designed to assess the reasoning capabilities of large language models (LLMs) through real-world yes/no puzzles, emphasizing logical reasoning over knowledge recall by using user-generated data from a Turtle Soup puzzle platform.
 
-[中文](./README_cn.md)
+<p align="center"><img src="./assets/framework.png" alt="" width="88%"></p>
 
-Turtle Benchmark is a novel, uncheatable benchmark for evaluating Large Language Models (LLMs) based on the "Turtle Soup"(海龟汤) game, focusing on logical reasoning and contextual understanding.
+## Highlights
+- Objective and Unbiased: Eliminates the need for background knowledge, focusing purely on reasoning abilities.
+- Quantifiable Results: Clear, measurable outcomes (correct/incorrect/unknown) for easy comparison.
+- Constantly Evolving: Uses real user-generated questions, making it impossible to "game" the system.
+- Language Understanding: Tests the model's ability to comprehend context and make logical inferences.
 
-### Highlights
-
-- **Objective and Unbiased**: Eliminates the need for background knowledge, focusing purely on reasoning abilities.
-- **Quantifiable Results**: Clear, measurable outcomes (correct/incorrect/unknown) for easy comparison.
-- **Constantly Evolving**: Uses real user-generated questions, making it impossible to "game" the system.
-- **Language Understanding**: Tests the model's ability to comprehend context and make logical inferences.
-
-### Usage
-
-```bash
+## Quick Start
+```
+# Install dependencies
+conda create -n turtle python=3.10
+conda activate turtle
 pip install -r requirements.txt
 
-cd evaluation
+# Set up configuration
+mv config_example.ini config.ini
+# Edit config.ini to add your API key
 
-mv .env.example .env
-# add API key.
+# Run evaluations
+python eval.py --shot 0 --models Claude_3_5_Sonnet --language zh --save_interval 10 --time_delay 2
 
-# Evaluate Chinese or English.
-cd english
-
-# 0-shot for fast & cheap, 2-shot for better performance. default: 0-shot.
-python evaluate.py
+# Analyze results
+python analyst.py
 ```
 
-### Data
-
-- 32 unique "Turtle Soup" stories.
-- 1532 human-annotated labels from users' questions.
-- Our evaluation log.
-
-### Results
-
-#### 1. Overall Accuracy
-
-The overall accuracy of each model across all test cases.
-
-![Overall Benchmark Results](/evaluation/chinese/imgs/Turtle-Benchmark-result.png)
-
-#### 2. Average Accuracy Across Stories
-
-To mitigate potential bias from models performing poorly on specific stories with a large number of test samples, we calculated the average accuracy for each model across all 32 stories individually.
-
-![Results Across 32 Stories](/evaluation/chinese/imgs/Turtle-Benchmark-over-32stories.png)
-
-#### 3. Performance Chart
-
-This scatter plot compares the overall accuracy (x-axis) with the average story accuracy (y-axis) for each model in the 2-shot learning scenario.
-
-![2-Shot Learning Performance](/evaluation/chinese/imgs/average_model_accuracy_over_stories_2-shot.png)
-
-### Interpretation
-
-Based on these results, we can clearly see the performance differences among the various models:
-
-1. **First Tier**: Claude 3.5 Sonnet stands out as the undisputed leader, significantly outperforming all other models.
-
-2. **Second Tier**: GPT-4o, Qwen-2(通义千问), Moonshot AI(月之暗面), LLama3.1 405B, and Minimax form the second tier. While we've avoided further subdivisions, there's a noticeable decrease in performance within this group, following the order listed.
-
-3. **Third Tier**: Douban(豆包), DeepSeek, and LLama3.1 70B constitute the third tier.
-
-4. **Fourth Tier**: GPT-4o-mini stands alone in the fourth tier.
-
-5. **Obsolete**: GPT-3.5's performance suggests it's no longer competitive in this context.
-
-It's important to note that this evaluation specifically targets the models' Chinese language understanding and reasoning capabilities. In the future, pending resources and funding, we plan to translate all stories and test questions into English and re-run the tests using English prompts. This will help eliminate any performance discrepancies that may be attributed to language differences.
-
-### Acknowledgments
-
-We would like to express our gratitude to:
-
-- **Steven Shi (石允丰)** from 5Y Capital for his generous financial support of the token usage required for this research.
-- **Jerry Zhao (赵乾之)** for his invaluable assistance in annotating over 26,000 data points.
-
-Your contributions have been instrumental in making this benchmark possible.
+## Project Structure
+```
+.
+├── README.md                  # Project description and documentation
+├── analyst.py                 # Data analysis script
+├── archived                   # Archived result files
+├── config.ini                 # Configuration file (for actual run)
+├── config_example.ini         # Example configuration file
+├── data                       # Directory containing project data
+│   ├── en                     # Subdirectory for English data
+│   └── zh                     # Subdirectory for Chinese data
+├── eval.py                    # Evaluation script
+├── insights                   # Analysis and visualization-related scripts
+│   ├── case_handler.py         # OpenAI o1 Error case handling script
+│   ├── plots.ipynb             # Data visualization and plot generation
+│   ├── token_boxplot.py        # Box plot for token usage
+│   └── token_cal.py            # Token calculation script
+├── logs                       # Directory for storing logs
+├── models.py                  # Model definition script
+├── outputs                    # Directory for storing output results
+├── prompts                    # Files related to prompt generation
+├── requirements.txt           # Project dependencies list
+└── stats                      # Statistics and result-related files
+```
+## Results
+**Note**: You can find detailed experiment results in the [archived directory](./archived/).
+<p align="center"><img src="./assets/zh_results.png" alt="" width="75%"></p>

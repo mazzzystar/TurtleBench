@@ -4,3 +4,9 @@ tqdm
 openai
 anthropic
 together
+tenacity
+pandas
+matplotlib
+seaborn
+adjustText
+plotly

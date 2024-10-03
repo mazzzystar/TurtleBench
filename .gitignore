@@ -1,8 +1,10 @@
 .gitignore
 .DS_Store
-evaluation/.DS_Store
-.env
-evaluation/*/logs_with_0shots
-evaluation/*/logs_with_2shots
 __pycache__
-evaluation/*/__pycache__
+config.ini
+*.json
+*.csv
+!stories.json
+*.pdf
+!archived/**/*.json
+!archived/**/*.csv
