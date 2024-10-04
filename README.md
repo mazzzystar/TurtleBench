@@ -1,4 +1,19 @@
-# TurtleBench: Evaluating Top Language Models via Real-World Yes/No Puzzles
+<h1 align="center">
+    TurtleBench: Evaluating Top Language Models via Real-World Yes/No Puzzles
+</h1>
+
+<p align="center">
+    <a href="">
+        <img alt="arXiv Paper" src="https://img.shields.io/badge/arXiv-Paper-cc0000.svg?logo=arxiv">
+    </a>
+    <a href="https://huggingface.co/datasets/Duguce/TurtleBench1.5k">
+        <img alt="Hugging Face TurtleBench1.5k" src="https://img.shields.io/badge/Hugging_Face-TurtleBench1.5k-f7b500?logo=huggingface">
+    </a>
+    <a href="https://opensource.org/license/apache-2-0/">
+        <img alt="Apache 2.0 License" src="https://img.shields.io/badge/Apache_2.0-License-0f9d58.svg?logo=apache">
+    </a>
+</p>
+
 TurtleBench is a dynamic evaluation benchmark designed to assess the reasoning capabilities of large language models (LLMs) through real-world yes/no puzzles, emphasizing logical reasoning over knowledge recall by using user-generated data from a Turtle Soup puzzle platform.
 
 <p align="center"><img src="./assets/framework.png" alt="" width="88%"></p>
