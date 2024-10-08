@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-    <a href="">
+    <a href="https://arxiv.org/abs/2410.05262">
         <img alt="arXiv Paper" src="https://img.shields.io/badge/arXiv-Paper-cc0000.svg?logo=arxiv">
     </a>
     <a href="https://huggingface.co/datasets/Duguce/TurtleBench1.5k">
