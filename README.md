@@ -10,7 +10,7 @@
         <img alt="Hugging Face TurtleBench1.5k" src="https://img.shields.io/badge/Hugging_Face-TurtleBench1.5k-cc9900.svg?logo=huggingface">
     </a>
     <a href="https://tanghenre.com">
-        <img alt="Demo tanghenre" src="https://img.shields.io/badge/Demo-tanghenre-336633.svg?logo=apache">
+        <img alt="Demo tanghenre" src="https://img.shields.io/badge/Demo-tanghenre-336633.svg?logo=google-chrome">
     </a>
     <br>
     <a href="https://mazzzystar.github.io/2024/08/09/turtle-benchmark-zh/">
