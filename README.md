@@ -4,13 +4,20 @@
 
 <p align="center">
     <a href="https://arxiv.org/abs/2410.05262">
-        <img alt="arXiv Paper" src="https://img.shields.io/badge/arXiv-Paper-cc0000.svg?logo=arxiv">
+        <img alt="arXiv Paper" src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv">
     </a>
     <a href="https://huggingface.co/datasets/Duguce/TurtleBench1.5k">
-        <img alt="Hugging Face TurtleBench1.5k" src="https://img.shields.io/badge/Hugging_Face-TurtleBench1.5k-f7b500?logo=huggingface">
+        <img alt="Hugging Face TurtleBench1.5k" src="https://img.shields.io/badge/Hugging_Face-TurtleBench1.5k-cc9900.svg?logo=huggingface">
     </a>
-    <a href="https://opensource.org/license/apache-2-0/">
-        <img alt="Apache 2.0 License" src="https://img.shields.io/badge/Apache_2.0-License-0f9d58.svg?logo=apache">
+    <a href="https://tanghenre.com">
+        <img alt="Demo tanghenre" src="https://img.shields.io/badge/Demo-tanghenre-336633.svg?logo=apache">
+    </a>
+    <br>
+    <a href="https://mazzzystar.github.io/2024/08/09/turtle-benchmark-zh/">
+        <img alt="Blog Origin" src="https://img.shields.io/badge/Blog-Origin-005792.svg?logo=readthedocs">
+    </a>
+    <a href="https://opensource.org/license/apache-2-0">
+        <img alt="Apache 2.0 License" src="https://img.shields.io/badge/License-Apache_2.0-4285f4.svg?logo=apache">
     </a>
 </p>
 
@@ -69,3 +76,14 @@ python analyst.py
 ## Results
 **Note**: You can find detailed experiment results in the [archived directory](./archived/).
 <p align="center"><img src="./assets/zh_results.png" alt="" width="75%"></p>
+
+
+## Citation
+```
+@article{TurtleBench,
+      title={TurtleBench: Evaluating Top Language Models via Real-World Yes/No Puzzles}, 
+      author={Qingchen Yu and Shichao Song and Ke Fang and Yunfeng Shi and Zifan Zheng and Hanyu Wang and Simin Niu and Zhiyu Li},
+      journal={arXiv preprint arXiv:2410.05262},
+      year={2024},
+}
+```
