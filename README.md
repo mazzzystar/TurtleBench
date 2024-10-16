@@ -10,14 +10,14 @@
         <img alt="Hugging Face TurtleBench1.5k" src="https://img.shields.io/badge/Hugging_Face-TurtleBench1.5k-cc9900.svg?logo=huggingface">
     </a>
     <a href="https://tanghenre.com">
-        <img alt="Demo tanghenre" src="https://img.shields.io/badge/Demo-tanghenre-336633.svg?logo=google-chrome">
+        <img alt="Demo tanghenre" src="https://img.shields.io/badge/Demo-tanghenre-4285f4.svg?logo=google-chrome">
     </a>
     <br>
     <a href="https://mazzzystar.github.io/2024/08/09/turtle-benchmark-zh/">
         <img alt="Blog Origin" src="https://img.shields.io/badge/Blog-Origin-005792.svg?logo=readthedocs">
     </a>
     <a href="https://opensource.org/license/apache-2-0">
-        <img alt="Apache 2.0 License" src="https://img.shields.io/badge/License-Apache_2.0-4285f4.svg?logo=apache">
+        <img alt="Apache 2.0 License" src="https://img.shields.io/badge/License-Apache_2.0-336633.svg?logo=apache">
     </a>
 </p>
 
@@ -87,3 +87,10 @@ python analyst.py
       year={2024},
 }
 ```
+
+## TODOs
+<details><summary>Click me to show all TODOs</summary>
+
+- [ ] feat: Add LLM loading method
+- [ ] feat: Optimize answer extraction & matching methods
+</details>
